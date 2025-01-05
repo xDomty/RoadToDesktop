@@ -1,0 +1,91 @@
+#include "HeadersBeforeCourse/Random.h"
+#include "HeadersBeforeCourse/Print.h"
+#include "HeadersAfterCourse/Operations.h"
+using namespace std;
+
+namespace Problem2
+{
+    namespace MrSolution
+    {
+         int RandomNumber(int From, int To)
+         {
+            //Function to generate a random number
+            int randNum = rand() % (To - From + 1) + From;
+            return randNum;
+         }
+
+         void FillMatrixWithRandomNumbers(int arr[3][3], short Rows, short Cols)
+         {
+            for (short i = 0; i < Rows; i++)
+            {
+               for (short j = 0; j < Cols; j++)
+               {
+               arr[i][j] = RandomNumber(1, 100);
+               }
+            }
+         }
+            
+         void PrintMatrix(int arr[3][3], short Rows, short Cols)
+         {
+            for (short i = 0; i < Rows; i++)
+            {
+               for (short j = 0; j < Cols; j++)
+               {
+                  cout << setw(3) << arr[i][j] << " ";
+               }
+               cout << "\n";
+            }
+         }
+
+         int RowSum(int arr[3][3],short RowNumber, short Cols)
+         {
+             int Sum = 0;
+             for (short j = 0; j <= Cols - 1; j++)
+             {
+             Sum += arr[RowNumber][j];
+             }
+             return Sum;
+         }
+
+         void PrintEachRowSum(int arr[3][3], short Rows, short Cols)
+         {
+              cout << "\nthe following are the sum of each row in the matrix:\n";
+              for (short i = 0; i < Rows; i++)
+              {
+                 cout << " Row " << i + 1 << " Sum = " << RowSum(arr,i,Cols) << endl;
+              }
+         }
+
+         void main()
+         {
+             int arr[3][3];
+             FillMatrixWithRandomNumbers(arr, 3, 3);
+             cout << "\nThe following is a 3x3 random matrix:\n";
+             PrintMatrix(arr, 3, 3);
+             PrintEachRowSum(arr,3, 3);
+         }
+    }
+
+    namespace MySolution
+    {
+        void main()
+        {
+            vector <vector<short int>> vVec;
+
+            Random::Numbers::FillVector2DimensionalArray::VariableType::ShortIntegar(vVec,3,3,1,100);
+            Print::Vector2D_AsMatrix::VectorType::ShortInteger("\t\t\t       This Is A Random Matrix:",vVec,"\t\t\t      ",true);
+
+            short sumRow1 = 0 ;short sumRow2 = 0 ;short sumRow3 = 0 ;
+
+            OPERATIONS::_2DVectors::SumRows::_2dVectorType::ShortINT::Specific(vVec,{1},sumRow1,false,true);
+            OPERATIONS::_2DVectors::SumRows::_2dVectorType::ShortINT::Specific(vVec,{2},sumRow2,false,true);
+            OPERATIONS::_2DVectors::SumRows::_2dVectorType::ShortINT::Specific(vVec,{3},sumRow3,false,true);
+
+            cout << "\t\t            The Sum Of Row 1 = " << sumRow1 << endl;
+            cout << "\t\t            The Sum Of Row 2 = " << sumRow2 << endl;
+            cout << "\t\t            The Sum Of Row 3 = " << sumRow3 << endl;
+            
+            cout << endl << endl;
+        }
+    }
+}

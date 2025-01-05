@@ -1,0 +1,1 @@
+//Only we knew from it that when we use getline we use before it cin.ignore() to avoid problems

@@ -1,0 +1,11 @@
+﻿#pragma once
+#include "HeadersBeforeCourse/Colors.h"
+#include "HeadersBeforeCourse/Comparing.h"
+#include "HeadersBeforeCourse/EatSleepCodeRepeat.h"
+#include "HeadersBeforeCourse/Employee.h"
+#include "HeadersBeforeCourse/Load.h"
+#include "HeadersBeforeCourse/Print.h"
+#include "HeadersBeforeCourse/Random.h"
+#include "HeadersBeforeCourse/Read.h"
+#include "HeadersBeforeCourse/Refresh.h"
+#include "HeadersAfterCourse/Operations.h"
