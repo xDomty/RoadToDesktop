@@ -1,0 +1,5 @@
+#include "ProblemsHeaders/Problem1/Problem1.cpp"
+#include "ProblemsHeaders/Problem2/Problem2.cpp"
+#include "ProblemsHeaders/Problem3/Problem3.cpp"
+#include "ProblemsHeaders/Problem4/Problem4.cpp"
+#include "ProblemsHeaders/Problem5/Problem5.cpp"

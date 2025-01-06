@@ -70,18 +70,17 @@ namespace Problem2
     {
         void main()
         {
-            vector <vector<short int>> vVec;
+            vector <vector<short>> vVec;
 
             Random::Numbers::FillVector2DimensionalArray::VariableType::ShortIntegar(vVec,3,3,1,100);
             Print::Vector2D_AsMatrix::VectorType::ShortInteger("\t\t\t       This Is A Random Matrix:",vVec,"\t\t\t      ",true);
 
-            short sumRow1 = 0 ;short sumRow2 = 0 ;short sumRow3 = 0 ;
 
-            OPERATIONS::_2DVectors::SumRows::_2dVectorType::ShortINT::Specific(vVec,{1},sumRow1,false,true);
-            OPERATIONS::_2DVectors::SumRows::_2dVectorType::ShortINT::Specific(vVec,{2},sumRow2,false,true);
-            OPERATIONS::_2DVectors::SumRows::_2dVectorType::ShortINT::Specific(vVec,{3},sumRow3,false,true);
+            optional <short> sumRow1 = OPERATIONS::_2DVectors::SumRows::Specific<short>(vVec,{1},true);
+            optional <short> sumRow2 = OPERATIONS::_2DVectors::SumRows::Specific<short>(vVec,{2},true);
+            optional <short> sumRow3 = OPERATIONS::_2DVectors::SumRows::Specific<short>(vVec,{3},true);
 
-            cout << "\t\t            The Sum Of Row 1 = " << sumRow1 << endl;
+            cout << "\t\t            The Sum Of Row 1 = " <<  sumRow1;
             cout << "\t\t            The Sum Of Row 2 = " << sumRow2 << endl;
             cout << "\t\t            The Sum Of Row 3 = " << sumRow3 << endl;
             

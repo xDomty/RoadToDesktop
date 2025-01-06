@@ -11,18 +11,23 @@ using namespace std;
 
 namespace Print
 {
-	void PrintArrayNumbers(int* arr, int ArrayLength, int FormatOfArray = 1, string message = "", string messagePart2 = "", string TheMeterOfResult = "")
-	{
-		cout << "_________________________________\n\n";
-		for (int i = 0; i < ArrayLength; i++)
-		{
-			cout << message << " [" << i + 1 << "] " << messagePart2 << " : ";
-			printf("%0*d", FormatOfArray, arr[i]);
-			cout << ' ' << TheMeterOfResult << endl;
-		}
-		cout << "_________________________________\n";
-	}
 
+    namespace ArrayNumbers
+    {
+        void PrintArrayNumbers(int* arr, int ArrayLength, int FormatOfArray = 1, string message = "", string messagePart2 = "", string TheMeterOfResult = "")
+	    {
+	    	cout << "_________________________________\n\n";
+	    	for (int i = 0; i < ArrayLength; i++)
+	    	{
+	    		cout << message << " [" << i + 1 << "] " << messagePart2 << " : ";
+	    		printf("%0*d", FormatOfArray, arr[i]);
+	    		cout << ' ' << TheMeterOfResult << endl;
+	    	}
+	    	cout << "_________________________________\n";
+	    }
+
+    }
+	
 	void PrintFile(string FilePath)
 	{
 		fstream NewFile;
