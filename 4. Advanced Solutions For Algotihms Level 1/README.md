@@ -50,3 +50,10 @@
     Problem 48: LoanAmount and how many months you need to settle the loan" << endl;
     Problem 49: Bank password verification (pasword is : 1234)\n";
     Problem 50: Bank password verification (pasword is : 1234) but with limited time you get the password wrong\n\n";
+
+## WE HAVE DONE IN THIS UPDATE 
+    Problem 01: Print Mohammed
+    Problem 02: Enter your name then print your name
+    Problem 03: Know if the number is odd or even
+    Problem 04: Enter your age and driver license
+    Problem 05: Enter your age and driver license (BUT WITH RECOMMENDATIONS)
