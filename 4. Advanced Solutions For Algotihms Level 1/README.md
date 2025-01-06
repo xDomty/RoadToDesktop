@@ -1,5 +1,5 @@
-# I was so noob when i made this so do not hesitate me ok :)
-0
+# This was the contents of the course
+
     Problem 01: Print Mohammed
     Problem 02: Enter your name then print your name
     Problem 03: Know if the number is odd or even
