@@ -1,4 +1,5 @@
-# My road to make desktop applications (All of the courses made by DR. Mohammed Abu Hadhood)
+# My road to make desktop applications
+    note : These courses i took it from programmingadvices.com (By DR.Mohammed Abu Hadhood)
 
 ## The following courses are my road to learn how to make desktop applications
 
