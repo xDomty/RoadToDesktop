@@ -1,5 +1,4 @@
 #include "Problem4.h"
-using namespace std;
 
 namespace Problem4
 {

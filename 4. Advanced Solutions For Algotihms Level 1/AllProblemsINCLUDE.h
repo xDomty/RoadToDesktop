@@ -3,3 +3,8 @@
 #include "ProblemsHeaders/Problem3/Problem3.cpp"
 #include "ProblemsHeaders/Problem4/Problem4.cpp"
 #include "ProblemsHeaders/Problem5/Problem5.cpp"
+#include "ProblemsHeaders/Problem6/Problem6.cpp"
+#include "ProblemsHeaders/Problem7/Problem7.cpp"
+#include "ProblemsHeaders/Problem8/Problem8.cpp"
+#include "ProblemsHeaders/Problem9/Problem9.cpp"
+#include "ProblemsHeaders/Problem10/Problem10.cpp"
