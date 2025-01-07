@@ -1,15 +1,15 @@
 # This was the contents of the course
 
-    [x] Problem 01: Print Mohammed
-    [x] Problem 02: Enter your name then print your name
-    [x] Problem 03: Know if the number is odd or even
-    [x] Problem 04: Enter your age and driver license
-    [x] Problem 05: Enter your age and driver license (BUT WITH RECOMMENDATIONS)
-    [] Problem 06: FirstName + LastName
-    [] Problem 07: Take the half of the number
-    [] Problem 08: Checks if student failed or not
-    [] Problem 09: The sum of 3 numbers
-    [] Problem 10: 3 marks then the average of them
+    [X] Problem 01: Print Mohammed
+    [X] Problem 02: Enter your name then print your name
+    [X] Problem 03: Know if the number is odd or even
+    [X] Problem 04: Enter your age and driver license
+    [X] Problem 05: Enter your age and driver license (BUT WITH RECOMMENDATIONS)
+    [X] Problem 06: FirstName + LastName
+    [X] Problem 07: Take the half of the number
+    [X] Problem 08: Checks if student failed or not
+    [X] Problem 09: The sum of 3 numbers
+    [X] Problem 10: 3 marks then the average of them
     [] Problem 11: 3 marks then the average of them (BUT WITH FAIL OR PASS)\n
     [] Problem 12: The biggest number from 2 numbers you enter
     [] Problem 13: The biggest number from 2 numbers you enter
