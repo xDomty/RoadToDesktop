@@ -1,4 +1,4 @@
-# This was the contents of the course
+# This were the contents of the course
 
     [X] Problem 01: Print Mohammed
     [X] Problem 02: Enter your name then print your name
