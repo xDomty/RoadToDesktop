@@ -1,1 +1,1 @@
-# I was so noob when i made this so do not hesitate me ok :)
+# This course was made in Microsoft OneNote!
