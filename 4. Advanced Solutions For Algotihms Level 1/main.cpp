@@ -1,4 +1,4 @@
-#include "AllProblemsINCLUDE.h"
+#include "srcINCLUDE.cpp"
 
 int main()
 {

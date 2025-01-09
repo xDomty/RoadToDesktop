@@ -1,4 +1,4 @@
-#include "Problem7.h"
+#include "Problem7.hpp"
 
 namespace Problem7
 {
