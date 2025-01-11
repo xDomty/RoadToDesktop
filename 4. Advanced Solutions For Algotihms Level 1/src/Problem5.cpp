@@ -1,4 +1,5 @@
-#include "Problem5.hpp"
+#include "../include/Problem5.hpp"
+#include "../include/Force.hpp"
 
 namespace Problem5
 {
@@ -21,15 +22,9 @@ namespace Problem5
     void main()
     {
         bool license; bool recommendation; unsigned short age;
-
-        cout << "Please enter your age\n";
-        cin >> age;
-
-        cout << "Do you have license? (0 if no / 1 if yes)\n";
-        cin >> license;
-
-        cout << "Do you have recommendations? (0 if no / 1 if yes)\n";
-        cin >> recommendation;
+        age = InputForce::NumBetween<unsigned short>(0,100,"Please enter your age : ","Invalid Age. Try again.");
+        license = InputForce::NumBetween<bool>(0,1,"Do you have license? (0 if no / 1 if yes) : ","Invalid input. Try again.");
+        recommendation = InputForce::NumBetween<bool>(0,1,"Do you have recommendations? (0 if no / 1 if yes) : ","Invalid input. Try again.");
 
         cout << endl;
         cout << PrintDriverLicenseResult(recommendation,license,age);

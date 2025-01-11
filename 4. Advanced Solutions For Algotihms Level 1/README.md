@@ -10,11 +10,11 @@
     [X] Problem 08: Checks if student failed or not
     [X] Problem 09: The sum of 3 numbers
     [X] Problem 10: 3 marks then the average of them
-    [] Problem 11: 3 marks then the average of them (BUT WITH FAIL OR PASS)\n
-    [] Problem 12: The biggest number from 2 numbers you enter
-    [] Problem 13: The biggest number from 2 numbers you enter
-    [] Problem 14: Swipe 2 numbers
-    [] Problem 15: Rectangle Area from (length , width)
+    [X] Problem 11: 3 marks then the average of them (BUT WITH FAIL OR PASS)\n
+    [X] Problem 12: The biggest number from 2 numbers you enter
+    [X] Problem 13: The biggest number from 2 numbers you enter
+    [X] Problem 14: Swipe 2 numbers
+    [X] Problem 15: Rectangle Area from (length , width)
     [] Problem 16: Rectangle Area from (length , diameter)
     [] Problem 17: Triangle Area from (base , height)
     [] Problem 18: Circle Area (by radius)

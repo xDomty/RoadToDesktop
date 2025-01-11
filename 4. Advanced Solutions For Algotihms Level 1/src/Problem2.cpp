@@ -1,17 +1,17 @@
-#include "Problem2.hpp"
+#include "../include/Problem2.hpp"
 
 namespace Problem2
 {
-       string name()
+       void TheName()
        {
-           string name;
+           string nameOfUser;
            cout << "Please enter your name\n";
-           cin >> name;
-           return name;
+           cin >> nameOfUser;
+           cout << "Your name is : " << nameOfUser;
        }
 
        void main()
        {
-           cout << name();
+           TheName();
        }
 }

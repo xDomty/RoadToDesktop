@@ -1,36 +1,42 @@
 #include <iostream>
+#include <optional>
+#include <limits>
+#include "Force.hpp"
 using namespace std;
 
 namespace Problem11
 {               
-    void WELCOME()
+    void WELCOME();
+
+    template <typename TypeOfFunction>
+    void TakeMarks(TypeOfFunction mark[3])
     {
-        cout << "HELLO!";
-        cout << "\nThis program makes you enter 3 marks and it calculates the average of them from 100\n";
+        mark[0] = InputForce::NumBetween<TypeOfFunction>(0,100,"Please enter the first mark: ","Invalid input. Try again.");
+        mark[1] = InputForce::NumBetween<TypeOfFunction>(0,100,"Please enter the second mark: ","Invalid input. Try again.");
+        mark[2] = InputForce::NumBetween<TypeOfFunction>(0,100,"Please enter the third mark: ","Invalid input. Try again.");
     }
     
-    void TakeMarks(float mark[3])
+    template <typename TypeOfFunction>
+    TypeOfFunction AverageOf3Marks(TypeOfFunction mark[3])
     {
-        cout << "Please enter the first mark\n";
-        cin >> mark[0];
-        cout << "Please enter the second mark\n";
-        cin >> mark[1];
-        cout << "Please enter the third mark\n";
-        cin >> mark[2];
+        return (mark[0]+mark[1]+mark[2])/3;
     }
+
+    template <typename TypeOfMARK, typename TypeOfRequiredMArkToPass>
+    bool ResultOfMark(TypeOfMARK mark, TypeOfRequiredMArkToPass RequiredMarkToPass)
+    {
+           return (mark >= RequiredMarkToPass);
+    }
+
+    template <typename TypeOfMARK, typename TypeOfRequiredMArkToPass>
+    string PrintResultOfMark(TypeOfMARK mark, TypeOfRequiredMArkToPass RequiredMarkToPass)
+    {
+        if (ResultOfMark(mark,RequiredMarkToPass))
+           return "PASSED";
+        else
+           return "FAILED";
+    }
+
     
-    float TheAverage(float mark[3])
-    {
-        float average = (mark[0] + mark[1] + mark[2]) / 3;
-        cout << "The Average of the 3 marks is : " << average << endl;
-        return average;
-    }
-    
-    void PassOrFail()
-    {
-        float mark[3];
-        TakeMarks(mark);
-        TheAverage(mark);
-        
-    }
+    void main();
 }
