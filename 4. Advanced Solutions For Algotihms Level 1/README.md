@@ -17,7 +17,7 @@
     [X] Problem 15: Rectangle Area from (length , width)
     [X] Problem 16: Rectangle Area from (length , diameter)
     [X] Problem 17: Triangle Area from (base , height)
-    [] Problem 18: Circle Area (by radius)
+    [X] Problem 18: Circle Area (by radius)
     [] Problem 19: Circle Area (by diameter)
     [] Problem 20: Circle Area (by square width)
     [] Problem 21: Circle Area (by circumference)
