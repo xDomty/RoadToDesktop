@@ -15,8 +15,8 @@
     [X] Problem 13: The biggest number from 2 numbers you enter
     [X] Problem 14: Swipe 2 numbers
     [X] Problem 15: Rectangle Area from (length , width)
-    [] Problem 16: Rectangle Area from (length , diameter)
-    [] Problem 17: Triangle Area from (base , height)
+    [X] Problem 16: Rectangle Area from (length , diameter)
+    [X] Problem 17: Triangle Area from (base , height)
     [] Problem 18: Circle Area (by radius)
     [] Problem 19: Circle Area (by diameter)
     [] Problem 20: Circle Area (by square width)

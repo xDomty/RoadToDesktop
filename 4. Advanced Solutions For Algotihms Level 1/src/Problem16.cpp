@@ -5,11 +5,6 @@
 
 namespace Problem16
 {
-    float RectangleAreaFromDiameter(float length, float rectangleDiameter)
-    {
-        float result = length * sqrt(pow(rectangleDiameter, 2) - (pow(length, 2)));
-        return result;
-    }
 
     void WELCOMER()
     {
@@ -26,6 +21,6 @@ namespace Problem16
 
         WELCOMER();
         TakeInput(length, rectangleDiameter);
-        PrintResultOfRectanglePerimeter(length, rectangleDiameter);
+        PrintResultOfRectangleArea(length, rectangleDiameter);
     }
 }

@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+#include "Force.hpp"
 using namespace std;
 
 namespace Problem16
@@ -6,25 +8,23 @@ namespace Problem16
     void WELCOMER();
     
     template <typename T>
-    void TakeInput(T& length, T& rectangleDiameter)
+    void TakeInput(T& length, T& width)
     {
         length = InputForce::PositiveAndZero<float>("Please enter the length of the rectangle in cm: ");
-        rectangleDiameter = InputForce::Positive<float>("Ok, now please enter the rectangle diameter in cm: ");
+        width = InputForce::PositiveAndZero<float>("Ok, now please enter the width of the rectangle in cm: ");
     }
-
-
+    
     template <typename T>
-    T RectanglePerimeter(T length, T width)
+    T RectangleAreaFromDiameter(T length, T rectangleDiameter)
     {
-        return 2 * (length + width);
+        T result = length * sqrt(pow(rectangleDiameter, 2) - (pow(length, 2)));
+        return result;
     }
-
     template <typename T>
-    void PrintResultOfRectanglePerimeter(T length, T width)
+    void PrintResultOfRectangleArea(T length, T width)
     {
         cout << "Ok, here is your result:\n";
-        cout << "Rectangle perimeter = 2 * (length + width) = 2 * (" << length << " + " << width << ") = " << RectanglePerimeter(length, width) << " Longitudinal units\n";
+        cout << "Rectangle area = " << RectangleAreaFromDiameter(length, width) << " Squared Longitudinal units\n";
     }
-
     void main();
 }

@@ -3,6 +3,6 @@
 int main()
 {
     clearScreen();
-    Problem16::main();
+    Problem17::main();
     cout << endl;
 }
