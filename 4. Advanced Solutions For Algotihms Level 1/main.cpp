@@ -3,6 +3,5 @@
 int main()
 {
     clearScreen();
-    Problem18::main();
-    return 0;
+    Problem29::main();
 }

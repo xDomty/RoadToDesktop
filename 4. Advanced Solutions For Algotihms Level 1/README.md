@@ -18,17 +18,17 @@
     [X] Problem 16: Rectangle Area from (length , diameter)
     [X] Problem 17: Triangle Area from (base , height)
     [X] Problem 18: Circle Area (by radius)
-    [] Problem 19: Circle Area (by diameter)
-    [] Problem 20: Circle Area (by square width)
-    [] Problem 21: Circle Area (by circumference)
-    [] Problem 22: Circle Area (by Isosceles Triangle)
-    [] Problem 23: Circle Area (by Arbitrary Triangle)
-    [] Problem 24: The Age (Must be between 18 and 45)" << endl;
-    [] Problem 25: The Age (Must be between 18 and 45) but with while loop\n";
-    [] Problem 26: 0 to what number\n";
-    [] Problem 27: What number to 0\n";
-    [] Problem 28: The sum of odd numbers" << endl;
-    [] Problem 29: The sum of even numbers\n";
+    [X] Problem 19: Circle Area (by diameter)
+    [X] Problem 20: Circle Area (by square width)
+    [X] Problem 21: Circle Area (by circumference)
+    [X] Problem 22: Circle Area (by Isosceles Triangle)
+    [X] Problem 23: Circle Area (by Arbitrary Triangle)
+    [X] Problem 24: The Age (Must be between 18 and 45)" << endl;
+    [X] Problem 25: The Age (Must be between 18 and 45) but with while loop\n";
+    [X] Problem 26: 0 to what number\n";
+    [X] Problem 27: What number to 0\n";
+    [X] Problem 28: The sum of odd numbers" << endl;
+    [X] Problem 29: The sum of even numbers\n";
     [] Problem 30: Program calculates the factorial of numbers you put in\n\n";
     [] Problem 31: Program calculates (number ^ (2,3,4))\n";
     [] Problem 32: Program calculates (number ^ power)" << endl;
