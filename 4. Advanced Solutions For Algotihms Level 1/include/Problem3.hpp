@@ -1,3 +1,5 @@
+#ifndef PROBLEM3_HPP
+#define PROBLEM3_HPP
 #include <iostream>
 using namespace std;
 
@@ -21,3 +23,4 @@ namespace Problem3
           return "Your result is odd";
     }
 }
+#endif

@@ -1,3 +1,5 @@
+#ifndef PROBLEM29_HPP
+#define PROBLEM29_HPP
 #include <iostream>
 #include "Force.hpp"
 
@@ -21,5 +23,7 @@ namespace Problem29
     {
         std::cout << "The sum of even numbers between 1 and " << loop << " = " << CalculateSumOfEvenNumbers(loop) << std::endl;
     }
+
     void main();
 }
+#endif

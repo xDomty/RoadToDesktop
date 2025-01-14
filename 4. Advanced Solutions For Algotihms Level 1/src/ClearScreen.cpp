@@ -1,3 +1,4 @@
+#pragma once
 #include "../include/ClearScreen.hpp"
 
 void clearScreen() {

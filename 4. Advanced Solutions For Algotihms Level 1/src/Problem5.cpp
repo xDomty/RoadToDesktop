@@ -1,3 +1,4 @@
+#pragma once
 #include "../include/Problem5.hpp"
 #include "../include/Force.hpp"
 

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef FORCE_HPP
+#define FORCE_HPP
 #include <iostream>
 #include <limits>
 using namespace std;
@@ -100,3 +101,4 @@ namespace InputForce
         return variable;
     }
 }
+#endif

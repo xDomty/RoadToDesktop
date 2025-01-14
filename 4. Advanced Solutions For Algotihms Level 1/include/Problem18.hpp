@@ -1,3 +1,4 @@
+#pragma once
 #include "../include/Force.hpp"
 
 namespace Problem18

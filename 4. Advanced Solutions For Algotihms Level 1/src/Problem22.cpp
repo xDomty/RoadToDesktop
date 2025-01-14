@@ -1,3 +1,4 @@
+#pragma once
 #include "../include/Problem22.hpp"
 
 namespace Problem22

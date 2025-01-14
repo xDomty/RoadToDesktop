@@ -1,3 +1,5 @@
+#ifndef PROBLEM4_HPP
+#define PROBLEM4_HPP
 #include <iostream>
 using namespace std;
 
@@ -9,3 +11,4 @@ namespace Problem4
     
     void main();
 }
+#endif

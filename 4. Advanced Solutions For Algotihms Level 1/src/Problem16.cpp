@@ -1,3 +1,4 @@
+#pragma once
 #include "../include/Problem16.hpp"
 #include "../include/Force.hpp"
 #include <cmath>
