@@ -1,5 +1,7 @@
 #pragma once
+#include "List.cpp"
 #include "ClearScreen.cpp"
+#include "PressAnyKeyToContinue.cpp"
 #include "Problem1.cpp"
 #include "Problem2.cpp"
 #include "Problem3.cpp"
@@ -29,3 +31,6 @@
 #include "Problem27.cpp"
 #include "Problem28.cpp"
 #include "Problem29.cpp"
+#include "Problem30.cpp"
+#include "Problem31.cpp"
+#include "Problem32.hpp"

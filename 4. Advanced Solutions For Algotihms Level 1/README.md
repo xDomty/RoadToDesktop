@@ -29,9 +29,9 @@
     [X] Problem 27: What number to 0\n";
     [X] Problem 28: The sum of odd numbers" << endl;
     [X] Problem 29: The sum of even numbers\n";
-    [] Problem 30: Program calculates the factorial of numbers you put in\n\n";
-    [] Problem 31: Program calculates (number ^ (2,3,4))\n";
-    [] Problem 32: Program calculates (number ^ power)" << endl;
+    [X] Problem 30: Program calculates the factorial of numbers you put in\n\n";
+    [X] Problem 31: Program calculates (number ^ (2,3,4))\n";
+    [X] Problem 32: Program calculates (number ^ power)" << endl;
     [] Problem 33: Enter the mark and know your grade!\n";
     [] Problem 34: 1% For (1M) , 2% For (500k to 1M) , 3% For (100k to 500k) , 5% For (50k to 100k) , Otherwise 0%\n";
     [] Problem 35: (Pennies, Nickels, Dimes, Quarters, Dollars) to (Pennies,Dollars)\n";

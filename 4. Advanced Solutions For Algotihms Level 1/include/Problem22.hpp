@@ -30,4 +30,5 @@ namespace Problem22
         cout << "The area of the circle inscribed in the isosceles triangle is: " << CircleAreaInscribedInIsoscelesTriangle(sideA, sideB) << " squared centimeters." << endl;
     }
 
+    void main();
 }

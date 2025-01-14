@@ -22,5 +22,7 @@ namespace Problem3
        else
           return "Your result is odd";
     }
+
+    void main();
 }
 #endif

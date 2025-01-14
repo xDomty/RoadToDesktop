@@ -1,5 +1,5 @@
 #pragma once
-#include "src/srcINCLUDE.cpp"
+#include "../include/List.hpp"
 
 namespace List
 {
@@ -64,115 +64,157 @@ namespace List
         {
            switch (choose) {
               case 1:
+                  clearScreen();
                   Problem1::main();
                   break;
               case 2:
+                  clearScreen();
                   Problem2::main();
                   break;
               case 3:
+                  clearScreen();
                   Problem3::main();
                   break;
               case 4:
+                  clearScreen();
                   Problem4::main();
                   break;
               case 5:
+                  clearScreen();
                   Problem5::main();
                   break;
               case 6:
+                  clearScreen();
                   Problem6::main();
                   break;
               case 7:
+                  clearScreen();
                   Problem7::main();
                   break;
               case 8:
+                  clearScreen();
                   Problem8::main();
                   break;
               case 9:
+                  clearScreen();
                   Problem9::main();
                   break;
               case 10:
+                  clearScreen();
                   Problem10::main();
                   break;
               case 11:
+                  clearScreen();
                   Problem11::main();
                   break;
               case 12:
+                  clearScreen();
                   Problem12::main();
                   break;
               case 13:
+                  clearScreen();
                   Problem13::main();
                   break;
               case 14:
+                  clearScreen();
                   Problem14::main();
                   break;
               case 15:
+                  clearScreen();
                   Problem15::main();
                   break;
               case 16:
+                  clearScreen();
                   Problem16::main();
                   break;
               case 17:
+                  clearScreen();
                   Problem17::main();
                   break;
               case 18:
+                  clearScreen();
                   Problem18::main();
                   break;
               case 19:
+                  clearScreen();
                   Problem19::main();
                   break;
               case 20:
+                  clearScreen();
                   Problem20::main();
                   break;
               case 21:
+                  clearScreen();
                   Problem21::main();
                   break;
               case 22:
+                  clearScreen();
                   Problem22::main();
                   break;
               case 23:
+                  clearScreen();
                   Problem23::main();
                   break;
               case 24:
+                  clearScreen();
                   Problem24::main();
                   break;
               case 25:
+                  clearScreen();
                   Problem25::main();
                   break;
             }
         }
         else if(choose = 25)
-              {Problem25::main();} 
+        {
+            clearScreen();
+            Problem25::main();
+        }
         else
         {
               switch (choose) {
               case 26:
+                  clearScreen();
                   Problem26::main();
                   break;
               case 27:
+                  clearScreen();
                   Problem27::main();
                   break;
               case 28:
+                  clearScreen();
                   Problem28::main();
                   break;
               case 29:
+                  clearScreen();
                   Problem29::main();
                   break;
+              case 30:
+                  clearScreen();
+                  Problem30::main();
+                  break;
+              case 31:
+                  clearScreen();
+                  Problem31::main();
+                  break;
+              
               }
         }
     }
-
     void WantToTryAgain()
     {
         cout << endl << endl;
         bool tryAgain = InputForce::NumBetween(0, 1, "Do you want to try again? (1 for Yes, 0 for No): ", "Invalid input. Try again.");
         while (tryAgain)
         {
+            clearScreen();
             Print();
             short choose = InputForce::NumBetween<short>(1, 50, "Choose a number from the list: ", "Invalid input. Try again.");
             ChooseFromList(choose);
+            PressAnyKeyToContinue();
+            clearScreen();
             tryAgain = InputForce::NumBetween(0, 1, "Do you want to try again? (1 for Yes, 0 for No): ", "Invalid input. Try again.");
         }
         
     }
-
 }
