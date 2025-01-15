@@ -58,9 +58,10 @@ namespace List
         cout << "[50] Problem 50: Bank password verification (pasword is : 1234) but with limited time you get the password wrong\n\n";
         cout << "************************************\n" << endl;
     }
+
     void ChooseFromList(short choose)
     {
-        if (choose < 25)
+        if (choose < 25 && choose > 0)
         {
            switch (choose) {
               case 1:
@@ -165,58 +166,64 @@ namespace List
                   break;
             }
         }
-        else if(choose = 25)
+        else if(choose == 25)
         {
             clearScreen();
             Problem25::main();
         }
+		else if (choose > 25 && choose < 33)
+        {
+            switch (choose) {
+            case 26:
+                clearScreen();
+                Problem26::main();
+                break;
+            case 27:
+                clearScreen();
+                Problem27::main();
+                break;
+            case 28:
+                clearScreen();
+                Problem28::main();
+                break;
+            case 29:
+                clearScreen();
+                Problem29::main();
+                break;
+            case 30:
+                clearScreen();
+                Problem30::main();
+                break;
+            case 31:
+                clearScreen();
+                Problem31::main();
+                break;
+            case 32:
+                clearScreen();
+                Problem32::main();
+                break;
+            }
+        }
         else
         {
-              switch (choose) {
-              case 26:
-                  clearScreen();
-                  Problem26::main();
-                  break;
-              case 27:
-                  clearScreen();
-                  Problem27::main();
-                  break;
-              case 28:
-                  clearScreen();
-                  Problem28::main();
-                  break;
-              case 29:
-                  clearScreen();
-                  Problem29::main();
-                  break;
-              case 30:
-                  clearScreen();
-                  Problem30::main();
-                  break;
-              case 31:
-                  clearScreen();
-                  Problem31::main();
-                  break;
-			  case 32:
-				  clearScreen();
-				  Problem32::main();
-				  break;
-              }
+           clearScreen();
+           cout << "That's Not Available :(\n";
         }
     }
+
     void WantToTryAgain()
     {
         cout << endl << endl;
-        bool tryAgain = InputForce::NumBetween(0, 1, "Do you want to try again? (1 for Yes, 0 for No): ", "Invalid input. Try again.");
+        bool tryAgain = InputForce::NumBetween(0, 1, "Do you want to try something else? (1 for Yes, 0 for No): ", "Invalid input. Try again.");
         while (tryAgain)
         {
             clearScreen();
             Print();
-            short choose = InputForce::NumBetween<short>(1, 50, "Choose a number from the list: ", "Invalid input. Try again.");
+            short choose = InputForce::Any<short>("Choose a number from the list: ", "Invalid input. Try again.");
             ChooseFromList(choose);
             PressAnyKeyToContinue();
             clearScreen();
-            tryAgain = InputForce::NumBetween(0, 1, "Do you want to try again? (1 for Yes, 0 for No): ", "Invalid input. Try again.");
+            tryAgain = InputForce::NumBetween(0, 1, "Do you want to try something else? (1 for Yes, 0 for No): ", "Invalid input. Try again.");
         }
         
     }

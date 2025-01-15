@@ -9,6 +9,21 @@ namespace Problem30
         cout << "Hello, This program calculates the factorial of a number\n";
     }
 
+    double Factorial(double N)
+    {
+        double result = 1;
+        for (short i = 1; i <= N; i++)
+        {
+            result *= i;
+        }
+        return result;
+    }
+
+    void PrintResult(double N)
+    {
+        cout << "The factorial of " << N << " is: " << Factorial(N) << endl;
+    }
+
     void main()
     {
         WELCOMER();
