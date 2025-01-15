@@ -1,26 +1,44 @@
 #pragma once
 #include "../include/Problem24.hpp"
+#include <optional>
+#include <iostream>
 
 namespace Problem24
 {
     void WELCOMER()
     {
-        cout << "This program checks if the entered age is valid or not\n";
+        std::cout << "This program checks if the entered age is valid or not\n";
     }
 
-    void PrintResult(optional <short> age)
+    inline std::optional<short> CheckAge()
+    {
+        short age;
+        std::cout << "Enter age: ";
+        std::cin >> age;
+
+        if (age >= 0 && age <= 100) {
+            return age;
+        }
+        else {
+            return std::nullopt;
+        }
+    }
+
+
+    void PrintResult(std::optional<short> age)
     {
         if (age.has_value())
-            cout << "VALID AGE";
+            std::cout << "VALID AGE";
         else
-            cout << "INVALID AGE";
+            std::cout << "INVALID AGE";
     }
 
     void main()
-    {
+    { 
         WELCOMER();
-        optional <short> age = ageCheck();
+        optional <short> age;
+		age = CheckAge();
         PrintResult(age);
-        cout << endl;
+        std::cout << std::endl;
     }
 }

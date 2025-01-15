@@ -1,5 +1,4 @@
-#ifndef PROBLEM29_HPP
-#define PROBLEM29_HPP
+#pragma once
 #include <iostream>
 #include "Force.hpp"
 
@@ -26,4 +25,3 @@ namespace Problem29
 
     void main();
 }
-#endif

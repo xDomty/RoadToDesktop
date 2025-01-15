@@ -1,5 +1,5 @@
 #pragma once
-#include "../include/List.hpp"
+#include "../include/headerINCLUDE.hpp"
 
 namespace List
 {
@@ -197,7 +197,10 @@ namespace List
                   clearScreen();
                   Problem31::main();
                   break;
-              
+			  case 32:
+				  clearScreen();
+				  Problem32::main();
+				  break;
               }
         }
     }

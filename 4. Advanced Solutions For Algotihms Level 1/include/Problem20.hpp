@@ -17,7 +17,7 @@ namespace Problem20
     template <typename T>
     T CircleAreaBySquareWidth(T width)
     {
-        const T pi = 3.14159265358979323846;
+        const float pi = 3.14159265358979323846;
         T radius = width / 2;
         return pi * radius * radius;
     }

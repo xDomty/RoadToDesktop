@@ -5,7 +5,7 @@ using namespace std;
 namespace Problem14
 {
     template <typename T>
-    T swipe(T &num1, T &num2)
+    void swipe(T &num1, T &num2)
     {
         T temp;
         temp = num1;

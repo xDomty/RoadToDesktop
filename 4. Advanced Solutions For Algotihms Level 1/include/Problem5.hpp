@@ -1,5 +1,4 @@
-#ifndef PROBLEM5_HPP
-#define PROBLEM5_HPP
+#pragma once
 #include <iostream>
 using namespace std;
 
@@ -9,4 +8,3 @@ namespace Problem5
     string PrintDriverLicenseResult(bool recommendation , bool License, unsigned short int age);
     void main();
 }
-#endif

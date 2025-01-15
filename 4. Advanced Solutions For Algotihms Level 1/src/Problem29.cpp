@@ -1,5 +1,4 @@
-#ifndef Problem29_CPP
-#define Problem29_CPP
+#pragma once
 #include "../include/Problem29.hpp"
 #include "../include/Force.hpp"
 
@@ -17,4 +16,3 @@ namespace Problem29
         PrintSumOfEvenNumbers(N);
     }
 }
-#endif

@@ -1,3 +1,4 @@
+#pragma once
 #include "../include/Problem31.hpp"
 #include "../include/Force.hpp"
 
@@ -12,6 +13,6 @@ namespace Problem31
     {
         WELCOMER();
         short N = InputForce::Positive<short>("Please enter N: ");
-        PrintResult(N);
+        PrintResultOfPower(N);
     }
 }

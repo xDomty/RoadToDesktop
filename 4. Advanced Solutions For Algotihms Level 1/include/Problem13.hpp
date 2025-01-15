@@ -1,7 +1,8 @@
 #pragma once
-#include <iostream>
-#include <optional>
 #include "Force.hpp"
+#include <iostream>
+#include <string>
+#include <optional>
 using namespace std;
 
 namespace Problem13

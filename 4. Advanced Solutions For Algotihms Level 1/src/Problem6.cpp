@@ -1,6 +1,6 @@
 #pragma once
 #include "../include/Problem6.hpp"
-
+#include <string>
 namespace Problem6
 {
     string FirstNamePlusLastName(string FirstName,string LastName)

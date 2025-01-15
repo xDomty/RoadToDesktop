@@ -1,5 +1,6 @@
 #pragma once
 #include "../include/ClearScreen.hpp"
+#include <cstdlib>
 
 void clearScreen() {
 #ifdef _WIN32
