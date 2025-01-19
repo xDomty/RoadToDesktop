@@ -7,20 +7,23 @@ namespace Problem3
 {
     namespace MrSolution
     {
+          int RandomNumber(int From, int To);
 
+          void FillMatrixWithRandomNumbers(int arr[3][3], short Rows, short Cols);
+
+          void PrintMatrix(int arr[3][3], short Rows, short Cols);
+
+          int RowSum(int arr[3][3], short RowNumber, short Cols);
+
+          void SumMatrixRowsInArray(int arr[3][3], int arrSum[3], short Rows, short Cols);
+
+          void PrintRowsSumArray(int arr[3], short Rows);
+
+          void main();
     }
 
     namespace MySolution
     {
-        void main()
-        {
-            vector <vector<short int>> vVec;
-
-            Random::Numbers::FillVector2D<short>(vVec,3,3,1,100);
-            Print::Print2DVectorAsMatrix("\t\t\t       This Is A Random Matrix:",vVec,"\t\t\t      ",true);
-
-            vector <short> TheSumOfEveryLineMYBABEEEEE = OPERATIONS::_2DVectors::SumOfEachRowInsideASeperateVector::Specific<short>(vVec, {1,2,3} , true);
-            Print::PrintVector("\t\t\tThe Sum Of Row",TheSumOfEveryLineMYBABEEEEE,true);
-        }
+        void main();
     }
 }
