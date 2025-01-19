@@ -1,8 +1,8 @@
 #pragma once
 #include "AllProblemsHeadersInclude.hpp"
-#include "Force.hpp"
-#include "ClearScreen.hpp"
-#include "PressAnyKeyToContinue.hpp"
+#include "../HeadersBeforeCourse/Force.hpp"
+#include "../HeadersBeforeCourse/ClearScreen.hpp"
+#include "../HeadersBeforeCourse/PressAnyKeyToContinue.hpp"
 
 namespace List
 {
