@@ -1,7 +1,7 @@
-#include "Problem2.h"
+#include "include/Problems/Problem3.hpp"
 
 int main()
 {
      srand((unsigned)time(NULL));
-     Problem2::MySolution::main();
+     Problem3::MySolution::main();
 }

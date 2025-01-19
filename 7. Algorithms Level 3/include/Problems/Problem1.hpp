@@ -1,5 +1,7 @@
-#include "HeadersBeforeCourse/Random.h"
-#include "HeadersBeforeCourse/Print.h"
+#pragma once
+#include "../HeadersBeforeCourse/Random.hpp"
+#include "../HeadersBeforeCourse/Print.hpp"
+
 namespace Problem1
 {
     namespace MrSolution
@@ -10,7 +12,7 @@ namespace Problem1
             {
                for (short j = 0; j < Cols; j++)
                {
-                  arr[i][j] = Random::Numbers::OneVariable::VariableType::Integar(1, 100);
+                  arr[i][j] = Random::Numbers::Generate<short>(1, 100);
                }
             }
 
@@ -36,16 +38,16 @@ namespace Problem1
             PrintMatrix(arr, 3, 3);
         }
     }
-    
+
     namespace MySolution
     {
         void main()
         {
             vector <vector<short int>> vVec;
-            Random::Numbers::FillVector2DimensionalArray::VariableType::ShortIntegar(vVec,3,3,1,100);
-            Print::Vector2D_AsMatrix::VectorType::ShortInteger("\t\tThis Is A Random Matrix:",vVec,"\t   ",true,2,2);
+            Random::Numbers::FillVector2D<short>(vVec,3,3,1,100);
+            Print::Print2DVectorAsMatrix("\t\tThis Is A Random Matrix:",vVec,"\t   ",true,2,2);
             cout << endl;
         }
-        
+
     }
 }

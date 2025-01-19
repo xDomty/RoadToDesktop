@@ -1,6 +1,7 @@
-#include "HeadersBeforeCourse/Random.h"
-#include "HeadersBeforeCourse/Print.h"
-#include "HeadersAfterCourse/Operations.h"
+#pragma once
+#include "../HeadersBeforeCourse/Random.hpp"
+#include "../HeadersBeforeCourse/Print.hpp"
+#include "../HeadersAfterCourse/Operations.hpp"
 using namespace std;
 
 namespace Problem2
@@ -24,7 +25,7 @@ namespace Problem2
                }
             }
          }
-            
+
          void PrintMatrix(int arr[3][3], short Rows, short Cols)
          {
             for (short i = 0; i < Rows; i++)
@@ -72,18 +73,17 @@ namespace Problem2
         {
             vector <vector<short>> vVec;
 
-            Random::Numbers::FillVector2DimensionalArray::VariableType::ShortIntegar(vVec,3,3,1,100);
-            Print::Vector2D_AsMatrix::VectorType::ShortInteger("\t\t\t       This Is A Random Matrix:",vVec,"\t\t\t      ",true);
-
+            Random::Numbers::FillVector2D<short>(vVec,3,3,1,100);
+            Print::Print2DVectorAsMatrix<short>("\t\t\t       This Is A Random Matrix:",vVec,"\t\t\t      ",true);
 
             optional <short> sumRow1 = OPERATIONS::_2DVectors::SumRows::Specific<short>(vVec,{1},true);
             optional <short> sumRow2 = OPERATIONS::_2DVectors::SumRows::Specific<short>(vVec,{2},true);
             optional <short> sumRow3 = OPERATIONS::_2DVectors::SumRows::Specific<short>(vVec,{3},true);
 
-            cout << "\t\t            The Sum Of Row 1 = " <<  sumRow1;
-            cout << "\t\t            The Sum Of Row 2 = " << sumRow2 << endl;
-            cout << "\t\t            The Sum Of Row 3 = " << sumRow3 << endl;
-            
+            cout << "\t\t            The Sum Of Row 1 = " << *sumRow1;
+            cout << "\t\t            The Sum Of Row 2 = " << *sumRow2 << endl;
+            cout << "\t\t            The Sum Of Row 3 = " << *sumRow3 << endl;
+
             cout << endl << endl;
         }
     }

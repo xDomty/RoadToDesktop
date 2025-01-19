@@ -3,7 +3,7 @@
 #include <string>
 #include <limits>
 #include <iostream>
-#include "Colors.h"
+#include "Colors.hpp"
 using namespace std;
 
 namespace Read
@@ -39,7 +39,7 @@ namespace Read
 
 	bool ReadBoolWithValidation(string message = "", string MessageIfFail = "")
 	{
-        
+
 		bool TrueOrFalse = 0;
     	StartCheckPointIfFail: cout << message;
 		cin >> TrueOrFalse;
