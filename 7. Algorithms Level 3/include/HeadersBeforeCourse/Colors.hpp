@@ -5,8 +5,8 @@ using namespace std;
 
 namespace Colors_WindowsOS
 {
-	enum enNormalColors;
-	enum enBrightColors;
+	enum enNormalColors { Black, Blue, Green, Aqua, Red, Purple, Yellow, White, Gray };
+    enum enBrightColors { LightGreen = 65, LightAqua = 66, LightRed = 67, LightPurple = 68, LightYellow = 69, BrightWhite = 70 };
 
 	// OverLoading Function ScreenColors
 

@@ -61,5 +61,5 @@
     ".php_cs.dist": "php",
     "optional": "cpp",
     "iostream": "cpp"
-}
+  }
 }

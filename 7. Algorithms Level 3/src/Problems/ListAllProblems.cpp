@@ -5,7 +5,9 @@ namespace List
 {
     void Print()
     {
-        // Implementation of Print function
+        cout << "Problem 1 : Write A Program to fill 3x3 matrix with random numbers and print it\n";
+        cout << "Problem 2 : Write A Program to fill 3x3 matrix with random numbers and print it then print each row sum\n";
+        cout << "Problem 3 : Write A Program to fill 3x3 matrix with random numbers and print it then print each row sum but each row sum is inside an array\n";
     }
 
     void ChooseFromList(Solution solution, short choose)
