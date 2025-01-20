@@ -77,7 +77,7 @@ namespace Problem2
             optional <short> sumRow2 = OPERATIONS::_2DVectors::SumRows::Specific<short>(vVec,{2},true);
             optional <short> sumRow3 = OPERATIONS::_2DVectors::SumRows::Specific<short>(vVec,{3},true);
 
-            cout << "\t\t            The Sum Of Row 1 = " << *sumRow1;
+            cout << "\t\t            The Sum Of Row 1 = " << *sumRow1 << endl; 
             cout << "\t\t            The Sum Of Row 2 = " << *sumRow2 << endl;
             cout << "\t\t            The Sum Of Row 3 = " << *sumRow3 << endl;
 

@@ -20,17 +20,7 @@ namespace Print {
         cout << "_________________________________\n";
     }
 
-    void PrintFile(const string& FilePath) {
-        fstream NewFile;
-        NewFile.open(FilePath, ios::in); // READ MODE
-        if (NewFile.is_open()) {
-            string line;
-            while (getline(NewFile, line)) {
-                cout << line << endl;
-            }
-            NewFile.close();
-        }
-    }
+    void PrintFile(const string& FilePath);
 
     template<typename T>
     void PrintVector(const string& message, const vector<T>& vVector, bool PrintNumOfLoop) {

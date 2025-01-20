@@ -161,5 +161,59 @@ namespace OPERATIONS {
                 return sum;
             }
         }
+
+        namespace SumOfEachColInsideASeperateVector {
+            template <typename FunctionType, typename TypeOf2dVector>
+            vector<FunctionType> Specific(vector<vector<TypeOf2dVector>>& vVector, const vector<unsigned short> WhatColsToCalculate, bool HandleCoreDumped = true) {
+                if (vVector.empty() || vVector[0].empty()) {
+                    cout << "ERROR, VECTOR " << (vVector.empty() ? "ROWS" : "COLS") << " CANNOT BE EMPTY!\n";
+                    return {};
+                }
+
+                if (HandleCoreDumped) {
+                    for (const auto& col : WhatColsToCalculate) {
+                        if (col > vVector[0].size()) {
+                            cout << "ERROR: YOU CANNOT PUT COLS THAT ARE NOT INCLUDED IN THE VECTOR\n";
+                            return {};
+                        }
+                    }
+                }
+
+                vector<FunctionType> result;
+                for (const auto& col : WhatColsToCalculate) {
+                    FunctionType sum = 0;
+                    for (const auto& row : vVector) {
+                        sum += row[col - 1];
+                    }
+                    result.push_back(sum);
+                }
+
+                return result;
+            }
+
+            template <typename FunctionType, typename TypeOf2dVector>
+            vector<FunctionType> To(vector<vector<TypeOf2dVector>>& vVector, unsigned short HowManyColsToCalculate, bool HandleCoreDumped = true) {
+                if (vVector.empty() || vVector[0].empty()) {
+                    cout << "ERROR, VECTOR " << (vVector.empty() ? "ROWS" : "COLS") << " CANNOT BE EMPTY!\n";
+                    return {};
+                }
+
+                if (HandleCoreDumped && HowManyColsToCalculate > vVector[0].size()) {
+                    cout << "ERROR: YOU CANNOT PUT NUMBER OF COLS THAT ARE NOT INCLUDED IN THE VECTOR\n";
+                    return {};
+                }
+
+                vector<FunctionType> result;
+                for (unsigned short j = 0; j < HowManyColsToCalculate; ++j) {
+                    FunctionType sum = 0;
+                    for (const auto& row : vVector) {
+                        sum += row[j];
+                    }
+                    result.push_back(sum);
+                }
+
+                return result;
+            }
+        }
     }
 }
