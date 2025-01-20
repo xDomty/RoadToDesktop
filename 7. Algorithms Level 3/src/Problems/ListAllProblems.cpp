@@ -41,7 +41,7 @@ namespace List
         }
         else if (solution == Solution::MrSolution)
         {
-            if (choose > 0 && choose < 4)
+            if (choose > 0 && choose < 5)
             {
                 switch (choose)
                 {
@@ -54,6 +54,8 @@ namespace List
                     case 3:
                         Problem3::MrSolution::main();
                         break;
+                    case 4:
+                        Problem4::MrSolution::main();
                 }
 
             }
