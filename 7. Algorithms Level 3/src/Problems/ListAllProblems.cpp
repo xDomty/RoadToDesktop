@@ -8,14 +8,15 @@ namespace List
         cout << "Problem 1 : Write A Program to fill 3x3 matrix with random numbers and print it\n";
         cout << "Problem 2 : Write A Program to fill 3x3 matrix with random numbers and print it then print each row sum\n";
         cout << "Problem 3 : Write A Program to fill 3x3 matrix with random numbers and print it then print each row sum but each row sum is inside an array\n";
-        cout << "Problem 4 : Write A Program to fill 3x3 matrix with random numbers and print it then print each col sum but each col sum is inside an array\n";
+        cout << "Problem 4 : Write A Program to fill 3x3 matrix with random numbers and print it then print each col sum\n";
+        cout << "Problem 5 : Write A Program to fill 3x3 matrix with random numbers and print it then print each col sum but each col sum is inside an array" << endl;
     }
 
     void ChooseFromList(Solution solution, short choose)
     {
         if (solution == Solution::MySolution)
         {
-            if (choose > 0 && choose < 5)
+            if (choose > 0 && choose < 6)
             {
                 switch (choose)
                 {
@@ -30,6 +31,10 @@ namespace List
                         break;
                     case 4:
                         Problem4::MySolution::main();
+                        break;
+                    case 5:
+                        Problem5::MySolution::main();
+                        break;
                 }
             }
             else
@@ -41,7 +46,7 @@ namespace List
         }
         else if (solution == Solution::MrSolution)
         {
-            if (choose > 0 && choose < 5)
+            if (choose > 0 && choose < 6)
             {
                 switch (choose)
                 {
@@ -56,6 +61,10 @@ namespace List
                         break;
                     case 4:
                         Problem4::MrSolution::main();
+                        break;
+                    case 5:
+                        Problem5::MrSolution::main();
+                        break;
                 }
 
             }

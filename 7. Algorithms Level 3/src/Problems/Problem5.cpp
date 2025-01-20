@@ -1,6 +1,6 @@
-#include "../../include/Problems/Problem4.hpp"
+#include "../../include/Problems/Problem5.hpp"
 
-namespace Problem4
+namespace Problem5
 {
 	namespace MrSolution
 	{
@@ -10,7 +10,8 @@ namespace Problem4
 			int randNum = rand() % (To - From + 1) + From;
 			return randNum;
 		}
-		void FillMatrixWithRandomNumbers(int arr[3][3], short Rows, short Cols)
+		void FillMatrixWithRandomNumbers(int arr[3][3], short Rows, short
+			Cols)
 		{
 			for (short i = 0; i < Rows; i++)
 			{
@@ -40,22 +41,33 @@ namespace Problem4
 			}
 			return Sum;
 		}
-		void PrintEachColSum(int arr[3][3], short Rows, short Cols)
+		void SumMatixColsInArry(int arr[3][3], int arrSum[3], short Rows,
+			short Cols)
+		{
+			for (short i = 0; i < Cols; i++)
+			{
+				arrSum[i] = ColSum(arr, Rows, i);
+			}
+		}
+		void PrintColsSumArray(int arr[3], short length)
 		{
 			cout << "\nThe the following are the sum of each col in the matrix:\n";
-			for (short j = 0; j < Cols; j++)
-			{
-				cout << " Col " << j + 1 << " Sum = " <<
-					ColSum(arr, Rows, j) << endl;
-			}
+				for (short i = 0; i < length; i++)
+				{
+					cout << " Col " << i + 1 << " Sum = " << arr[i] << endl;
+				}
 		}
 		void main()
 		{
+			//Seeds the random number generator in C++, called only once
+			srand((unsigned)time(NULL));
 			int arr[3][3];
+			int arrSum[3];
 			FillMatrixWithRandomNumbers(arr, 3, 3);
 			cout << "\nThe following is a 3x3 random matrix:\n";
 			PrintMatrix(arr, 3, 3);
-			PrintEachColSum(arr, 3, 3);
+			SumMatixColsInArry(arr, arrSum, 3, 3);
+			PrintColsSumArray(arrSum, 3);
 		}
 	}
 
@@ -66,15 +78,8 @@ namespace Problem4
 			vector <vector<short>> vVector;
 			Random::Numbers::FillVector2D<short>(vVector, 3, 3, 1, 100);
 			Print::Print2DVectorAsMatrix("Here is the 3d Vector\n", vVector, "", true, 3, 3);
-			optional <short> Col1Sum = OPERATIONS::_2DVectors::SumCols::Specific<short>(vVector, { 1 }, true);
-			optional <short> Col2Sum = OPERATIONS::_2DVectors::SumCols::Specific<short>(vVector, { 2 }, true);
-			optional <short> Col3Sum = OPERATIONS::_2DVectors::SumCols::Specific<short>(vVector, { 3 }, true);
-
-			cout << "The Sum Of Col 1 = " << *Col1Sum << endl;
-			cout << "The Sum Of Col 2 = " << *Col2Sum << endl;
-			cout << "The Sum Of Col 3 = " << *Col3Sum << endl;
-
-			cout << endl << endl;
+			vector <short> resultOfCols = OPERATIONS::_2DVectors::SumOfEachColInsideASeperateVector::To<short>(vVector, 3, true);
+			Print::PrintVector("The Result of Col", resultOfCols, true);
 		}
 	}
 }

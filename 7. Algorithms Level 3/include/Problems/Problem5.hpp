@@ -3,9 +3,8 @@
 #include "../HeadersAfterCourse/Operations.hpp"
 #include "../HeadersBeforeCourse/Random.hpp"
 #include "../HeadersBeforeCourse/Print.hpp"
-#include <optional>
 
-namespace Problem4
+namespace Problem5
 {
 	namespace MrSolution
 	{
@@ -13,7 +12,8 @@ namespace Problem4
 		void FillMatrixWithRandomNumbers(int arr[3][3], short Rows, short Cols);
 		void PrintMatrix(int arr[3][3], short Rows, short Cols);
 		int ColSum(int arr[3][3], short Rows, short ColNumber);
-		void PrintEachColSum(int arr[3][3], short Rows, short Cols);
+		void SumMatixColsInArry(int arr[3][3], int arrSum[3], short Rows, short Cols);
+		void PrintColsSumArray(int arr[3], short length);
 		void main();
 	}
 
