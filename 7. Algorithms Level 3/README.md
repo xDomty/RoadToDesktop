@@ -8,5 +8,6 @@
     [X] Problem 3 : Write A Program to fill 3x3 matrix with random numbers and print it then print each row sum but each rom sum is inside an array
     [X] Problem 4 : Write A Program to fill 3x3 matrix with random numbers and print it then print each col sum
     [X] Problem 5 : Write A Program to fill 3x3 matrix with random numbers and print it then print each col sum but each col sum is inside an array
+    [X] Problem 6 : Write A Program to fill 3x3 matrix with ordered numbers then print it
 
 ## *i will add the remaining problems soon inshallah :)*

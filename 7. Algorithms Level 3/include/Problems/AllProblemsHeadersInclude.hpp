@@ -3,3 +3,4 @@
 #include "Problem3.hpp"
 #include "Problem4.hpp"
 #include "Problem5.hpp"
+#include "Problem6.hpp"
