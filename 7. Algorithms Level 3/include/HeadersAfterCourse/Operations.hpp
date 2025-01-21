@@ -77,11 +77,10 @@ namespace OPERATIONS {
 
                 vector<FunctionType> result;
                 for (const auto& row : WhatRowsToCalculate) {
-                    FunctionType sum = 0;
-                    for (const auto& val : vVector[row - 1]) {
-                        sum += val;
+                    optional <FunctionType> sum = SumRows::Specific<FunctionType>(vVector, {row}, false);
+                    if (sum.has_value()) {
+                        result.push_back(*sum);
                     }
-                    result.push_back(sum);
                 }
 
                 return result;
@@ -100,12 +99,11 @@ namespace OPERATIONS {
                 }
 
                 vector<FunctionType> result;
-                for (unsigned short i = 0; i < HowManyRowsToCalculate; ++i) {
-                    FunctionType sum = 0;
-                    for (const auto& val : vVector[i]) {
-                        sum += val;
+                for (unsigned short i = 1; i <= HowManyRowsToCalculate; ++i) {
+                    optional <FunctionType> sum = SumRows::Specific<FunctionType>(vVector, {i + 1}, false);
+                    if (sum.has_value()) {
+                        result.push_back(*sum);
                     }
-                    result.push_back(sum);
                 }
 
                 return result;
@@ -114,7 +112,7 @@ namespace OPERATIONS {
 
         namespace SumCols {
             template <typename FunctionType, typename TypeOf2dVector>
-            optional<FunctionType> Specific(vector<vector<TypeOf2dVector>>& vVector, const vector<unsigned short>WhatColsToCalculate, bool HandleCoreDumped = true) {
+            optional<FunctionType> Specific(vector<vector<TypeOf2dVector>>& vVector, const vector<unsigned short> WhatColsToCalculate, bool HandleCoreDumped = true) {
                 if (vVector.empty() || vVector[0].empty()) {
                     cout << "ERROR, VECTOR " << (vVector.empty() ? "ROWS" : "COLS") << " CANNOT BE EMPTY!\n";
                     return nullopt;
@@ -181,11 +179,10 @@ namespace OPERATIONS {
 
                 vector<FunctionType> result;
                 for (const auto& col : WhatColsToCalculate) {
-                    FunctionType sum = 0;
-                    for (const auto& row : vVector) {
-                        sum += row[col - 1];
+                    auto sum = SumCols::Specific<FunctionType>(vVector, {col}, false);
+                    if (sum) {
+                        result.push_back(*sum);
                     }
-                    result.push_back(sum);
                 }
 
                 return result;
@@ -204,12 +201,11 @@ namespace OPERATIONS {
                 }
 
                 vector<FunctionType> result;
-                for (unsigned short j = 0; j < HowManyColsToCalculate; ++j) {
-                    FunctionType sum = 0;
-                    for (const auto& row : vVector) {
-                        sum += row[j];
+                for (unsigned short j = 1; j <= HowManyColsToCalculate; ++j) {
+                    optional<FunctionType> sum = SumCols::Specific<FunctionType>(vVector, {j}, false);
+                    if (sum.has_value()) {
+                        result.push_back(*sum);
                     }
-                    result.push_back(sum);
                 }
 
                 return result;

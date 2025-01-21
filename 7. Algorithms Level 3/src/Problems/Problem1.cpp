@@ -44,7 +44,7 @@ namespace Problem1
         {
             vector <vector<short int>> vVec;
             Random::Numbers::FillVector2D<short>(vVec,3,3,1,100);
-            Print::Print2DVectorAsMatrix("\t\tThis Is A Random Matrix:",vVec,"\t   ",true,2,2);
+            Print::Print2DVectorAsMatrix("\t\tThis Is A Random Matrix:",vVec,"\t   ",true,3,3);
             cout << endl;
         }
 
