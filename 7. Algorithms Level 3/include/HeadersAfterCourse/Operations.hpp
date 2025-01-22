@@ -213,5 +213,24 @@ namespace OPERATIONS {
 
             
         }
+
+        namespace Vector2dMultiplyAnotherVector2dFor3rdVector2d
+        {
+            template <typename T>
+            vector <vector<T>> TheFunction(vector <vector<T>> First2dVector, vector <vector<T>> Second2dVector, unsigned short HowManyRowsToCalculate, unsigned short HowManyColsToCalculate)
+            {
+                vector <vector<T>> Third2dVector;
+                Third2dVector.resize(HowManyRowsToCalculate, vector<T>(HowManyColsToCalculate));
+                for (unsigned short i = 0; i < HowManyRowsToCalculate; i++)
+                {
+                    for (unsigned short j = 0; j < HowManyColsToCalculate; j++)
+                    {
+                        Third2dVector[i][j] = First2dVector[i][j] * Second2dVector[i][j];
+                    }
+                }
+
+                return Third2dVector;
+            }
+        }
     }
 }

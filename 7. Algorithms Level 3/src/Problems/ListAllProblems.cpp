@@ -12,13 +12,15 @@ namespace List
         cout << "Problem 5 : Write A Program to fill 3x3 matrix with random numbers and print it then print each col sum but each col sum is inside an array" << endl;
         cout << "Problem 6 : Write A Program to fill 3x3 matrix with ordered numbers then print it\n";
         cout << "Problem 7 : Write A Program to fill 3x3 matrix with ordered numbers then print it and make another 2d vector to fill it in transposed format\n";
+        cout << "Problem 8 : Write A Program to fill 2 (3x3 matrix) with ordered numbers then print it and make another 2d vector to multiply first 2d vector by the second 2d vector\n";
+
     }
 
     void ChooseFromList(Solution solution, short choose)
     {
         if (solution == Solution::MySolution)
         {
-            if (choose > 0 && choose < 8)
+            if (choose > 0 && choose < 9)
             {
                 switch (choose)
                 {
@@ -42,6 +44,10 @@ namespace List
                         break;
                     case 7:
                         Problem7::MySolution::main();
+                        break;
+                    case 8:
+                        Problem8::MySolution::main();
+                        break;
                 }
             }
             else
@@ -53,7 +59,7 @@ namespace List
         }
         else if (solution == Solution::MrSolution)
         {
-            if (choose > 0 && choose < 8)
+            if (choose > 0 && choose < 9)
             {
                 switch (choose)
                 {
@@ -77,6 +83,10 @@ namespace List
                         break;
                     case 7:
                         Problem7::MrSolution::main();
+                        break;
+                    case 8:
+                        Problem8::MrSolution::main();
+                        break;
                 }
 
             }
