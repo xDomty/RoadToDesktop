@@ -1,0 +1,43 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/7thCourseALGORITHMS.dir/main.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/HeadersBeforeCourse/ClearScreen.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/HeadersBeforeCourse/Colors.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/HeadersBeforeCourse/Comparing.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/HeadersBeforeCourse/Employee.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/HeadersBeforeCourse/Load.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/HeadersBeforeCourse/PressAnyKeyToContinue.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/HeadersBeforeCourse/Print.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/HeadersBeforeCourse/Refresh.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/HeadersBeforeCourse/Swap.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/ListAllProblems.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/Problem1.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/Problem2.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/Problem3.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/Problem4.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/Problem5.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/Problem6.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/Problem7.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/Problem8.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/Problems/Problem9.cpp.o: dyndep
+
+build CMakeFiles/7thCourseALGORITHMS.dir/src/StartProgram/StartMyProgram.cpp.o: dyndep
+

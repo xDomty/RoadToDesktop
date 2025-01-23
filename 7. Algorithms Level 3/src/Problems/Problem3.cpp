@@ -1,7 +1,7 @@
 #pragma once
-#include "../HeadersBeforeCourse/Random.hpp"
-#include "../HeadersBeforeCourse/Print.hpp"
-#include "../HeadersAfterCourse/Operations.hpp"
+#include "../../include/HeadersBeforeCourse/Random.hpp"
+#include "../../include/HeadersBeforeCourse/Print.hpp"
+#include "../../include/HeadersAfterCourse/Operations.hpp"
 
 namespace Problem3
 {

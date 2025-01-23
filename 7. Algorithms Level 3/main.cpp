@@ -1,4 +1,4 @@
-#include "StartProgram/StartMyProgram.hpp"
+#include "include/StartProgram/StartMyProgram.hpp"
 
 int main()
 {
