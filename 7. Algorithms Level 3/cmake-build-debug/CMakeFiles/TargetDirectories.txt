@@ -1,3 +1,0 @@
-/home/adam/CLionProjects/7thCourseALGORITHMS/cmake-build-debug/CMakeFiles/7thCourseALGORITHMS.dir
-/home/adam/CLionProjects/7thCourseALGORITHMS/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/adam/CLionProjects/7thCourseALGORITHMS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
