@@ -16,4 +16,22 @@ namespace Print {
         }
     }
 
+    namespace ResultOfComparing {
+        string _2Matrixs(bool Result) {
+            if (Result == true) {
+                return "The both matrix are Equal";
+            }
+            return "The both matrix are NOT Equal";
+        }
+
+    }
+
+    string CheckTrue(bool result , string messageIfTRUE = "The function returned ture", string messageIfFALSE = "The function returned false") {
+        if (result == true) {
+            return messageIfTRUE;
+        }
+        return messageIfFALSE;
+    }
+
+
 }

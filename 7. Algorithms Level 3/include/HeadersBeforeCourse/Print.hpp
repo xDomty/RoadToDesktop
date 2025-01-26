@@ -155,5 +155,9 @@ namespace Print {
 
         return true;
     }
+
+    string CheckTrue(bool result , string messageIfTRUE, string messageIfFALSE);
+
+
 }
     

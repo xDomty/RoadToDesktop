@@ -1,6 +1,9 @@
 #pragma once
 #include "../../include/Problems/ListAllProblems.hpp"
 
+#include "../../include/Problems/Problem10.hpp"
+#include "../../include/Problems/Problem13.hpp"
+
 namespace List
 {
     void Print()
@@ -14,13 +17,20 @@ namespace List
         cout << "Problem 7 : Write A Program to fill 3x3 matrix with ordered numbers then print it and make another 2d vector to fill it in transposed format\n";
         cout << "Problem 8 : Write A Program to fill 2 (3x3 matrix) with ordered numbers then print it and make another 2d vector to multiply first 2d vector by the second 2d vector\n";
         cout << "Problem 9 : Write A Program to fill 1 (3x3 matrix) and make a function to print specific row and column\n";
+        cout << "Problem 10 : Write A Program to fill 1 (3x3 matrix) and make a function to print the sum of the matrix elements" << endl;
+        cout << "Problem 11 : Write A Program to fill 2 (3x3 matrix) and make a function to print if the sum of both matrixs are equal or not\n" ;
+        cout << "Problem 12 : Write A Program to fill 2 (3x3 matrix) and make a function to print if both matrixs are typical or not\n";
+        cout << "Problem 13 : Write A Program to fill 2 (3x3 matrix) and make a function to check if the matrix is identity matrix or not then print the result\n";
+        cout << "Problem 14 : Write A Program to fill 2 (3x3 matrix) and make a function to check if the matrix is scalar matrix or not then print the result\n";
+        cout << "Problem 15 : Write A Program to fill 2 (3x3 matrix) and make a function to check how many times does the number found" << endl;
+        cout << "Problem 16 : Write A Program to fill 2 (3x3 matrix) and make a function to check if the matrix is sparce matrix or not then print the result\n";
     }
 
     void ChooseFromList(Solution solution, short choose)
     {
         if (solution == Solution::MySolution)
         {
-            if (choose > 0 && choose < 10)
+            if (choose > 0 && choose < 17)
             {
                 switch (choose)
                 {
@@ -51,6 +61,27 @@ namespace List
                     case 9:
                         Problem9::MySolution::main();
                         break;
+                    case 10:
+                        Problem10::MySolution::main();
+                        break;
+                    case 11:
+                        Problem11::MySolution::main();
+                        break;
+                    case 12:
+                        Problem12::MySolution::main();
+                        break;
+                    case 13:
+                        Problem13::MySolution::main();
+                        break;
+                    case 14:
+                        Problem14::MySolution::main();
+                        break;
+                    case 15:
+                        Problem15::MySolution::main();
+                        break;
+                    case 16:
+                        Problem16::MySolution::main();
+                        break;
                 }
             }
             else
@@ -62,7 +93,7 @@ namespace List
         }
         else if (solution == Solution::MrSolution)
         {
-            if (choose > 0 && choose < 10)
+            if (choose > 0 && choose < 17)
             {
                 switch (choose)
                 {
@@ -93,6 +124,28 @@ namespace List
                     case 9:
                         Problem9::MrSolution::main();
                         break;
+                    case 10:
+                        Problem10::MrSolution::main();
+                        break;
+                    case 11:
+                        Problem11::MrSolution::main();
+                        break;
+                    case 12:
+                        Problem12::MrSolution::main();
+                        break;
+                    case 13:
+                        Problem13::MrSolution::main();
+                        break;
+                    case 14:
+                        Problem14::MrSolution::main();
+                        break;
+                    case 15:
+                        Problem15::MrSolution::main();
+                        break;
+                    case 16:
+                        Problem16::MrSolution::main();
+                        break;
+
                 }
 
             }
