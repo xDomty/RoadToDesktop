@@ -32,4 +32,6 @@ namespace Comparing
 		return (OPERATIONS::_2DVectors::SumRows::To<short>(vVector1,vVector1.size(),true) == OPERATIONS::_2DVectors::SumRows::To<short>(vVector2,vVector2.size(),true));
 	}
 
+
+
 }

@@ -1,4 +1,3 @@
-#pragma once
 #include "../../include/HeadersBeforeCourse/Random.hpp"
 #include "../../include/HeadersBeforeCourse/Print.hpp"
 #include "../../include/HeadersAfterCourse/Operations.hpp"

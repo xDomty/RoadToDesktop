@@ -93,7 +93,7 @@ namespace Random
 
 namespace Random
 {
-    namespace Strings
+    namespace StringsAndChars
     {
         // String related functions can be added here
     }

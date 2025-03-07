@@ -1,5 +1,5 @@
 #pragma once
-#include "../HeadersAfterCourse/AllHeadersAfterCourseInclude.hpp"
+#include "../HeadersAfterCourse/Operations.hpp"
 #include "../HeadersBeforeCourse/Print.hpp"
 #include "../HeadersBeforeCourse/Random.hpp"
 

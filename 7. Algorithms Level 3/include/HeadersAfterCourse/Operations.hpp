@@ -7,6 +7,34 @@
 using namespace std;
 
 namespace OPERATIONS {
+    namespace _1DVectors {
+        template <typename T>
+        vector <T> Fibonacci(short NumbersOfFibonacci)
+        {
+            vector <T> vVec;
+            vVec.push_back(1); // element 0
+            vVec.push_back(1); // element 1
+
+            for (short i = 0; i < NumbersOfFibonacci-2; i++)
+            {
+                vVec.push_back(vVec[0 + i] + vVec[1 + i]);
+            }
+
+            return vVec;
+        }
+
+        template <typename T>
+        void PrintFibonacciSeriesUsingRecursion(short Number, T prev1 = 0, T prev2 = 1) {
+
+            if (Number == 0) return;
+
+            cout << prev1 + prev2 << "  ";
+            PrintFibonacciSeriesUsingRecursion<T>(Number - 1, prev1 + prev2, prev1);
+        }
+
+    }
+
+
     namespace _2DVectors {
         namespace SumRows {
             template <typename FunctionType, typename TypeOf2dVector>
@@ -232,5 +260,108 @@ namespace OPERATIONS {
                 return Third2dVector;
             }
         }
+
+        namespace MaxAndMin {
+            template <typename T>
+            T Max(vector <vector <T>> vVec) {
+                T max = vVec[0][0];
+
+                for (unsigned short i = 0; i < vVec.size(); i++) {
+                    for (unsigned short j = 0; j < vVec[i].size(); j++) {
+                        if (vVec[i][j] > max) {
+                            max = vVec[i][j];
+                        }
+                    }
+                }
+                return max;
+            }
+
+            template <typename T>
+            T Min(vector <vector <T>> vVec) {
+                T min = vVec[0][0];
+
+                for (unsigned short i = 0; i < vVec.size(); i++) {
+                    for (unsigned short j = 0; j < vVec[i].size(); j++) {
+                        if (vVec[i][j] < min) {
+                            min = vVec[i][j];
+                        }
+                    }
+                }
+                return min;
+            }
+        }
+
+
     }
+
+    namespace StringsAndChars {
+        string EachFirstLetterOfEachWord(string S1);
+        string EachFirstLetterOfEachWordButCapital(string S1);
+        string TheTextButEachFirstWordIsACapitalLetter(string S1);
+        string TheTextButEachFirstWordIsALowerLetter(string S1);
+        string TheTextButAllWordsAreCapitalLetters(string S1);
+        string TheTextButAllWordsAreSmallLetters(string S1);
+        char InvertCharacterCase(char myChar);
+		string StringInvertedCase(string S1);
+        
+        
+        template <typename T>
+        T ReturnHowManyUpperInString(string str) {
+            T HowManyUpper = 0;
+            for (T i = 0; i < str.length(); i++) { if (isupper(str[i])) HowManyUpper++; }
+            return HowManyUpper;
+        }
+
+        template <typename T>
+        T ReturnHowManyLowerInString(string str) {
+            T HowManyLower = 0;
+            for (T i = 0; i < str.length(); i++) { if(islower(str[i]))  HowManyLower++; }
+            return HowManyLower;
+        }
+
+        enum WhatToCountInString { Upper, Lower, UpperAndLower, AllLetters };
+
+        template <typename T>
+        T UpperLowerLength(string str, WhatToCountInString YourChoice) {
+            switch (YourChoice) {
+                 case WhatToCountInString::Upper         : return ReturnHowManyUpperInString<T>(str);                                      break;
+                 case WhatToCountInString::Lower         : return ReturnHowManyLowerInString<T>(str);                                      break;
+				 case WhatToCountInString::UpperAndLower : return ReturnHowManyUpperInString<T>(str) + ReturnHowManyLowerInString<T>(str); break;
+				 case WhatToCountInString::AllLetters    : return str.length();		 	   									               break;
+            }
+        }
+
+        template <typename T>
+		optional <vector <T>> LocateCharacter(string str, char CharToLocate) {
+			vector <T> result;
+			for (T i = 0; i < str.length(); i++) {
+				if (str[i] == CharToLocate) result.push_back(i+1);
+			}
+            if (result.empty()) { return nullopt; }
+            else { return result; };
+		}
+
+        template <typename T>
+		T CountChar(string str, char CharToCount) {
+
+			T count = 0;
+			for (T i = 0; i < str.length(); i++) {
+				if (str[i] == CharToCount) count++;
+			}
+            return count;
+
+		}
+
+        template <typename T>
+        T CountCharUpperAndLower(string str, char CharToCount) {
+            T count = 0;
+            for (T i = 0; i < str.length(); i++) {
+				if (str[i] == CharToCount) count++;
+				else if (str[i] == toupper(CharToCount)) count++;
+            }
+            return count;
+        }
+
+    }
+
 }

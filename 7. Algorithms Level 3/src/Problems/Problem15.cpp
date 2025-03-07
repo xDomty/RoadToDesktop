@@ -51,7 +51,7 @@ namespace Problem15 {
 
             Print::Print2DVectorAsMatrix("Here is the 3x3 Matrix:\n",matrix,"",true,3,3);
 
-            short NumToFind = InputForce::Any<short>("Enter a number to find:","Invaild input please try again");
+            short NumToFind = Validate::Any<short>("Enter a number to find:","Invaild input please try again");
 
             short result = FindAndCounters::NumberInMatrix<short>(NumToFind,matrix);
 

@@ -1,7 +1,7 @@
 #pragma once
 #include "../HeadersBeforeCourse/Print.hpp"
 #include "../HeadersBeforeCourse/Random.hpp"
-#include "../HeadersBeforeCourse/Force.hpp"
+#include "../HeadersBeforeCourse/Validate.hpp"
 #include "../HeadersAfterCourse/FindAndCounters.hpp"
 
 namespace Problem15 {
