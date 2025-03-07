@@ -1,1 +1,7 @@
-# I was so noob when i made this so do not hesitate me ok :)
+# C++ LEVEL 1 COURSE
+
+
+  ## *IMPORTANT NOTE*
+    EVERY CPP FILE INCLUDES MAIN ...
+             SO EVERY CPP FILE MUST COMPILE SEPARATELY
+   
