@@ -1,2 +1,2 @@
-# This Project Was Made In VS COMMUNITY 2022
-## SOON I WILL MAKE THE FOLDERS READABLE SO BE PATIENT GUYS :)
+# Note :)
+    Every Header File Here Has Definition & The Lesson (and its homework if it had)
