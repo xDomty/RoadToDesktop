@@ -1,15 +1,8 @@
 # **C++ Level 1 Course: Foundations of C++ Programming**
 
-## **Course Overview**
-
-Welcome to the *Foundations of C++ Programming* course! This comprehensive Level 1 program introduces fundamental C++ concepts through a structured, hands-on approach. Each lesson is delivered in a self-contained `.cpp` file.
-
----
-
-## **Notes!**
+## **IMPORTANT NOTES!**
 - Each `.cpp` file is an independently compilable unit.
 - Every `.cpp` file includes its own `int main()` function.
-- Structured learning through 53 lessons with video tutorials and source code.
 
 ---
 
