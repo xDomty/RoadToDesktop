@@ -1,1 +1,2 @@
-# I was so noob when i made this so do not hesitate me ok :)
+# Important Note :)
+    every cpp file has main so every cpp file must compile seperately
