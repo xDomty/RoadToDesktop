@@ -3,12 +3,12 @@
 ## **Course Information**
 - **Total Lessons:** 53
 - **Course Playlist:** [YouTube Course Link](https://www.youtube.com/playlist?list=PL3X--QIIK-OFIRbOHbOXbcfSAvw198lUy)
-- **Course Creator:** [Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)
+- **Course Creator:** *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <sub>[Programming Advices](https://www.ProgrammingAdvices.com)</sub>
 
 ## **Lessons Breakdown :)**
 
-| **Lesson No.** | **Lesson Title** | **Session Link** |
-|--------------|----------------------------|----------------------------|
+| **Lesson No.** | **Lesson Title** | **Watch Session** | **Session's SRC** | **Session's Homework SRC** |
+|--------------|----------------------------|----------------------------|---------|------------|
 | 01 | Why to Start with C++? | [Watch Now](https://youtube.com/watch?v=4VepZmDa8Ic) |
 | 02 | What is C++? | [Watch Now](https://youtube.com/watch?v=wr8A8i8vlBQ) |
 | 03 | What can you do with C++? | [Watch Now](https://youtube.com/watch?v=ZczjYLPTrpc) |
