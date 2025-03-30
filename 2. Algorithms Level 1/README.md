@@ -15,7 +15,7 @@
 ## **Solution Example**
 ![لقطة شاشة 2025-03-30 151220](https://github.com/user-attachments/assets/6c3d5e17-5ddd-4481-8376-fcc6328f1517)
 
-## **Lessons Breakdown :)**
+## **Problems Breakdown :)**
 
 | **Problem No.** | **Problem Title** | **Session Link** |
 |--------------|----------------------------|----------------------------|
