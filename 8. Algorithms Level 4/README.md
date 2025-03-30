@@ -5,7 +5,7 @@ This course consists of **65 problems** and **2 projects**.
 
 ## Below is the list of problems.
 
-| **Problem No.** | **Problem Name** | **Header Link** | **Source Link** |
+| **Problem No.** | **Problem Name** | **Header File** | **SRC File** |
 |------|----------------------------|--------------|--------------|
 | 1 | NUMBER TO TEXT | [Problem1.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem1.hpp) | [Problem1.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem1.cpp) |
 | 2 | LEAP YEAR | [Problem2.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem2.hpp) | [Problem2.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem2.cpp) |
@@ -31,7 +31,6 @@ This course consists of **65 problems** and **2 projects**.
 | 22 | INCREASE DATE BY X WEEKS | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
 | 23 | INCREADE DATE BY ONE MONTH | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
 | 24 | INCREASE DATE BY X MONTHS | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
-| 24 | INCREASE DATE BY X MONTHS | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
 | 25 | INCREASE DATE BY ONE YEAR | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
 | 26 | INCREASE DATE BY X YEARS | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
 | 27 | INCREASE DATE BY X YEARS FASTER | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
@@ -39,12 +38,25 @@ This course consists of **65 problems** and **2 projects**.
 | 29 | INCREASE DATE BY X DECADES | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
 | 30 | INCREASE DATE BY X DECADES FASTER | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
 | 31 | INCREASE DATE BY ONE CENTURY | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
-| 32 | INCREASE DATE BY ONE MILLENNIUM | [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
-| 33-46 | DECREASE DATE PROBLEMS | - | - |
+| 32 | INCREASE DATE BY ONE MILLENNIUM |  [Problem20-32.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem20-32.hpp) | [Problem20-32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem20-32.cpp) |
+| 33 | DECREASE DATE BY ONE DAY |          [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 34 | DECREASE DATE BY ONE WEEK |         [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 35 | DECREASE DATE BY X WEEKS |          [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 36 | DECREADE DATE BY ONE MONTH |        [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 37 | DECREASE DATE BY X MONTHS |         [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 38 | DECREASE DATE BY X MONTHS |         [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 39 | DECREASE DATE BY ONE YEAR |         [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 40 | DECREASE DATE BY X YEARS |          [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 41 | DECREASE DATE BY X YEARS FASTER |   [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 42 | DECREASE DATE BY ONE DECADE |       [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 43 | DECREASE DATE BY X DECADES |        [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 44 | DECREASE DATE BY X DECADES FASTER | [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 45 | DECREASE DATE BY ONE CENTURY |      [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
+| 46 | DECREASE DATE BY ONE MILLENNIUM |   [Problem33-46.hpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/include/Problem33-46.hpp) | [Problem33-46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/8.%20Algorithms%20Level%204/src/Problem33-46.cpp) |
 | 47-53 | MORE DATE PROBLEMS | - | - |
 | 54 | CALCULATE VACATION DAYS | [Problem54.hpp]() | [Problem54.cpp]() |
 | 55 | CALCULATE VACATION END | [Problem55.hpp]() | [Problem55.cpp]() |
 | 56 | IS DATE1 AFTER DATE2 | [Problem56.hpp]() | [Problem56.cpp]() |
 | 57 | DATES COMPARE FUNCTION | [Problem57.hpp]() | [Problem57.cpp]() |
-| 58 | DO PERIODS OVERLAP - MY SOLUTION | [Problem58.hpp]() | [Problem58.cpp]() |
+| 58 | DO PERIODS OVERLAP | [Problem58.hpp]() | [Problem58.cpp]() |
 
