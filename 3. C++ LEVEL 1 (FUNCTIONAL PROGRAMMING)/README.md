@@ -1,4 +1,4 @@
-# **C++ Level 1 Course: Foundations of C++ Programming**
+# **C++ Level 1 : Functional Programming**
 
 
 ## **Course Information**
