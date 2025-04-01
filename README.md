@@ -5,15 +5,44 @@ This document outlines my structured learning path in Full-Stack Desktop & Backe
 
 ---
 
-## **Course Information**
+## **Student Information**
+
+| **Attribute**  | **Details**  |
+|--------------|-----------|
+| **Name**  | Adam Ahmed  |
+| **Date of Birth** | 26/02/2009  |
+
+---
+
+## **Instructor Information**
 
 | **Attribute**  | **Details**  |
 |--------------|-----------|
 | **Language**  | Arabic  |
-| **Learning Platform** | [Programming Advices Courses](https://ProgrammingAdvices.com/courses)  |
 | **Instructor**  | [Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)  |
-| **Website** | [Programming Advices](https://www.ProgrammingAdvices.com) |
-| **Course Pricing** | Free  |
+
+---
+
+## **Learning Resources**
+
+| **Platform** | **Link** |
+|--------------|---------|
+| **Course Website** | [Programming Advices Courses](https://ProgrammingAdvices.com/courses) |
+| **Instructor's Website** | [Programming Advices](https://www.ProgrammingAdvices.com) |
+| **YouTube Channel** | [Programming Advices YouTube](https://www.youtube.com/@ProgrammingAdvices) |
+
+---
+
+## **Course Pricing & Discounts**
+
+| **Course Range** | **Price (USD)** |
+|-----------------|----------------|
+| First 4 Courses | Free |
+| Each Additional Course | $20 |
+
+**Discount Coupons:** If you cannot afford the courses, discount coupons are available at [ProgrammingAdvices Coupons](https://ProgrammingAdvices.com/copouns), offering discounts of **25%, 50%, 75%,** and even **100%**.
+
+**Note:** These coupons are intended for students who are financially in need, not for those who can afford to pay the full course fee.
 
 ---
 
