@@ -15,7 +15,7 @@ Hello! I'm Adam Ahmed, born on February 26, 2009, and I'm passionate about progr
 
 ## Roadmap & Progress
 
-| #  | Course Name & Official Link                                                                                                 | Repository Folder                                                                                               | Progress        | Instructor Progress |
+| #  | Course Name & Official Link                                                                                                 | My Repository Folder                                                                                               | My Progress        | Instructor's Progress |
 | :- | :----------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- | :-------------- | :------------------ |
 | 01 | [Foundations Level 1](https://programmingadvices.com/p/00316b)                                                               | [Foundations Level 1](./1.%20Foundations%20Level%201)                                                          | ✅ Finished     | ✅ Finished          |
 | 02 | [Algorithms Level 1](https://programmingadvices.com/p/00316b1)                                                              | [Algorithms Level 1](./2.%20Algorithms%20Level%201)                                                           | ✅ Finished     | ✅ Finished          |
