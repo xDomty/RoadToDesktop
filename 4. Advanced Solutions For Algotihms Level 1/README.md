@@ -10,6 +10,7 @@
 ## **Important Note**
 - Every cpp file has it's own int main() func --> (*meaning that every cpp file must compile seperately*)
 - The problems here are the same as [Algorithms Level 1](https://github.com/xDomty/RoadToDesktop/tree/main/2.%20Algorithms%20Level%201) course  but the deffrence here it's made by coding in cpp
+- In this course we learned also how to type clean code :)
 
 ## **Problems Breakdown :)**
 
