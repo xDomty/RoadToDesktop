@@ -13,7 +13,7 @@
 
 ## **Problems Breakdown :)**
 
-| **Lesson No.** | **Lesson Title** | **Watch Session** | **Session's SRC** |
+| **Problem No.** | **Problem Title** | **Session's Problem Solution** | **Problem's SRC** |
 |--------------|----------------------------|----------------------------|---------|
 | 01 | Print Mohammed | [Watch Now](https://www.youtube.com/watch?v=ifoC6FFeq8M&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=3&pp=iAQB) | [Problem1.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem1.cpp) |
 | 02 | Enter your name then print your name | [Watch Now](https://www.youtube.com/watch?v=ifoC6FFeq8M&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=3&pp=iAQB) | [Problem2.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem2.cpp) |
