@@ -1,41 +1,68 @@
-# My road to make desktop applications
-## note : These courses i have learned it from programmingadvices.com (By DR.Mohammed Abu Hadhood)
+# **Full-Stack Desktop & Backend Development Roadmap**
 
-# The following courses are my road to learn how to make desktop applications
+## **Student Learning Pathway**
+This document outlines my structured learning path in Full-Stack Desktop & Backend Development, including course details, learning platforms, instructor information, pricing, and progress tracking.
 
-    01. Foundations Level 1
-    02. Algorithms Level 1
-    03. C++ Level 1 (FUNCTIONAL PROGRAMMING)
-    04. Advanced Solutions for algorithms level 1
-    05. Algorithms Level 2
-    06. C++ Level 2 (FUNCTIONAL PROGRAMMING)
-    07. Algorithms Level 3
-    08. Algotihms Level 4
-    09. Foundations Level 2
-    10. C++ Level 3 (OOP)
-    11. C++ Level 4 (OOP)
-    12. Data Structures Level 1
-    13. Algorithms Level 5
-    14. C# Level 1 (FUNCTIONAL PROGRAMMING)
-    15. Database Level 1: SQL
-    16. OOP In C#
-    17. Database Project
-    18. C# & Database
-    19. Full Project In C#
-    20. C# Level 2
-    21. DataBase Level 2: T-SQL
-    22. Data Structures Level 2
-    23. Algorithms Level 6
-    24. Windows Services
+---
 
-## What I Have Done From Them Currently Is:
-    01. Foundations Level 1
-    02. Algorithms Level 1
-    03. C++ Level 1 (FUNCTIONAL PROGRAMMING)
-    04. Advanced Solutions for algorithms level 1
-    05. Algorithms Level 2
-    06. C++ Level 2 (FUNCTIONAL PROGRAMMING)
+## **Course Information**
 
-## And Now Iam Working On:
-    07. Algorithms Level 3
-    
+| **Attribute**  | **Details**  |
+|--------------|-----------|
+| **Language**  | Arabic  |
+| **Learning Platform** | [Programming Advices Courses](https://ProgrammingAdvices.com/courses)  |
+| **Instructor**  | [Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)  |
+| **Website** | [Programming Advices](https://www.ProgrammingAdvices.com) |
+| **Course Pricing** | Free  |
+
+---
+
+## **Curriculum and Progress Tracker**
+
+| #  | **Course Title**                                  | **Progress**        |
+|----|--------------------------------------------------|----------------------|
+| 1  | Foundations Level 1                              | ✅ **Completed** |
+| 2  | Algorithms Level 1                              | ✅ **Completed** |
+| 3  | C++ Level 1 (Functional Programming)           | ✅ **Completed** |
+| 4  | Advanced Solutions for Algorithms Level 1      | ✅ **Completed** |
+| 5  | Algorithms Level 2                              | ✅ **Completed** |
+| 6  | C++ Level 2 (Functional Programming)           | ✅ **Completed** |
+| 7  | Algorithms Level 3                              | 🟡 **In Progress** |
+| 8  | Algorithms Level 4                              | 🔴 **Not Started** |
+| 9  | Foundations Level 2                             | 🔴 **Not Started** |
+| 10 | C++ Level 3 (Object-Oriented Programming)      | 🔴 **Not Started** |
+| 11 | C++ Level 4 (Object-Oriented Programming)      | 🔴 **Not Started** |
+| 12 | Data Structures Level 1                        | 🔴 **Not Started** |
+| 13 | Algorithms Level 5                              | 🔴 **Not Started** |
+| 14 | C# Level 1 (Functional Programming)           | 🔴 **Not Started** |
+| 15 | Database Level 1: SQL                          | 🔴 **Not Started** |
+| 16 | Object-Oriented Programming in C#             | 🔴 **Not Started** |
+| 17 | Database Project                               | 🔴 **Not Started** |
+| 18 | C# & Database Integration                     | 🔴 **Not Started** |
+| 19 | Full Project in C#                             | 🔴 **Not Started** |
+| 20 | C# Level 2                                    | 🔴 **Not Started** |
+| 21 | Database Level 2: T-SQL                       | 🔴 **Not Started** |
+| 22 | Data Structures Level 2                        | 🔴 **Not Started** |
+| 23 | Algorithms Level 6                              | 🔴 **Not Started** |
+| 24 | Windows Services                              | 🔴 **Not Started** |
+
+---
+
+## **Learning Roadmap**
+This roadmap follows a structured approach, covering foundational concepts, algorithms, programming languages (C++ and C#), databases, and full-stack development. The roadmap ensures a progressive learning curve, leading to hands-on projects and advanced backend development skills.
+
+### **Learning Phases:**
+1. **Fundamentals:** Master basic programming concepts and problem-solving techniques.
+2. **Algorithms & Data Structures:** Develop strong analytical and problem-solving skills.
+3. **C++ Proficiency:** Gain expertise in functional and object-oriented programming.
+4. **C# & Databases:** Learn database management and backend integration with C#.
+5. **Real-World Projects:** Apply knowledge to build functional applications.
+6. **Advanced Backend & Services:** Explore professional-level backend solutions.
+
+This structured approach ensures a strong technical foundation and industry readiness.
+
+---
+
+## **Final Thoughts**
+This document serves as a personal progress tracker and roadmap for achieving expertise in Full-Stack Desktop & Backend Development. By following this structured learning path, I aim to gain in-depth knowledge and hands-on experience in software development.
+
