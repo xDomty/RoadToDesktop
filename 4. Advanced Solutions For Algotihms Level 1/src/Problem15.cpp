@@ -1,16 +1,29 @@
-#pragma once
-#include "../include/Problem15.hpp"
-#include "../include/Force.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem15
+void ReadNumbers(float& A, float& B)
 {
-    void main()
-    {
-        float length, width;
-        cout << "Hello, This program calculates the area of a rectangle\n";
-        length = InputForce::Positive<float>("Please enter the length of the rectangle: ");
-        width = InputForce::Positive<float>("Please enter the width of the rectangle: ");
+    cout << "Please enter rectangle width A ? " << endl;
+    cin >> A;
+    cout << "Please enter rectangle length B ? " << endl;
+    cin >> B;
+}
 
-        cout << "The area of the rectangle is: " << RectangleArea(length, width) << std::endl;
-    }
+float CalculateRectangleArea(float A, float B)
+{
+    return A * B;
+}
+
+void PrintResult(float Area)
+{
+    cout << "\nRectangle Area = " << Area << endl;
+}
+
+int main()
+{
+    float A, B;
+    ReadNumbers(A, B);
+    PrintResult(CalculateRectangleArea(A, B));
+    return 0;
 }

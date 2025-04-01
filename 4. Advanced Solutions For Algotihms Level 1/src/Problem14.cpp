@@ -1,25 +1,39 @@
-#pragma once
-#include "../include/Problem14.hpp"
-#include "../include/Force.hpp"
+#include <iostream>
+#include <string>
 using namespace std;
 
-namespace Problem14
+void ReadNumbers(int& Num1, int& Num2)
 {
-    void main()
-    {
-        float num1, num2;
-        cout << "Hello, This program swaps the numbers you type\n";
-        num1 = InputForce::Any<float>("Please enter the first number: ");
-        num2 = InputForce::Any<float>("Please enter the second number: ");
+    cout << "Please enter Number A ? " << endl;
+    cin >> Num1;
 
-        cout << "Numbers before swapping:\n";
-        cout << "First number: " << num1 << endl;
-        cout << "Second number: " << num2 << endl;
+    cout << "Please enter Number B ? " << endl;
+    cin >> Num2;
+}
 
-        swipe(num1, num2);
+void Swap(int& A, int& B)
+{
+    int Temp;
 
-        cout << "Numbers after swapping:\n";
-        cout << "First number: " << num1 << endl;
-        cout << "Second number: " << num2 << endl;
-    }
+    Temp = A;
+    A = B;
+    B = Temp;
+}
+
+void PrintNumbers(int Num1, int Num2)
+{
+    cout << "\nNumber1 = " << Num1 << endl;
+    cout << "Number2 = " << Num2 << endl;
+}
+
+int main()
+{
+    int Num1, Num2;
+
+    ReadNumbers(Num1, Num2);
+    PrintNumbers(Num1, Num2);
+    Swap(Num1, Num2);
+    PrintNumbers(Num1, Num2);
+
+    return 0;
 }

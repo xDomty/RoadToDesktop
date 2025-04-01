@@ -1,17 +1,37 @@
-#pragma once
-#include "../include/Problem25.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem25
+int ReadAge()
 {
-    void WELCOMER()
-    {
-        cout << "This program checks if the entered age is valid or not\n";
-    }
+    int Age;
+    cout << "Please enter an Age between 18 and 45 ? " << endl;
+    cin >> Age;
+    return Age;
+}
 
-    void main()
+bool ValidateNumberInRange(int Number, int From, int To)
+{
+    return (Number >= From && Number <= To);
+}
+
+int ReadUntilAgeBetween(int From, int To)
+{
+    int Age = 0;
+    do
     {
-        WELCOMER();
-        short age = InputForce::NumBetween<short>(18, 45, "Please enter your age: ", "You must enter your age between 18 and 45");
-        cout << "VALID AGE\n";
-    }
+        Age = ReadAge();
+    } while (!ValidateNumberInRange(Age, From, To));
+    return Age;
+}
+
+void PrintResult(int Age)
+{
+    cout << "Your Age is: " << Age << endl;
+}
+
+int main()
+{
+    PrintResult(ReadUntilAgeBetween(18, 45));
+    return 0;
 }

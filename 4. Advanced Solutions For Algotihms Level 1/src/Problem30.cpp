@@ -1,33 +1,31 @@
-#pragma once
-#include "../include/Problem30.hpp"
-#include "../include/Force.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem30
+int ReadPositiveNumber(string Message)
 {
-    void WELCOMER()
+    int Number;
+    do
     {
-        cout << "Hello, This program calculates the factorial of a number\n";
-    }
+        cout << Message << endl;
+        cin >> Number;
+    } while (Number < 0);
 
-    double Factorial(double N)
-    {
-        double result = 1;
-        for (short i = 1; i <= N; i++)
-        {
-            result *= i;
-        }
-        return result;
-    }
+    return Number;
+}
 
-    void PrintResult(double N)
+int Factorial(int N)
+{
+    int F = 1;
+    for (int Counter = N; Counter >= 1; Counter--)
     {
-        cout << "The factorial of " << N << " is: " << Factorial(N) << endl;
+        F = F * Counter;
     }
+    return F;
+}
 
-    void main()
-    {
-        WELCOMER();
-        short N = InputForce::Positive<short>("Please enter N: ");
-        PrintResult(N);
-    }
+int main()
+{
+    cout << Factorial(ReadPositiveNumber("Please enter a positive number???")) << endl;
+    return 0;
 }

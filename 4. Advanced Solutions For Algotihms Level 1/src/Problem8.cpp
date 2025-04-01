@@ -1,14 +1,31 @@
-#pragma once
-#include "../include/Problem8.hpp"
-#include "../include/Force.hpp"
-namespace Problem8
+#include <iostream>
+#include <string>
+using namespace std;
+
+enum enPassFail { Pass = 1, Fail = 2 };
+
+float ReadMark()
 {
-    void main()
-    {
-        cout << "HELLO!";
-        cout << "\nThis program makes you enter the mark from 1 to 100\n";
-        float mark;
-        mark = InputForce::NumBetween<float>(1,100,"Please enter the mark: ","Invalid input. Try again.");
-        cout << PrintResultOfMark(mark,1,100,50);
-    }
+    float Mark;
+    cout << "Please enter your mark? " << endl;
+    cin >> Mark;
+    return Mark;
+}
+
+enPassFail CheckMark(float Mark)
+{
+    if (Mark >= 50) return enPassFail::Pass;
+    else return enPassFail::Fail;
+}
+
+void PrintResults(int Mark)
+{
+    if (CheckMark(Mark) == enPassFail::Pass) cout << "\n You Passed" << endl;
+    else  cout << "\n You Failed" << endl;
+}
+
+int main()
+{
+    PrintResults(ReadMark());
+    return 0;
 }

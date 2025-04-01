@@ -1,18 +1,26 @@
-#pragma once
-#include "../include/Problem31.hpp"
-#include "../include/Force.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem31
+int ReadNumber()
 {
-    void WELCOMER()
-    {
-        cout << "Hello, This program calculates the power of 2, 3, and 4 of a number\n";
-    }
+    int Number;
+    cout << "Please enter a number? " << endl;
+    cin >> Number;
+    return Number;
+}
 
-    void main()
-    {
-        WELCOMER();
-        short N = InputForce::Positive<short>("Please enter N: ");
-        PrintResultOfPower(N);
-    }
+void PowerOf2_3_4(int Number)
+{
+    int a, b, c;
+    a = Number * Number;
+    b = Number * Number * Number;
+    c = Number * Number * Number * Number;
+    cout << a << " " << b << " " << c << endl;
+}
+
+int main()
+{
+    PowerOf2_3_4(ReadNumber());
+    return 0;
 }

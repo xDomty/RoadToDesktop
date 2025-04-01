@@ -1,13 +1,36 @@
-#pragma once
-#include "../include/Problem3.hpp"
-#include "../include/Force.hpp"
-namespace Problem3
+#include <iostream>
+#include <string>
+using namespace std;
+
+enum enNumberType { Odd = 1, Even = 2 };
+
+int ReadNumber()
 {
-       void main()
-       {
-          int number;
-          cout << "Hello,This program makes you enter a number then it prints if it odd or even\n";
-          number = InputForce::Any<int>("Please enter your number : "); 
-          cout << ResultOfIsEven(number);
-       }
+    int Num;
+    cout << "Please enter a number? " << endl;
+    cin >> Num;
+    return Num;
+}
+
+enNumberType CheckNumberType(int Num)
+{
+    int Result = Num % 2;
+    if (Result == 0)
+        return enNumberType::Even;
+    else
+        return enNumberType::Odd;
+}
+
+void PrintNumberType(enNumberType NumberType)
+{
+    if (NumberType == enNumberType::Even)
+        cout << "\n Number is Even. \n";
+    else
+        cout << "\n Number is Odd. \n";
+}
+
+int main()
+{
+    PrintNumberType(CheckNumberType(ReadNumber()));
+    return 0;
 }

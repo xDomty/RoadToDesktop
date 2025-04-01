@@ -1,21 +1,39 @@
-#pragma once
-#include "../include/Problem6.hpp"
-#include <string>
-namespace Problem6
+#include <iostream>
+using namespace std;
+
+struct stInfo
 {
-    string FirstNamePlusLastName(string FirstName,string LastName)
-    {
-        return FirstName + ' ' + LastName;
-    }
-    
-    void main()
-    {
-       string FirstName, LastName;
-       cout << "Hello, Please enter first name\n";
-       cin >> FirstName;
-       cout << "Please enter your last name\n";
-       cin.ignore();
-       getline(cin, LastName);
-       cout << "\nYour name is : " << FirstNamePlusLastName(FirstName,LastName);
-    }
+    string FirstName;
+    string LastName;
+};
+
+stInfo ReadInfo()
+{
+    stInfo Info;
+    cout << "Please Enter Your First Name?" << endl;
+    cin >> Info.FirstName;
+    cout << "Please Enter Your Last Name?" << endl;
+    cin >> Info.LastName;
+    return Info;
+}
+
+string GetFullName(stInfo Info, bool Reversed)
+{
+    string FullName = "";
+    if (Reversed)
+        FullName = Info.LastName + " " + Info.FirstName;
+    else
+        FullName = Info.FirstName + " " + Info.LastName;
+    return FullName;
+}
+
+void PrintFullName(string FullName)
+{
+    cout << "\n Your full name is: " << FullName << endl;
+}
+
+int main()
+{
+    PrintFullName(GetFullName(ReadInfo(), true));
+    return 0;
 }

@@ -1,18 +1,30 @@
-#pragma once
-#include "../include/Problem18.hpp"
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
 
-namespace Problem18
+float ReadRadius()
 {
-    void WELCOMER()
-    {
-        cout << "Hello,\nThis program calculates the area of circle.\n";
-    }
+    float R;
+    cout << "Please enter radius R ? " << endl;
+    cin >> R;
+    return R;
+}
 
-    void main()
-    {
-        float radius;
-        WELCOMER();
-        TakeInput(radius);
-        PrintResult(radius);
-    }
+float CircleArea(float R)
+{
+    const float PI = 3.141592653589793238;
+    float Area = pow(R, 2) * PI;
+    return Area;
+}
+
+void PrintResult(float Area)
+{
+    cout << "\nCircle Area = " << Area << endl;
+}
+
+int main()
+{
+    PrintResult(CircleArea(ReadRadius()));
+    return 0;
 }

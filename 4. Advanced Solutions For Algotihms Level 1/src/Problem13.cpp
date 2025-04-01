@@ -1,18 +1,36 @@
-#pragma once
-#include "../include/Problem13.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem13
+void ReadNumbers(int& A, int& B, int& C)
 {
-    void WELCOME()
-    {
-        cout << "Hello, This program print to you the biggest number from three numbers you type\n";
-    }
+    cout << "Please enter Number A: ";
+    cin >> A;
 
-    void main()
-    {
-        float num[3];
-        WELCOME();
-        TakingTheInput(num);
-        cout << PrintResultOfMaxOf3(num);
-    }
+    cout << "Please enter Number B: ";
+    cin >> B;
+
+    cout << "Please enter Number C: ";
+    cin >> C;
+}
+
+int MaxOf3Numbers(int A, int B, int C)
+{
+    return max(A, max(B, C));
+}
+
+void PrintResults(int Max)
+{
+    cout << "\nThe Maximum Number is: " << Max << endl;
+}
+
+int main()
+{
+    int A, B, C;
+
+    ReadNumbers(A, B, C);
+
+    PrintResults(MaxOf3Numbers(A, B, C));
+
+    return 0;
 }

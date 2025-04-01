@@ -1,18 +1,41 @@
-#pragma once
-#include "../include/Problem32.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem32
+int ReadNumber()
 {
-    void WELCOMER()
+    int Number;
+    cout << "Please enter a number? " << endl;
+    cin >> Number;
+    return Number;
+}
+
+int ReadPower()
+{
+    int Number;
+    cout << "Please enter the power? " << endl;
+    cin >> Number;
+    return Number;
+}
+
+int PowerOfM(int Number, int M)
+{
+    if (M == 0)
     {
-        cout << "Hello, This program calculates (number ^ power)\n";
+        return 1;
     }
 
-    void main()
+    int P = 1;
+    for (int i = 1; i <= M; i++)
     {
-        WELCOMER();
-        short num,power;
-        ReadInput(num,power);
-        PrintResult(num,power);
+        P = P * Number;
     }
+
+    return P;
+}
+
+int main()
+{
+    cout << endl << "Result = " << PowerOfM(ReadNumber(), ReadPower()) << endl;
+    return 0;
 }

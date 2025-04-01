@@ -1,15 +1,14 @@
-#pragma once
-#include "../include/Problem1.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem1
+void PrintName(string Name)
 {
-      string mohammed()
-      {
-          return "Mohammed";
-      }
+    cout << "\n Your Name is: " << Name << endl;
+}
 
-      void main()
-      {
-          cout << mohammed();
-      }
+int main()
+{
+    PrintName("Mohammed");
+    return 0;  
 }

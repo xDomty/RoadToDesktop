@@ -1,14 +1,36 @@
-#pragma once
-#include "../include/Problem9.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem9
+void ReadNumbers(int &Num1, int &Num2, int &Num3)
 {
-    void main()
-    {
-        float num[3];
-        cout << "Hello!\nThis program makes you enter 3 numbers then it calculates the sum of it.\n";
-        TakeInput(num);
-        cout << "The result of " << num[0] << " + " << num[1] << " + " << num[2] << " = " << SumOf3Nums<float>(num);
-    }
+    cout << "Please enter your Number 1 ? " << endl;
+    cin >> Num1;
 
+    cout << "Please enter your Number 2 ? " << endl;
+    cin >> Num2;
+    
+    cout << "Please enter your Number 3 ? " << endl;
+    cin >> Num3;
+}
+
+int SumOf3Numbers(int Num1, int Num2, int Num3)
+{
+    return Num1 + Num2 + Num3;
+}
+
+void PrintResults(int Total)
+{
+    cout << "\n The total sum of numbers is: " << Total << endl;
+}
+
+int main()
+{
+    int Num1, Num2, Num3;
+
+    ReadNumbers(Num1, Num2, Num3);
+
+    PrintResults(SumOf3Numbers(Num1, Num2, Num3));
+
+    return 0;
 }

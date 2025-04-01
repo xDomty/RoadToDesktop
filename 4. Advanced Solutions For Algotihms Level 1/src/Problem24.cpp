@@ -1,44 +1,30 @@
-#pragma once
-#include "../include/Problem24.hpp"
-#include <optional>
 #include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem24
+int ReadAge()
 {
-    void WELCOMER()
-    {
-        std::cout << "This program checks if the entered age is valid or not\n";
-    }
+    int Age;
+    cout << "Please enter your Age ? " << endl;
+    cin >> Age;
+    return Age;
+}
 
-    inline std::optional<short> CheckAge()
-    {
-        short age;
-        std::cout << "Enter age: ";
-        std::cin >> age;
+bool ValidateNumberInRange(int Number, int From, int To)
+{
+    return (Number >= From && Number <= To);
+}
 
-        if (age >= 0 && age <= 100) {
-            return age;
-        }
-        else {
-            return std::nullopt;
-        }
-    }
+void PrintResult(int Age)
+{
+    if (ValidateNumberInRange(Age, 18, 45))
+        cout << Age << " is a valid age \n";
+    else
+        cout << Age << " is an invalid age \n";
+}
 
-
-    void PrintResult(std::optional<short> age)
-    {
-        if (age.has_value())
-            std::cout << "VALID AGE";
-        else
-            std::cout << "INVALID AGE";
-    }
-
-    void main()
-    { 
-        WELCOMER();
-        optional <short> age;
-		age = CheckAge();
-        PrintResult(age);
-        std::cout << std::endl;
-    }
+int main()
+{
+    PrintResult(ReadAge());
+    return 0;
 }

@@ -1,19 +1,36 @@
-#pragma once
-#include "../include/Problem12.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem12
+void ReadNumbers(int& Num1, int& Num2)
 {
-    void WELCOME()
-    {
-        cout << "Hello, This program print to you the biggest number from both numbers you type\n";
-    }
+    cout << "Please enter Number 1 ? " << endl;
+    cin >> Num1;
 
-    void main()
-    {
-       int num[2];
-       WELCOME();
-       TakingTheInput(num);
-       cout << PrintResultOfMaxOf2(num);
-    }
+    cout << "Please enter Number 2 ? " << endl;
+    cin >> Num2;
 }
 
+int MaxOf2Numbers(int Num1, int Num2)
+{
+    if (Num1 > Num2)
+        return Num1;
+    else
+        return Num2;
+}
+
+void PrintResults(int Max)
+{
+    cout << "\n The Maximum Number is: " << Max << endl;
+}
+
+int main()
+{
+    int Num1, Num2;
+
+    ReadNumbers(Num1, Num2);
+
+    PrintResults(MaxOf2Numbers(Num1, Num2));
+
+    return 0;
+}

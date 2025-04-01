@@ -1,18 +1,30 @@
-#pragma once
-#include "../include/Problem20.hpp"
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
 
-namespace Problem20
+float ReadSquareSide()
 {
-    void WELCOMER()
-    {
-        cout << "Hello\nThis program calculates Circle area inscribed in a square width\n";
-    }
+    float A;
+    cout << "Please enter square side A ? " << endl;
+    cin >> A;
+    return A;
+}
 
-    void main()
-    {
-        WELCOMER();
-        float width;
-        TakeInput(width);
-        PrintResult(width);
-    }
+float CircleAreaInscribedInSquare(float A)
+{
+    const float PI = 3.141592653589793238;
+    float Area = (PI * pow(A, 2)) / 4;
+    return Area;
+}
+
+void PrintResult(float Area)
+{
+    cout << "\nCircle Area = " << Area << endl;
+}
+
+int main()
+{
+    PrintResult(CircleAreaInscribedInSquare(ReadSquareSide()));
+    return 0;
 }

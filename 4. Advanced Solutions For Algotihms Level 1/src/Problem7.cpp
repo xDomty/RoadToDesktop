@@ -1,17 +1,28 @@
-#pragma once
-#include "../include/Problem7.hpp"
-#include "../include/Force.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem7
+float ReadNumber()
 {
-    void main()
-    {
-        //defining vars
-        float UserNum;
-    
-        cout << "Hello, This program is taking the half of the number\n"; // INTRODUCTION
-        UserNum = InputForce::Any<short>(); //taking the input
+    float Num;
+    cout << "Please enter a number? " << endl;
+    cin >> Num;
+    return Num;
+}
 
-        cout << "Here is the half of the number : " << HalfNumber<short>(UserNum) << endl;
-    }
+float CalculateHalfNumber(float Num)
+{
+    return Num / 2;
+}
+
+void PrintResults(int Num)
+{
+    string Result = "Half of " + to_string(Num) + " is " + to_string(CalculateHalfNumber(Num));
+    cout << endl << Result << endl;
+}
+
+int main()
+{
+    PrintResults(ReadNumber());
+    return 0;
 }

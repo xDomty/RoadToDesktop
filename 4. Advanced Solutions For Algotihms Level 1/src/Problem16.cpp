@@ -1,27 +1,34 @@
-#pragma once
-#include "../include/Problem16.hpp"
-#include "../include/Force.hpp"
+#include <iostream>
+#include <string>
 #include <cmath>
+using namespace std;
 
-
-namespace Problem16
+void ReadNumbers(float& A, float& D)
 {
+    cout << "Please enter rectangle side A ? " << endl;
+    cin >> A;
 
-    void WELCOMER()
-    {
-        cout << "Hello,\nThis program calculates the area of a rectangle from its length and diameter\n";
-    }
+    cout << "Please enter rectangle diagonal D ? " << endl;
+    cin >> D;
+}
 
-    
+float RectangleAreaBySideAndDiagonal(float A, float D)
+{
+    float Area = A * sqrt(pow(D, 2) - pow(A, 2));
+    return Area;
+}
 
-    void main()
-    {
-        // Defining variables
-        float length;
-        float rectangleDiameter;
+void PrintResult(float Area)
+{
+    cout << "\nRectangle Area = " << Area << endl;
+}
 
-        WELCOMER();
-        TakeInput(length, rectangleDiameter);
-        PrintResultOfRectangleArea(length, rectangleDiameter);
-    }
+int main()
+{
+    float A, D;
+
+    ReadNumbers(A, D);
+    PrintResult(RectangleAreaBySideAndDiagonal(A, D));
+
+    return 0;
 }

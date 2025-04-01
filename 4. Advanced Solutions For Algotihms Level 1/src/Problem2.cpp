@@ -1,18 +1,22 @@
-#pragma once
-#include "../include/Problem2.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem2
+string ReadName()
 {
-       void TheName()
-       {
-           string nameOfUser;
-           cout << "Please enter your name\n";
-           cin >> nameOfUser;
-           cout << "Your name is : " << nameOfUser;
-       }
+    string Name;
+    cout << "Please enter your name? " << endl;
+    getline(cin, Name);
+    return Name;
+}
 
-       void main()
-       {
-           TheName();
-       }
+void PrintName(string Name)
+{
+    cout << "\n Your Name is: " << Name << endl;
+}
+
+int main()
+{
+    PrintName(ReadName());
+    return 0;
 }

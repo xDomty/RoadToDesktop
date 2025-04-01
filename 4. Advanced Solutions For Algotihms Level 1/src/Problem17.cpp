@@ -1,22 +1,33 @@
-#pragma once
-#include "../include/Problem17.hpp"
+#include <iostream>
+#include <string>
 using namespace std;
 
-namespace Problem17
+void ReadNumbers(float& A, float& H)
 {
-    void WELCOMER()
-    {
-        cout << "Hello,\nThis program calculates the area of a triangle\n";
-    };
-    
-    void main()
-    {
-        // Defining vars
-        float base;
-        float height;
-        
-        WELCOMER();
-        ReadInput(base, height);
-        PrintResult(base, height);
-    }
+    cout << "Please enter triangle base A ? " << endl;
+    cin >> A;
+
+    cout << "Please enter triangle height H ? " << endl;
+    cin >> H;
+}
+
+float TriangleArea(float A, float H)
+{
+    float Area = (A / 2) * H;
+    return Area;
+}
+
+void PrintResult(float Area)
+{
+    cout << "\nTriangle Area = " << Area << endl;
+}
+
+int main()
+{
+    float A, H;
+
+    ReadNumbers(A, H);
+    PrintResult(TriangleArea(A, H));
+
+    return 0;
 }

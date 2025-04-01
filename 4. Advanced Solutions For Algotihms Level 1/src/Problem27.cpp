@@ -1,17 +1,51 @@
-#pragma once
-#include "../include/Problem27.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
 
-namespace Problem27
+int ReadNumber()
 {
-    void WELCOMER()
-    {
-        cout << "Hello, This program prints from the number you type to 0\n";
-    }
+    int Number;
+    cout << "Please enter a number? " << endl;
+    cin >> Number;
+    return Number;
+}
 
-    void main()
+void PrintRangeFromNto1_UsingWhile(int N)
+{
+    int Counter = N + 1;
+    cout << "Range printed using While Statement:\n";
+    while (Counter > 1)
     {
-        WELCOMER();
-        short N = InputForce::Positive<short>("Please enter N: ");
-        PrintFromNTo1(N);
+        Counter--;
+        cout << Counter << endl;
     }
+}
+
+void PrintRangeFromNto1_UsingDoWhile(int N)
+{
+    int Counter = N + 1;
+    cout << "Range printed using Do..While Statement:\n";
+    do
+    {
+        Counter--;
+        cout << Counter << endl;
+    } while (Counter > 1);
+}
+
+void PrintRangeFromNto1_UsingFor(int N)
+{
+    cout << "Range printed using For Statement:\n";
+    for (int Counter = N; Counter >= 1; Counter--)
+    {
+        cout << Counter << endl;
+    }
+}
+
+int main()
+{
+    int N = ReadNumber();
+    PrintRangeFromNto1_UsingWhile(N);
+    PrintRangeFromNto1_UsingDoWhile(N);
+    PrintRangeFromNto1_UsingFor(N);
+    return 0;
 }
