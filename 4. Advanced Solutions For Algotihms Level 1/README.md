@@ -1,53 +1,67 @@
-# These were the contents of the course
+# **Advanced Solutions For Algorithms Level 1**
 
-    [X] Problem 01: Print Mohammed
-    [X] Problem 02: Enter your name then print your name
-    [X] Problem 03: Know if the number is odd or even
-    [X] Problem 04: Enter your age and driver license
-    [X] Problem 05: Enter your age and driver license (BUT WITH RECOMMENDATIONS)
-    [X] Problem 06: FirstName + LastName
-    [X] Problem 07: Take the half of the number
-    [X] Problem 08: Checks if student failed or not
-    [X] Problem 09: The sum of 3 numbers
-    [X] Problem 10: 3 marks then the average of them
-    [X] Problem 11: 3 marks then the average of them (BUT WITH FAIL OR PASS)\n
-    [X] Problem 12: The biggest number from 2 numbers you enter
-    [X] Problem 13: The biggest number from 2 numbers you enter
-    [X] Problem 14: Swipe 2 numbers
-    [X] Problem 15: Rectangle Area from (length , width)
-    [X] Problem 16: Rectangle Area from (length , diameter)
-    [X] Problem 17: Triangle Area from (base , height)
-    [X] Problem 18: Circle Area (by radius)
-    [X] Problem 19: Circle Area (by diameter)
-    [X] Problem 20: Circle Area (by square width)
-    [X] Problem 21: Circle Area (by circumference)
-    [X] Problem 22: Circle Area (by Isosceles Triangle)
-    [X] Problem 23: Circle Area (by Arbitrary Triangle)
-    [X] Problem 24: The Age (Must be between 18 and 45)" << endl;
-    [X] Problem 25: The Age (Must be between 18 and 45) but with while loop\n";
-    [X] Problem 26: 0 to what number\n";
-    [X] Problem 27: What number to 0\n";
-    [X] Problem 28: The sum of odd numbers" << endl;
-    [X] Problem 29: The sum of even numbers\n";
-    [X] Problem 30: Program calculates the factorial of numbers you put in\n\n";
-    [X] Problem 31: Program calculates (number ^ (2,3,4))\n";
-    [X] Problem 32: Program calculates (number ^ power)" << endl;
-    [] Problem 33: Enter the mark and know your grade!\n";
-    [] Problem 34: 1% For (1M) , 2% For (500k to 1M) , 3% For (100k to 500k) , 5% For (50k to 100k) , Otherwise 0%\n";
-    [] Problem 35: (Pennies, Nickels, Dimes, Quarters, Dollars) to (Pennies,Dollars)\n";
-    [] Problem 36: Enter 2 numbers and select the operation" << endl;
-    [] Problem 37: Sum until -99\n";
-    [] Problem 38: Check if the number is prime or not\n";
-    [] Problem 39: read a TotalBill and CashPaid and calculate the remainder to be paid back.\n";
-    [] Problem 40: 10% Service fee and 16% sales tax" << endl << endl;
-    [] Problem 41: Total Hours to (Weeks,Days)\n";
-    [] Problem 42: (days, hours, minutes, and seconds) to total seconds\n";
-    [] Problem 43: total seconds to (days, hours, minutes, and seconds)\n";
-    [] Problem 44: Number of Day of the week" << endl;
-    [] Problem 45: Number of month of the year\n";
-    [] Problem 46: A TO Z\n";
-    [] Problem 47: Loan amount and monthly payment\n";
-    [] Problem 48: LoanAmount and how many months you need to settle the loan" << endl;
-    [] Problem 49: Bank password verification (pasword is : 1234)\n";
-    [] Problem 50: Bank password verification (pasword is : 1234) but with limited time you get the password wrong\n\n";
 
+## **Course Information**
+- **Total Problems:** 50
+- **Course Language:** Arabic
+- **Course Price:** Free
+- **Course Playlist:** [YouTube Course Link](https://www.youtube.com/playlist?list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A)
+- **Course Creator:** *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <sub>[Programming Advices](https://www.ProgrammingAdvices.com)</sub>
+## **Important Note**
+- Every cpp file has it's own int main() func --> (*meaning that every cpp file must compile seperately*)
+- The problems here are the same as [Algorithms Level 1](https://github.com/xDomty/RoadToDesktop/tree/main/2.%20Algorithms%20Level%201) course  but the deffrence here it's made by coding in cpp
+
+## **Problems Breakdown :)**
+
+| **Lesson No.** | **Lesson Title** | **Watch Session** | **Session's SRC** |
+|--------------|----------------------------|----------------------------|---------|
+| 01 | Print Mohammed | [Watch Now](https://www.youtube.com/watch?v=ifoC6FFeq8M&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=3&pp=iAQB) | [Problem1.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem1.cpp) |
+| 02 | Enter your name then print your name | [Watch Now](https://www.youtube.com/watch?v=ifoC6FFeq8M&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=3&pp=iAQB) | [Problem2.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem2.cpp) |
+| 03 | Know if the number is odd or even | [Watch Now](https://www.youtube.com/watch?v=ifoC6FFeq8M&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=3&pp=iAQB) | [Problem3.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem3.cpp) |
+| 04 | Enter your age and driver license | [Watch Now](https://www.youtube.com/watch?v=ifoC6FFeq8M&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=3&pp=iAQB) | [Problem4.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem4.cpp) |
+| 05 | Enter your age and driver license (BUT WITH RECOMMENDATIONS)  | [Watch Now](https://www.youtube.com/watch?v=ifoC6FFeq8M&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=3&pp=iAQB) | [Problem5.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem5.cpp) |
+| 06 | FirstName + LastName | [Watch Now](https://www.youtube.com/watch?v=0QidpPifb8g&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=4&pp=iAQB) | [Problem6.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem6.cpp) |
+| 07 | Take the half of the number  | [Watch Now](https://www.youtube.com/watch?v=0QidpPifb8g&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=4&pp=iAQB) | [Problem7.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem7.cpp) |
+| 08 | Checks if student failed or not | [Watch Now](https://www.youtube.com/watch?v=0QidpPifb8g&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=4&pp=iAQB) | [Problem8.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem8.cpp) |
+| 09 | The sum of 3 numbers  | [Watch Now](https://www.youtube.com/watch?v=0QidpPifb8g&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=4&pp=iAQB) | [Problem9.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem9.cpp) |
+| 10 | 3 marks then the average of them | [Watch Now](https://www.youtube.com/watch?v=0QidpPifb8g&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=4&pp=iAQB) | [Problem10.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem10.cpp) |
+| 11 | 3 marks then the average of them (BUT WITH FAIL OR PASS)  | [Watch Now](https://www.youtube.com/watch?v=01DiCRs4q9U&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=5&t=652s&pp=iAQB) | [Problem11.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem11.cpp) |
+| 12 | The biggest number from 2 numbers you enter | [Watch Now](https://www.youtube.com/watch?v=01DiCRs4q9U&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=5&t=652s&pp=iAQB) | [Problem12.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem12.cpp) |
+| 13 | The biggest number from 2 numbers you enter | [Watch Now](https://www.youtube.com/watch?v=01DiCRs4q9U&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=5&t=652s&pp=iAQB) | [Problem13.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem13.cpp) |
+| 14 | Swipe 2 numbers | [Watch Now](https://www.youtube.com/watch?v=01DiCRs4q9U&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=5&t=652s&pp=iAQB) | [Problem14.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem14.cpp) |
+| 15 | Rectangle Area from (length , width) | [Watch Now](https://www.youtube.com/watch?v=01DiCRs4q9U&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=5&t=652s&pp=iAQB) | [Problem15.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem15.cpp) |
+| 16 | Rectangle Area from (length , diameter) | [Watch Now](https://www.youtube.com/watch?v=zNa35VdZWKI&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=6&pp=iAQB) | [Problem16.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem16.cpp) |
+| 17 | Triangle Area from (base , height) | [Watch Now](https://www.youtube.com/watch?v=zNa35VdZWKI&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=6&pp=iAQB) | [Problem17.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem17.cpp) |
+| 18 | Circle Area (by radius) | [Watch Now](https://www.youtube.com/watch?v=zNa35VdZWKI&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=6&pp=iAQB) | [Problem18.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem18.cpp) |
+| 19 | Circle Area (by diameter) | [Watch Now](https://www.youtube.com/watch?v=zNa35VdZWKI&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=6&pp=iAQB) | [Problem19.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem19.cpp) |
+| 20 | Circle Area (by square width) | [Watch Now](https://www.youtube.com/watch?v=zNa35VdZWKI&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=6&pp=iAQB) | [Problem20.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem20.cpp) |
+| 21 | Circle Area (by circumference) | [Watch Now](https://www.youtube.com/watch?v=KpdzXc2VoH0&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=7&pp=iAQB) | [Problem21.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem21.cpp) |
+| 22 | Circle Area (by Isosceles Triangle) | [Watch Now](https://www.youtube.com/watch?v=KpdzXc2VoH0&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=7&pp=iAQB) | [Problem22.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem22.cpp) |
+| 23 | Circle Area (by Arbitrary Triangle)  | [Watch Now](https://www.youtube.com/watch?v=KpdzXc2VoH0&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=7&pp=iAQB) | [Problem23.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem23.cpp) |
+| 24 | The Age (Must be between 18 and 45)  | [Watch Now](https://www.youtube.com/watch?v=KpdzXc2VoH0&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=7&pp=iAQB) | [Problem24.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem24.cpp) |
+| 25 | The Age (Must be between 18 and 45) but with while loop  | [Watch Now](https://www.youtube.com/watch?v=KpdzXc2VoH0&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=7&pp=iAQB) | [Problem25.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem25.cpp) |
+| 26 | 0 to what number  | [Watch Now](https://www.youtube.com/watch?v=UcvvRplXhoQ&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=8&pp=iAQB) | [Problem26.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem26.cpp) |
+| 27 | What number to 0 | [Watch Now](https://www.youtube.com/watch?v=UcvvRplXhoQ&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=8&pp=iAQB) | [Problem27.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem27.cpp) |
+| 28 | The sum of odd numbers  | [Watch Now](https://www.youtube.com/watch?v=UcvvRplXhoQ&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=8&pp=iAQB) | [Problem28.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem28.cpp) |
+| 29 | The sum of even numbers  | [Watch Now](https://www.youtube.com/watch?v=UcvvRplXhoQ&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=8&pp=iAQB) | [Problem29.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem29.cpp) |
+| 30 | Program calculates the factorial of numbers you put in  | [Watch Now](https://www.youtube.com/watch?v=UcvvRplXhoQ&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=8&pp=iAQB) | [Problem30.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem30.cpp) |
+| 31 | Program calculates (number ^ (2,3,4))  | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem31.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem31.cpp) |
+| 32 | Program calculates (number ^ power) | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem32.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem32.cpp) |
+| 33 | Enter the mark and know your grade!  | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem33.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem33.cpp) |
+| 34 | 1% For (1M) , 2% For (500k to 1M) , 3% For (100k to 500k) , 5% For (50k to 100k) , Otherwise 0%  | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem34.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem34.cpp) |
+| 35 | (Pennies, Nickels, Dimes, Quarters, Dollars) to (Pennies,Dollars)  | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem35.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem35.cpp) |
+| 36 | Enter 2 numbers and select the operation  | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem36.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem36.cpp) |
+| 37 | Sum until -99  | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem37.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem37.cpp) |
+| 38 | Check if the number is prime or not  | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem38.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem38.cpp) |
+| 39 | read a TotalBill and CashPaid and calculate the remainder to be paid back.  | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem39.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem39.cpp) |
+| 40 | 10% Service fee and 16% sales tax  | [Watch Now](https://www.youtube.com/watch?v=B10mtM1wZKY&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=10&t=758s&pp=iAQB) | [Problem40.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem40.cpp) |
+| 41 | Total Hours to (Weeks,Days)  | [Watch Now](https://www.youtube.com/watch?v=r2BIY8NlzG8&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=11&t=115s&pp=iAQB) | [Problem41.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem41.cpp) |
+| 42 | (days, hours, minutes, and seconds) to total seconds  | [Watch Now](https://www.youtube.com/watch?v=r2BIY8NlzG8&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=11&t=115s&pp=iAQB) | [Problem42.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem42.cpp) |
+| 43 | total seconds to (days, hours, minutes, and seconds)  | [Watch Now](https://www.youtube.com/watch?v=r2BIY8NlzG8&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=11&t=115s&pp=iAQB) | [Problem43.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem43.cpp) |
+| 44 | Number of Day of the week"  | [Watch Now](https://www.youtube.com/watch?v=r2BIY8NlzG8&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=11&t=115s&pp=iAQB) | [Problem44.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem44.cpp) |
+| 45 | Number of month of the year  | [Watch Now](https://www.youtube.com/watch?v=r2BIY8NlzG8&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=11&t=115s&pp=iAQB) | [Problem45.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem45.cpp) |
+| 46 | A TO Z  | [Watch Now](https://www.youtube.com/watch?v=sB0ZDkrXTRA&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=12&pp=iAQB) | [Problem46.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem46.cpp) |
+| 47 | Loan amount and monthly payment | [Watch Now](https://www.youtube.com/watch?v=sB0ZDkrXTRA&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=12&pp=iAQB) | [Problem47.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem47.cpp) |
+| 48 | LoanAmount and how many months you need to settle the loan  | [Watch Now](https://www.youtube.com/watch?v=sB0ZDkrXTRA&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=12&pp=iAQB) | [Problem48.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem48.cpp) |
+| 49 | Bank password verification (pasword is : 1234)  | [Watch Now](https://www.youtube.com/watch?v=sB0ZDkrXTRA&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=12&pp=iAQB) | [Problem49.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem49.cpp) |
+| 50 | Bank password verification (pasword is : 1234) but with limited time you get the password wrong | [Watch Now](https://www.youtube.com/watch?v=sB0ZDkrXTRA&list=PL3X--QIIK-OEwPmZVfltqCYy6_RuwXr4A&index=12&pp=iAQB) | [Problem50.cpp](https://github.com/xDomty/RoadToDesktop/blob/main/4.%20Advanced%20Solutions%20For%20Algotihms%20Level%201/src/Problem50.cpp) |
