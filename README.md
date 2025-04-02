@@ -16,7 +16,7 @@ My name is **Adam Ahmed** (*nicknamed Domty*), born on **February 26, 2009**. I'
 
 ## Roadmap Creator & Resources
 
-- **Instructor:** [Dr. Mohammed Abu Hadhoud](https://www.linkedin.com/in/abuhadhoud/) *(LinkedIn)*
+- **Professor:** [Dr. Mohammed Abu Hadhoud](https://www.linkedin.com/in/abuhadhoud/) *(LinkedIn)*
 - **Website:** [ProgrammingAdvices.com](https://www.programmingadvices.com)
 - **YouTube:** [Programming Advices](https://www.youtube.com/@ProgrammingAdvices)
 - **RoadMap:** [View Here](https://cdn.fs.teachablecdn.com/vQwPc0bSvSVEaPKkxodz)
