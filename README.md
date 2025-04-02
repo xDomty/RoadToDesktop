@@ -72,6 +72,6 @@ This repository is **continuously updated** as I progress.
 ## Contact Me
 
 **Email:** domty4business@gmail.com  
-**WhatsApp:** +971525239436
+**WhatsApp:** [+971525239436](https://wa.me/+971525239436)
 
 
