@@ -2,16 +2,21 @@
 
 Welcome to my portfolio, "RoadToDesktop"! This repository documents my structured learning journey as I master C++, C#, SQL, Data Structures, and Algorithms, following the comprehensive roadmap created by Dr. Mohammed Abu Hadhoud. My goal is to build a strong foundation in desktop development and showcase my progress.
 
+## How to Use This Repository
+
+Each folder in this repository corresponds to a specific course in the roadmap. Inside everey reository folder , you'll find my solutions, code samples, Lessons Links, And Instructor's courses Price... This repository is continuously updated as I progress through the courses.
+
 ## About Me
 
-Hello! I'm Adam Ahmed, born on February 26, 2009, and I'm passionate about programming and creating efficient software. This repository is a testament to my dedication to learning and improving my skills.
-* My Certifications: [My Certifications Folder](./0.%20My%20Certifications)
+My name is Adam Ahmed, born on February 26, 2009, and I'm passionate about programming and creating efficient software. This repository is a testament to my dedication to learning and improving my skills.
+* My Certifications: [Click Here](./0.%20My%20Certifications)
 
 ## About the Roadmap Creator
 
 * **Instructor & Roadmap Creator:** [Dr. Mohammed Abu Hadhoud](https://www.linkedin.com/in/abuhadhoud/) (LinkedIn)
 * **Learning Website:** [ProgrammingAdvices.com](https://www.programmingadvices.com)
 * **YouTube Channel:** [Programming Advices](https://www.youtube.com/@ProgrammingAdvices)
+* **Courses Language:** Arabic
 
 ## Roadmap & Progress
 
@@ -41,10 +46,6 @@ Hello! I'm Adam Ahmed, born on February 26, 2009, and I'm passionate about progr
 | 22 | Data Structures Level 2                                                                                                  | Coming Soon                                                                                                    | ❌ Not Started | ✅ Finished          |
 | 23 | Algorithms Level 6                                                                                                      | Coming Soon                                                                                                    | ❌ Not Started | ✅ Finished          |
 | 24 | Windows Services                                                                                                         | Coming Soon                                                                                                    | ❌ Not Started | ✅ Finished          |
-
-## How to Use This Repository
-
-Each folder in this repository corresponds to a specific course in the roadmap. Inside, you'll find my solutions, code samples, Lessons Links, And Instructor's courses Price... This repository is continuously updated as I progress through the courses.
 
 ## My Contact Info
 
