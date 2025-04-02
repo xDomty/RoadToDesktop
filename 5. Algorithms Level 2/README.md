@@ -1,5 +1,17 @@
 # **Algorithms Level 2** <sub>*[Show Adam's Certificate](https://github.com/xDomty/RoadToDesktop/blob/main/0.%20My%20Certifications/5.%20Algorithms%20Level%202.pdf)*</sub>
 
+      Caution: 
+
+      - I uploaded my source code only for making a portifolio for myself ...
+
+      - Please don't use my source code if you didn't pay the course (use it only for viewing & understanding my current level).
+
+      - If you're a student , Please use Professor's source code instead.
+
+      - You can find the Professor's source code in **Session's (Problem & Project) Solution** (if course is paid)
+      
+      - All rights reserved (Programming Advices)®
+
 
 ## **Course Information**
 - **Course Creator:** *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <sub>[Programming Advices](https://www.ProgrammingAdvices.com)</sub>
@@ -22,18 +34,6 @@
 ## **Important Note**
 - Every cpp file has it's own int main() func --> (*meaning that every cpp file must compile seperately*)
 - In this course we learned also how to type clean code :)
-
-      Caution: 
-
-      - I uploaded my source code only for making a portifolio for myself ...
-
-      - Please don't use my source code if you didn't pay the course (use it only for viewing & understanding my current level).
-
-      - If you're a student , Please use Professor's source code instead.
-
-      - You can find the Professor's source code in **Session's (Problem & Project) Solution** (if course is paid)
-      
-      - All rights reserved (Programming Advices)®
 
 ## **Problems Breakdown :)**
 
