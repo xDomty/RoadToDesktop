@@ -1,4 +1,4 @@
-# **Foundations Level 1 : The Basics That Every Programmer Needs**  
+# **Foundations Level 1** <sub>*[Show Adam's Certificate](https://github.com/xDomty/RoadToDesktop/blob/main/0.%20My%20Certifications/1.%20Foundations%20Level%201.pdf)*</sub>
 
 ## **Course Information**  
 - **Total Lessons:** 16 
@@ -6,8 +6,6 @@
 - **Course Price:** Free
 - **Course Playlist:** [YouTube Course Link](https://www.youtube.com/playlist?list=PL3X--QIIK-OHgMV2yBz3GLfM5d_5BxOSj)  
 - **Course Creator:** *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <sub>[Programming Advices](https://www.programmingadvices.com)</sub>
-
-## [Click Me To Show My Certificate For This Course](https://github.com/xDomty/RoadToDesktop/blob/main/0.%20My%20Certifications/1.%20Foundations%20Level%201.pdf)
 
 
 ## **Lessons Breakdown :)**  
