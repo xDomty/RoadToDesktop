@@ -4,7 +4,7 @@ Welcome to my portfolio, "RoadToDesktop"! This repository documents my structure
 
 ## How to Use This Repository
 
-Each folder in this repository corresponds to a specific course in the roadmap. Inside everey reository folder , you'll find my solutions, code samples, Lessons Links, And Instructor's courses Price... This repository is continuously updated as I progress through the courses.
+Each folder in this repository corresponds to a specific course in the roadmap. every repository folder , you'll find inside my solutions, code samples, Lessons Links, Instructor's courses Price, And redirect to my certificate in repository *(if course is finished)*... This repository is continuously updated as I progress through the courses.
 
 ## About Me
 
@@ -13,7 +13,7 @@ My name is Adam Ahmed, born on February 26, 2009, and I'm passionate about progr
 
 ## About the Roadmap Creator
 
-* **Instructor & Roadmap Creator:** [Dr. Mohammed Abu Hadhoud](https://www.linkedin.com/in/abuhadhoud/) (LinkedIn)
+* **Instructor & Roadmap Creator:** ***[Dr. Mohammed Abu Hadhoud](https://www.linkedin.com/in/abuhadhoud/)*** *(linkedin)*
 * **Learning Website:** [ProgrammingAdvices.com](https://www.programmingadvices.com)
 * **YouTube Channel:** [Programming Advices](https://www.youtube.com/@ProgrammingAdvices)
 * **Courses Language:** Arabic
