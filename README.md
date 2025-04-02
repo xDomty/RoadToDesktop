@@ -8,7 +8,7 @@ Each folder in this repository corresponds to a specific course in the roadmap. 
 
 ## About Me
 
-My name is Adam Ahmed, born on February 26, 2009, and I'm passionate about programming and creating efficient software. This repository is a testament to my dedication to learning and improving my skills.
+My name is Adam Ahmed *(nicknamed domty)*, born on February 26, 2009, and I'm passionate about programming and creating efficient software. This repository is a testament to my dedication to learning and improving my skills.
 * My Certifications: [Click Here](./0.%20My%20Certifications)
 
 ## About the Roadmap Creator
