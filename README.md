@@ -30,7 +30,7 @@ My name is **Adam Ahmed** (*nicknamed Domty*), born on **February 26, 2009**. I'
 
 Each folder corresponds to a specific course in the roadmap, containing:
 - My solutions & code samples
-- Lesson links
+- (Course & Lessons) links <sub> if course is paid *( ((redirects to [ProgrammingAdvices.com](https://www.programmingadvices.com)))* )</sub>
 - Course pricing details
 - Certificate link (if completed)
 
@@ -40,7 +40,7 @@ This repository is **continuously updated** as I progress.
 
 ## Roadmap & Progress
 
-| #  | Course Name & Repository | My Progress | Instructor's Progress |
+| Course No.  | Course Name & Repository | My Progress | Instructor's Progress |
 |----|--------------------------------------------------|-------------|----------------------|
 | 01 | [Foundations Level 1](./1.%20Foundations%20Level%201) | **Finished** | **Finished** |
 | 02 | [Algorithms Level 1](./2.%20Algorithms%20Level%201) | **Finished** | **Finished** |
