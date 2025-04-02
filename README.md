@@ -2,17 +2,7 @@
 
 Welcome to **RoadToDesktop**—a structured documentation of my learning journey in **C++, C#, SQL, Data Structures, and Algorithms**. I'm following the comprehensive roadmap designed by **Dr. Mohammed Abu Hadhoud** to build a solid foundation in **desktop development** while showcasing my progress.
 
----
 
-## How to Navigate This Repository
-
-Each folder corresponds to a specific course in the roadmap, containing:
-- My solutions & code samples
-- Lesson links
-- Course pricing details
-- Certificate link (if completed)
-
-This repository is **continuously updated** as I progress.
 
 ---
 
@@ -33,6 +23,18 @@ My name is **Adam Ahmed** (*nicknamed Domty*), born on **February 26, 2009**. I'
 - **RoadMap Explain:** [View Here](https://www.youtube.com/playlist?list=PL3X--QIIK-OGwRuUuCGnZowsYzj3DxfdF)
 - **RoadMap Courses:** [View Here](https://programmingadvices.com/courses)
 - **Courses Language:** Arabic
+
+---
+
+## How to Navigate This Repository
+
+Each folder corresponds to a specific course in the roadmap, containing:
+- My solutions & code samples
+- Lesson links
+- Course pricing details
+- Certificate link (if completed)
+
+This repository is **continuously updated** as I progress.
 
 ---
 
