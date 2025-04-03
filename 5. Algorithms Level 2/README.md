@@ -4,26 +4,19 @@ This repository documents my journey and solutions for the **Algorithms Level 2*
 
 ## ⚠ Usage Policy
 
-This repository is for **portfolio and reference purposes only.**
+This repository folder is for **portfolio and reference purposes only.**
 
  - **Respect Copyright:** If you haven’t purchased the official course, please **do not** copy or use this code directly. <br> <br>
- - **Enrolled Students:** Refer to the **official course materials** provided by *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* **and do not** use my code. <br> 
-                         You can find the official source code of problems [here](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202#problems-solutions-breakdown-50-problems) and the official source code of projects [here](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202#projects-solutions-breakdown-2-projects) <br> <br>
+ - **Enrolled Students:** Refer to the **official course materials** provided by *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* **and do not** use my code. <br> <br>
  - **All rights reserved** ([Programming Advices®](https://www.ProgrammingAdvices.com)).
-
-## Technical Notes
-
-- **Language:** C++
-- **Compilation:** Each `.cpp` file is designed for separate compilation.
-- **Coding Style:** Clean, readable, and well-commented code as per course guidelines.
 
 ## **Course Information**
 - **Course Creator:** *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <sub>[Programming Advices](https://www.ProgrammingAdvices.com)</sub>
 - **Course Playlist:** [Course Link](https://programmingadvices.com/p/00316b1111) <br>
 - **Course Language:** Arabic
-- **Course Price:** 20 USD 
 - **Total Problems:** 50
 - **Total Projects:** 2
+- **Course Price:** 20 USD 
 - **Support Coupons:** [ProgrammingAdvices.com/p/supportcoupons](https://programmingadvices.com/p/supportcoupons)
 
      - You can use these support coupons on course payment site
@@ -34,7 +27,7 @@ This repository is for **portfolio and reference purposes only.**
       - This support coupons made only for people who can't pay the course price
 
       - Please don't use it if you can pay the course price (coupons are limited)
-         
+
 ## Problems Solutions Breakdown (50 Problems) 
 | **#** | **Problem Title** | **Official Session's <br> Problem Solution** <br> *(if course is paid)* | **My Own Problem <br> Solution  SRC** |
 |--------------|----------------------------|----------------------------|---------|
@@ -94,6 +87,10 @@ This repository is for **portfolio and reference purposes only.**
 |-----------------------------------------------------------------------------------|----------------------------|----------------------------|---------|
 | 01 | Tic Tac Toe &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41411121) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Projects/PROJECT%201)
 | 02 | Math Game | [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41759998) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Projects/PROJECT%202)
+
+## Technical Notes
+   - **Compilation:** Each `.cpp` file is designed for separate compilation.
+   - **Coding Style:** Clean, readable, and well-commented code as per course guidelines.
 
 ## 📢 Connect With Me
 
