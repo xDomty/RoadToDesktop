@@ -8,7 +8,7 @@ This repository is for **portfolio and reference purposes only.**
 
  - **Respect Copyright:** If you haven’t purchased the official course, please **do not** copy or use this code directly. <br> <br>
  - **Enrolled Students:** Refer to the **official course materials** provided by *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* **and do not** use my code. <br> 
-                         You can find the official source code of problems [here](https://github.com/xDomty/RoadToDesktop/edit/main/5.%20Algorithms%20Level%202/README.md#problems-solutions-breakdown-50-problems) and the official source code of projects [here](https://github.com/xDomty/RoadToDesktop/edit/main/5.%20Algorithms%20Level%202/README.md#projects-solutions-breakdown-2-projects) <br> <br>
+                         You can find the official source code of problems [here](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202#problems-solutions-breakdown-50-problems) and the official source code of projects [here](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202#projects-solutions-breakdown-2-projects) <br> <br>
  - **All rights reserved** ([Programming Advices®](https://www.ProgrammingAdvices.com)).
 
 ## Technical Notes
