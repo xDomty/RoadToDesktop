@@ -1,17 +1,21 @@
-# **Algorithms Level 2** <sub>*[Show Adam's Certificate](https://github.com/xDomty/RoadToDesktop/blob/main/0.%20My%20Certifications/5.%20Algorithms%20Level%202.pdf)*</sub>
+# Algorithms Level 2 <sub>*[Show Adam's Certificate](https://github.com/xDomty/RoadToDesktop/blob/main/0.%20My%20Certifications/5.%20Algorithms%20Level%202.pdf)* [![Language](https://img.shields.io/badge/Language-C%2B%2B-blue.svg)](https://isocpp.org/)</sub>
 
-      Caution: 
+This repository documents my journey and solutions for the **Algorithms Level 2** course by **[Programming Advices](https://www.ProgrammingAdvices.com)**. It serves as a portfolio piece demonstrating my understanding and application of algorithmic concepts.
 
-      - I uploaded my source code only for making a portifolio for myself ...
+## ⚠ Usage Policy
 
-      - Please don't use my source code if you didn't pay the course (use it only for viewing & understanding my current level).
+This repository is for **portfolio and reference purposes only.**
 
-      - If you're a student , Please use Professor's source code instead.
+ - **Respect Copyright:** If you haven’t purchased the official course, please **do not** copy or use this code directly. <br> <br>
+ - **Enrolled Students:** Refer to the **official course materials** provided by *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* **and do not** use my code. <br> 
+                         You can find the official source code of problems [here](https://github.com/xDomty/RoadToDesktop/edit/main/5.%20Algorithms%20Level%202/README.md#problems-solutions-breakdown-50-problems) and the official source code of projects [here](https://github.com/xDomty/RoadToDesktop/edit/main/5.%20Algorithms%20Level%202/README.md#projects-solutions-breakdown-2-projects) <br> <br>
+ - **All rights reserved** ([Programming Advices®](https://www.ProgrammingAdvices.com)).
 
-      - You can find the Professor's source code in **Session's (Problem & Project) Solution** (if course is paid)
-      
-      - All rights reserved (Programming Advices)®
+## Technical Notes
 
+- **Language:** C++
+- **Compilation:** Each `.cpp` file is designed for separate compilation.
+- **Coding Style:** Clean, readable, and well-commented code as per course guidelines.
 
 ## **Course Information**
 - **Course Creator:** *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <sub>[Programming Advices](https://www.ProgrammingAdvices.com)</sub>
@@ -23,7 +27,7 @@
 - **Support Coupons:** [ProgrammingAdvices.com/p/supportcoupons](https://programmingadvices.com/p/supportcoupons)
 
      - You can use these support coupons on course payment site
-     - You can get support coupons (25% , 50% , 75% and 100%!) on course price <br> <br>
+     - You can get support coupons (25% , 50% , 75% and even 100%!) on course price <br> <br>
      
       Caution : 
 
@@ -31,12 +35,7 @@
 
       - Please don't use it if you can pay the course price (coupons are limited)
          
-## **Important Note**
-- Every cpp file has it's own int main() func --> (*meaning that every cpp file must compile seperately*)
-- In this course we learned also how to type clean code :)
-
-## **Problems Breakdown :)**
-
+## Problems Solutions Breakdown (50 Problems) 
 | **#** | **Problem Title** | **Official Session's <br> Problem Solution** <br> *(if course is paid)* | **My Own Problem <br> Solution  SRC** |
 |--------------|----------------------------|----------------------------|---------|
 | 01 | Multiplication Table From 1 To 10 | [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41056828) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Problems/Problem%201) |
@@ -89,4 +88,13 @@
 | 48 | MyFloor | [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41457995) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Problems/Problem%2047%20%26%2048%20%26%2049%20%26%2050) |
 | 49 | MyCeil | [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41458438) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Problems/Problem%2047%20%26%2048%20%26%2049%20%26%2050) |
 | 50 | MySQRT | [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41458875) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Problems/Problem%2047%20%26%2048%20%26%2049%20%26%2050) |
+---
+## Projects Solutions Breakdown (2 Projects) 
+| **#** | **Project Title** | **Official Session's <br> Project Solution** <br> *(if course is paid)* | **My Own Project <br> Solution  SRC** |
+|-----------------------------------------------------------------------------------|----------------------------|----------------------------|---------|
+| 01 | Tic Tac Toe &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41411121) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Projects/PROJECT%201)
+| 02 | Math Game | [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41759998) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Projects/PROJECT%202)
 
+## 📢 Connect With Me
+
+*Feel free to explore the code and connect with me on [GitHub](https://github.com/xDomty)!*
