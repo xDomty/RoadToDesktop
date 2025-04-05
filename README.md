@@ -1,8 +1,14 @@
 # RoadToDesktop: My Journey to Desktop Development & Backend
 
 Welcome to **RoadToDesktop**—a structured documentation of my learning journey in **C++, C#, SQL, Data Structures, and Algorithms**. I'm following the comprehensive roadmap designed by **Dr. Mohammed Abu Hadhoud** to build a solid foundation in **desktop development** while showcasing my progress.
+---
+## ⚠ Usage Policy
 
+This repository is for **portfolio and reference purposes only.**
 
+ - **Respect Copyright:** If you haven’t purchased the official course, please **do not** copy or use this code directly. <br> <br>
+ - **Enrolled Students:** Refer to the **official course materials** provided by *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <br>in [Programming Advices](https://www.ProgrammingAdvices.com) **and do not** use my code. <br> <br>
+ - **All rights reserved** ([Programming Advices®](https://www.ProgrammingAdvices.com)).
 
 ---
 
@@ -22,7 +28,7 @@ My name is **Adam Ahmed** (*nicknamed Domty*), born on **February 26, 2009**. I'
 - **RoadMap:** [View Here](https://cdn.fs.teachablecdn.com/vQwPc0bSvSVEaPKkxodz)
 - **RoadMap Explain:** [View Here](https://www.youtube.com/playlist?list=PL3X--QIIK-OGwRuUuCGnZowsYzj3DxfdF)
 - **RoadMap Courses:** [View Here](https://programmingadvices.com/courses)
-- **Courses Language:** Arabic
+- **Courses & Platform Language:** Arabic
 
 ---
 
