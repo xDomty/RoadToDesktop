@@ -1,7 +1,8 @@
 #include "../../include/Problems/Problem20.hpp"
+#include <iomanip>
 
 namespace Problem20 {
-    namespace MrSolution {
+
         void PrintMatrix(int arr[3][3], short Rows, short Cols)
         {
             for (short i = 0; i < Rows; i++)
@@ -40,23 +41,4 @@ namespace Problem20 {
             else
                 cout << "\nNo: Matrix is NOT Palindrome\n";
         }
-    }
-
-    namespace MySolution {
-        void main() {
-            vector<vector<short> > matrix = {
-                {3, 3, 3},
-                {3, 3, 3},
-                {3, 2, 1}
-            };
-
-            Print::Print2DVectorAsMatrix("Here is the 3x3 Matrix:\n", matrix, "", true, 3, 3);
-            bool *result = new bool;
-            *result = Check::Palindrome::IsMatrixRowsPalindrome<short>((matrix));
-            cout << Print::CheckTrue(*result, "The Matrix Is Palindrome", "The Matrix Is NOT Palindrome");
-            delete result;
-        }
-
-
-    }
 }

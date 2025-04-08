@@ -1,16 +1,8 @@
 #pragma once
-#include "../HeadersBeforeCourse/Print.hpp"
-#include "../HeadersBeforeCourse/Random.hpp"
-#include "../HeadersBeforeCourse/Validate.hpp"
-#include "../HeadersAfterCourse/Operations.hpp"
+#include <iostream>
+using namespace std;
 
 namespace Problem21 {
-    namespace MrSolution {
-        void PrintFibonacciUsingLoop(short Number);
-        void main();
-    }
-
-    namespace MySolution {
-        void main();
-    }
+    void PrintFibonacciUsingLoop(short Number);
+    void main();
 }

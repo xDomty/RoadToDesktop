@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem21.hpp"
+#include <iomanip>
 
 namespace Problem21 {
-    namespace MrSolution {
         void PrintFibonacciUsingLoop(short Number)
         {
             int FebNumber = 0;
@@ -19,15 +19,4 @@ namespace Problem21 {
         {
             PrintFibonacciUsingLoop(10);
         }
-    }
-
-    namespace MySolution {
-        void main() {
-            short HowManyFibonacciNumbers = Validate::Positive<short>("How Many Fibonacci Numbers Do You Want To Print?");
-            vector <short> vVec = OPERATIONS::_1DVectors::Fibonacci<short>(HowManyFibonacciNumbers);
-
-            cout << "Here Is The Fibonacci Numbers:\n";
-            Print::PrintVector("Fibonacci number ",vVec,true);
-        }
-    }
 }

@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem14.hpp"
+#include <iomanip>
 
 namespace Problem14 {
-    namespace MrSolution {
         void PrintMatrix(int arr[3][3], short Rows, short Cols)
         {
             for (short i = 0; i < Rows; i++)
@@ -45,25 +45,4 @@ namespace Problem14 {
             else
                 cout << "\nNo: Matrix is NOT scalar.";
         }
-    }
-
-    namespace MySolution {
-        void main() {
-             vector <vector <short>> matrix;
-             vector <short> *temp = new vector <short>;
-             *temp = {9,0,0};
-             matrix.push_back(*temp);
-             *temp = {0,9,0};
-             matrix.push_back(*temp);
-             *temp = {0,0,9};
-             matrix.push_back(*temp);
-             delete temp;
-
-             Print::Print2DVectorAsMatrix("Here is the 3x3 Matrix:\n",matrix,"",true,3,3);
-             bool *result = new bool;
-             *result = Check::IsScalarMatrix<short>((matrix));
-             cout << Print::CheckTrue(*result, "The Matrix Is Scalar", "The Matrix Is NOT Scalar");
-             delete result;
-        }
-    }
 }

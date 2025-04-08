@@ -1,7 +1,6 @@
 #include "../../include/Problems/Problem24.hpp"
 
 namespace Problem24 {
-    namespace MrSolution {
         string ReadString()
         {
             string S1;
@@ -29,17 +28,4 @@ namespace Problem24 {
             S1 = UpperFirstLetterOfEachWord(S1);
             cout << S1 << endl;
         }
-    }
-
-    namespace MySolution {
-        void main() {
-            string text = "";
-            cout << "Hi, enter a text? ";
-            cin.ignore();
-            getline(cin, text);
-            cout << "Here is every capital letter of each first word you entered\n";
-            string result = OPERATIONS::StringsAndChars::TheTextButEachFirstWordIsACapitalLetter(text);
-            cout << result << endl;
-        }
-    }
 }

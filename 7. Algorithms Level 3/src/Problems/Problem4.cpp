@@ -1,9 +1,8 @@
 #include "../../include/Problems/Problem4.hpp"
+#include <iomanip>
 
 namespace Problem4
 {
-	namespace MrSolution
-	{
 		int RandomNumber(int From, int To)
 		{
 			//Function to generate a random number
@@ -57,24 +56,4 @@ namespace Problem4
 			PrintMatrix(arr, 3, 3);
 			PrintEachColSum(arr, 3, 3);
 		}
-	}
-
-	namespace MySolution
-	{
-		void main()
-		{
-			vector <vector<short>> vVector;
-			Random::Numbers::FillVector2D<short>(vVector, 3, 3, 1, 100);
-			Print::Print2DVectorAsMatrix("Here is the 3d Vector\n", vVector, "", true, 3, 3);
-			optional <short> Col1Sum = OPERATIONS::_2DVectors::SumCols::Specific<short>(vVector, { 1 }, true);
-			optional <short> Col2Sum = OPERATIONS::_2DVectors::SumCols::Specific<short>(vVector, { 2 }, true);
-			optional <short> Col3Sum = OPERATIONS::_2DVectors::SumCols::Specific<short>(vVector, { 3 }, true);
-
-			cout << "The Sum Of Col 1 = " << *Col1Sum << endl;
-			cout << "The Sum Of Col 2 = " << *Col2Sum << endl;
-			cout << "The Sum Of Col 3 = " << *Col3Sum << endl;
-
-			cout << endl << endl;
-		}
-	}
 }

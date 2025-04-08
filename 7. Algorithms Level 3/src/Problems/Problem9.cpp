@@ -1,7 +1,6 @@
 #include "../../include/Problems/Problem9.hpp"
 
 namespace Problem9 {
-    namespace MrSolution{
         int RandomNumber(int From, int To)
         {
             //Function to generate a random number
@@ -59,14 +58,4 @@ namespace Problem9 {
             cout << "\nMiddle Col of Matrix1 is:\n";
             PrintMiddleColOfMatrix(Matrix1, 3, 3);
         }
-    }
-
-    namespace MySolution {
-        void main() {
-            vector <vector<short>> vVec;
-            Random::Numbers::FillVector2D<short>(vVec,3,3,1,100);
-            Print::Print2DVectorAsMatrix("Here is the 3x3 Matrix:\n",vVec,"",true,3,3);
-            Print::Print2dVectorAsMatrixSpecific<short>("Here is the rows of {1,2,3}:\n","Here is the cols of {1,2}",vVec,"",true,{1,2,3},{1,2});
-        }
-    }
 }

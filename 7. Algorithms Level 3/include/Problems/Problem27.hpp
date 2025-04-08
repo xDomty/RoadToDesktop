@@ -1,15 +1,9 @@
 #pragma once
-#include "../HeadersAfterCourse/Operations.hpp"
-#include "../HeadersBeforeCourse/Validate.hpp"
+#include <iostream>
+using namespace std;
 
 namespace Problem27 {
-	namespace MrSolution {
-		char ReadChar();
-		char InvertLetterCase(char char1);
-		void main();
-	}
-
-	namespace MySolution {
-		void main();
-	}
+     char ReadChar();
+     char InvertLetterCase(char char1);
+     void main();
 }

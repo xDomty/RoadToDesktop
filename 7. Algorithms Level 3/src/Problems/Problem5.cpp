@@ -1,9 +1,8 @@
 #include "../../include/Problems/Problem5.hpp"
+#include <iomanip>
 
 namespace Problem5
 {
-	namespace MrSolution
-	{
 		int RandomNumber(int From, int To)
 		{
 			//Function to generate a random number
@@ -69,17 +68,4 @@ namespace Problem5
 			SumMatixColsInArry(arr, arrSum, 3, 3);
 			PrintColsSumArray(arrSum, 3);
 		}
-	}
-
-	namespace MySolution
-	{
-		void main()
-		{
-			vector <vector<short>> vVector;
-			Random::Numbers::FillVector2D<short>(vVector, 3, 3, 1, 100);
-			Print::Print2DVectorAsMatrix("Here is the 3d Vector\n", vVector, "", true, 3, 3);
-			vector <short> resultOfCols = OPERATIONS::_2DVectors::SumOfEachColInsideASeperateVector::To<short>(vVector, 3, true);
-			Print::PrintVector("The Result of Col", resultOfCols, true);
-		}
-	}
 }

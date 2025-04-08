@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem27.hpp"
+#include <iomanip>
 
 namespace Problem27 {
-	namespace MrSolution {
 		char ReadChar()
 		{
 			char Ch1;
@@ -20,15 +20,4 @@ namespace Problem27 {
 			Ch1 = InvertLetterCase(Ch1);
 			cout << Ch1 << endl;
 		}
-	}
-
-	namespace MySolution {
-		void main() {
-			char CharEntered = Validate::ValidateChar("Please enter your char? ", "Please enter a char not text :) : ");
-
-			char CharResult = OPERATIONS::StringsAndChars::InvertCharacterCase(CharEntered);
-
-			cout << "The result of your character is : " << CharResult;
-		}
-	}
 }

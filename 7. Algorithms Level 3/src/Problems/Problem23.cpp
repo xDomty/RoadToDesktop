@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem23.hpp"
+#include <iomanip>
 
 namespace Problem23 {
-    namespace MrSolution {
         string ReadString()
         {
             string S1;
@@ -26,17 +26,4 @@ namespace Problem23 {
         {
             PrintFirstLetterOfEachWord(ReadString());
         }
-    }
-
-    namespace MySolution {
-        void main() {
-            string text = "";
-            cout << "Hi, enter a text? ";
-            cin.ignore();
-            getline(cin, text);
-            cout << "Here is every letter of each first word you entered\n";
-            string result = OPERATIONS::StringsAndChars::EachFirstLetterOfEachWord(text);
-            cout << result << endl;
-        }
-    }
 }

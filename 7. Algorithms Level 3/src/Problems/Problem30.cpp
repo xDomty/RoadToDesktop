@@ -1,9 +1,7 @@
 #include "../../include/Problems/Problem30.hpp"
-#include "../../include/HeadersBeforeCourse/Validate.hpp"
 #include <string>
 
 namespace Problem30 {
-	namespace MrSolution {
 		string ReadString()
 		{
 			string S1;
@@ -38,17 +36,4 @@ namespace Problem30 {
 			system("pause>0");
 
 		}
-	}
-
-	namespace MySolution {
-		void main() {
-			string str; char UserChar;
-			cout << "enter your text ? ";
-			cin.ignore(1, '\n'); getline(cin, str);
-
-			UserChar = Validate::ValidateChar("enter the letter you want to check? ", "Allowed only to enter chars :) : ");
-
-			cout << "The Char " << UserChar << " Found " << OPERATIONS::StringsAndChars::CountChar<short>(str, UserChar) << " times.";
-		}
-	}
 }

@@ -1,7 +1,6 @@
 #include "../../include/Problems/Problem10.hpp"
 
 namespace Problem10 {
-    namespace MrSolution {
         int RandomNumber(int From, int To)
         {
             //Function to generate a random number
@@ -51,18 +50,4 @@ namespace Problem10 {
             PrintMatrix(Matrix1, 3, 3);
             cout << "\nSum of Matrix1 is: " << SumOfMatrix(Matrix1, 3, 3);
         }
-
-    }
-
-    namespace MySolution {
-        void main() {
-            vector <vector <short>> vVec;
-            Random::Numbers::FillVector2D<short>(vVec,3,3,1,10);
-            optional <short> Result = OPERATIONS::_2DVectors::SumRows::To<short>(vVec,3,true);
-
-            Print::Print2DVectorAsMatrix("Here is the 3x3 Matrix:\n",vVec,"",true,3,3);
-            cout << endl;
-            cout << "And here is the sum of the matrix elements : " << *Result << endl;
-        }
-    }
 }

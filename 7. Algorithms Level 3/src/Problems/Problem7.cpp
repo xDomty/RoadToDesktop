@@ -2,8 +2,6 @@
 
 namespace Problem7
 {
-	namespace MrSolution
-	{
 		void FillMatrixWithOrderedNumbers(int arr[3][3], short Rows, short Cols)
 		{
 			short Counter = 0;
@@ -48,18 +46,4 @@ namespace Problem7
 			PrintMatrix(arrTransposed, 3, 3);
 			system("pause>0");
 		}
-	}
-
-	namespace MySolution
-	{
-		void main()
-		{
-			vector <vector<short>> MyVector;
-			FillVector::Type2D::WithOrderedNumbers(MyVector, 3, 3);
-			Print::Print2DVectorAsMatrix("The Following Is 3x3 Ordered Matrix\n", MyVector, "", true, 3, 3);
-			vector <vector<short>> Transposed2dVector = Transpose::Vector2D<short>(MyVector);
-			cout << endl << endl;
-			Print::Print2DVectorAsMatrix("And this is the transposed matrix\n", Transposed2dVector, "", true, 3, 3);
-		}
-	}
 }

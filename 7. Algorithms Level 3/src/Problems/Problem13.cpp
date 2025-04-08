@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem13.hpp"
+#include <iomanip>
 
 namespace Problem13 {
-    namespace MrSolution {
         void PrintMatrix(int arr[3][3], short Rows, short Cols)
         {
             for (short i = 0; i < Rows; i++)
@@ -46,26 +46,4 @@ namespace Problem13 {
             else
                 cout << "\nNo: Matrix is NOT identity.";
         }
-    }
-
-    namespace MySolution {
-        void main() {
-             vector <vector <short>> matrix;
-             vector <short> *temp = new vector <short>;
-             *temp = {1,0,0};
-             matrix.push_back(*temp);
-             *temp = {0,1,0};
-             matrix.push_back(*temp);
-             *temp = {0,0,0};
-             matrix.push_back(*temp);
-             delete temp;
-
-             Print::Print2DVectorAsMatrix("Here is the 3x3 Matrix:\n",matrix,"",true,3,3);
-             cout << endl << endl;
-             bool *result = new bool;
-             *result = Check::IsEdintityMatrix<short>(matrix);
-             cout << Print::CheckTrue(*result, "The Matrix Is Edintity", "The Matrix Is NOT Edintity");
-             delete result;
-        }
-    }
 }

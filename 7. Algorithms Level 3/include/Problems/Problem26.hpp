@@ -1,15 +1,10 @@
 #pragma once
-#include "../HeadersAfterCourse/Operations.hpp"
+#include <iostream>
+using namespace std;
 
 namespace Problem26 {
-	namespace MrSolution {
-		string ReadString();
-		string UpperAllString(string S1);
-		string LowerAllString(string S1);
-		void main();
-	}
-
-	namespace MySolution {
-		void main();
-	}
+     string ReadString();
+     string UpperAllString(string S1);
+     string LowerAllString(string S1);
+     void main();
 }

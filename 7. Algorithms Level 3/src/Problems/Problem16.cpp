@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem16.hpp"
+#include <iomanip>
 
 namespace Problem16 {
-    namespace MrSolution {
         void PrintMatrix(int arr[3][3], short Rows, short Cols)
         {
             for (short i = 0; i < Rows; i++)
@@ -46,19 +46,4 @@ namespace Problem16 {
             else
                 cout << "\nNo: It's NOT Sparse\n";
         }
-
-
-    }
-
-    namespace MySolution {
-        void main() {
-            vector <vector <short>> matrix;
-            Random::Numbers::FillVector2D<short>(matrix,3,3,0,1);
-            Print::Print2DVectorAsMatrix("Here is the 3x3 Matrix:\n",matrix,"",true,3,3);
-
-            bool result = Check::IsSparceMatrix(matrix);
-            cout << Print::CheckTrue(result, "The Matrix Is Sparce", "The Matrix Is NOT Sparce") << endl;
-        }
-
-    }
 }

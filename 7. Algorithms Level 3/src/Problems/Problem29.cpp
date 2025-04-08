@@ -2,7 +2,8 @@
 #include <string>
 
 namespace Problem29 {
-	namespace MrSolution {
+	    enum enumWhatToCount { SmallLetters, CapitalLetters, AllLetters };
+
 		string ReadString()
 		{
 			string S1;
@@ -28,6 +29,7 @@ namespace Problem29 {
 			}
 			return Counter;
 		}
+
 		short CountCapitalLetters(string S1)
 		{
 			short Counter = 0;
@@ -38,6 +40,7 @@ namespace Problem29 {
 			}
 			return Counter;
 		}
+
 		short CountSmallLetters(string S1)
 		{
 			short Counter = 0;
@@ -48,6 +51,7 @@ namespace Problem29 {
 			}
 			return Counter;
 		}
+
 		void main()
 		{
 			string S1 = ReadString();
@@ -60,28 +64,4 @@ namespace Problem29 {
 			cout << "\nCapital Letters Count= " << CountLetters(S1, enumWhatToCount::CapitalLetters);
 			cout << "\nSmall Letters Count= " << CountLetters(S1, enumWhatToCount::SmallLetters);
 		}
-	}
-
-	namespace MySolution {
-		void main() {
-			using namespace OPERATIONS::StringsAndChars;
-			string str;
-
-			cout << "Please enter a text? "; cin.ignore(1, '\n'); getline(cin, str); cout << endl;
-			
-			cout << "Here is your count of Capital Letters: "
-			     << UpperLowerLength<short>(str, WhatToCountInString::Upper) << endl;
-
-			cout << "Here is your count of Small Letters: "
-				 << UpperLowerLength<short>(str, WhatToCountInString::Lower) << '\n';
-
-			cout << "Here is your count of Capital And Small Letters Together: "
-				 << UpperLowerLength<short>(str, WhatToCountInString::UpperAndLower) << '\n';
-
-			cout << "Here is your string length: "
-				 << UpperLowerLength<short>(str, WhatToCountInString::AllLetters) << '\n';
-
-
-		}
-	}
 }

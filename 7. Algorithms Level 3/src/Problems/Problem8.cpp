@@ -2,8 +2,6 @@
 
 namespace Problem8
 {
-	namespace MrSolution
-	{
 		int RandomNumber(int From, int To)
 		{
 			//Function to generate a random number
@@ -58,27 +56,4 @@ namespace Problem8
 			cout << "\nResults:\n";
 			PrintMatrix(MatrixResults, 3, 3);
 		}
-	}
-
-	namespace MySolution
-	{
-		void main()
-		{
-			vector <vector<short>> MatrixVector1;
-			vector <vector<short>> MatrixVector2;
-			
-			Random::Numbers::FillVector2D<short>(MatrixVector1, 3, 3, 1, 10);
-			Random::Numbers::FillVector2D<short>(MatrixVector2, 3, 3, 1, 10);
-
-			vector <vector<short>> MatrixVector3 = OPERATIONS::_2DVectors::Vector2dMultiplyAnotherVector2dFor3rdVector2d::TheFunction(MatrixVector1, MatrixVector2, 3, 3);
-
-
-			Print::Print2DVectorAsMatrix("Matrix1: \n", MatrixVector1, "", false, 3, 3);
-			cout << endl;
-			Print::Print2DVectorAsMatrix("Matrix2: \n", MatrixVector2, "", false, 3, 3);
-			cout << endl << endl;
-			Print::Print2DVectorAsMatrix("Result: \n", MatrixVector3, "", false, 3, 3);
-			cout << endl << endl;
-		}
-	}
 }

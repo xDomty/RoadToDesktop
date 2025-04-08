@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem26.hpp"
+#include <string>
 
 namespace Problem26 {
-	namespace MrSolution{
 		string ReadString()
 		{
 			string S1;
@@ -36,20 +36,4 @@ namespace Problem26 {
 			cout << S1 << endl;
 			system("pause>0");
 		}
-    }
-
-
-	namespace MySolution{
-		void main() {
-			string text;
-			cout << "Please enter your text ? ";
-			cin >> text;
-
-			string textAfterUpper = OPERATIONS::StringsAndChars::TheTextButAllWordsAreCapitalLetters(text);
-			string textAfterLower = OPERATIONS::StringsAndChars::TheTextButAllWordsAreSmallLetters(text);
-
-			cout << "Here is your text after upper : " << textAfterUpper << endl;
-			cout << "Here is your text after lower : " << textAfterLower << endl;
-		}
-	}
 }

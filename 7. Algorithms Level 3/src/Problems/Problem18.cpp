@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem18.hpp"
+#include <iomanip>
 
 namespace Problem18 {
-    namespace MrSolution {
         void PrintMatrix(int arr[3][3], short Rows, short Cols)
         {
             for (short i = 0; i < Rows; i++)
@@ -55,23 +55,4 @@ namespace Problem18 {
             cout << "\nIntersected Numbers are: \n\n";
             PrintIntersectedNumbers(Matrix1, Matrix2, 3, 3);
         }
-    }
-
-    namespace MySolution {
-        void main() {
-            vector <vector<short>> vVec;
-            vector <vector<short>> vVec2;
-
-            Random::Numbers::FillVector2D<short>(vVec,3,3,1,10);
-            Random::Numbers::FillVector2D<short>(vVec2,3,3,1,10);
-            Print::Print2DVectorAsMatrix("Here is the first 3x3 Matrix:\n",vVec,"",true,3,3);
-            cout << endl << endl;
-            Print::Print2DVectorAsMatrix("Here is the second 3x3 Matrix:\n",vVec2,"",true,3,3);
-
-            vector <short> result = Check::IntersectedNumbersIN2GivenMatrixs<short>(vVec,vVec2);
-            cout <<  "And here is the intersected number/s in the both matrixs:\n";
-            Print::PrintVector("Intersected number ",result,true);
-        }
-
-    }
 }

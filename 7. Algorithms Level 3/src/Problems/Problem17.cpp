@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem17.hpp"
+#include <iomanip>
 
 namespace Problem17 {
-    namespace MrSolution {
         void PrintMatrix(int arr[3][3], short Rows, short Cols)
         {
             for (short i = 0; i < Rows; i++)
@@ -65,18 +65,4 @@ namespace Problem17 {
             else
                 cout << "\nNo: It's NOT there.\n";
         }
-    }
-
-    namespace MySolution {
-        void main() {
-            vector <vector <short>> matrix;
-            Random::Numbers::FillVector2D<short>(matrix,3,3,0,100);
-            Print::Print2DVectorAsMatrix("Here is the 3x3 Matrix:\n",matrix,"",true,3,3);
-
-            short numberToCheck = Validate::Any<short>("Enter a number to check if it is in the matrix:","Invaild input please try again");
-            bool result = Check::IsNumberInMatrix<short>(numberToCheck,matrix);
-            cout << Print::CheckTrue(result,"The number found in matrix", "The number is not found in matrix") << endl;
-        }
-
-    }
 }

@@ -2,7 +2,6 @@
 #include <string>
 
 namespace Problem28 {
-	namespace MrSolution {
 		string ReadString()
 		{
 			string S1;
@@ -31,18 +30,4 @@ namespace Problem28 {
 			S1 = InvertAllStringLettersCase(S1);
 			cout << S1 << endl;
 		}
-	}
-
-	namespace MySolution {
-		void main() {
-			string str;
-			cout << "Please enter your string?\n";
-
-			cin.ignore(1,'\n'); getline(cin, str); cout << endl;
-
-			cout << "String After Converting All Chars Case :\n" 
-				 << OPERATIONS::StringsAndChars::StringInvertedCase(str);
-		}
-
-	}
 }

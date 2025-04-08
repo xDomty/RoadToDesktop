@@ -1,9 +1,8 @@
 #include "../../include/Problems/Problem31.hpp"
-#include "../../include/HeadersBeforeCourse/Validate.hpp"
 #include <string>
 
 namespace Problem31 {
-	namespace MrSolution {
+
 		string ReadString()
 		{
 			string S1;
@@ -48,20 +47,5 @@ namespace Problem31 {
 			cout << "The Character " << Ch1 << " Found "            << CountLetter(S1, Ch1, false) << " Times.\n";
 			cout << "The Character " << Ch1 << " Inverted Case is " << InvertLetterCase(Ch1)       << ".\n";
 		}
-	}
 
-	namespace MySolution {
-		void main() {
-			using namespace OPERATIONS::StringsAndChars; using namespace Validate;
-
-			string str; char UserChar;
-			cout << "enter your text ? ";
-			cin.ignore(1, '\n'); getline(cin, str);
-
-			UserChar = ValidateChar("enter the letter you want to check? ", "Allowed only to enter chars :) : ");
-
-			cout << "The Char " << UserChar << " Found " << CountChar<short>(str, UserChar) << " times.\n";
-			cout << "The Chars ( " << UserChar << " / " << InvertCharacterCase(UserChar) << " ) Found " << CountCharUpperAndLower<short>(str, UserChar) << " times.";
-		}
-	}
 }

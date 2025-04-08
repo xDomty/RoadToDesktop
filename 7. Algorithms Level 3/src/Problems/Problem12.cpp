@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem12.hpp"
 
 namespace Problem12 {
-    namespace MrSolution {
+
         int RandomNumber(int From, int To)
         {
             //Function to generate a random number
@@ -58,33 +58,4 @@ namespace Problem12 {
             else
                 cout << "\nNo: martices are NOT typical.";
         }
-    }
-
-    namespace MySolution {
-        void main() {
-            vector <vector<short>> vVec;
-            vector <vector<short>> vVec2;
-            vector <short> *temp;
-
-            for (short i = 0; i < 3; i++)
-            {
-                temp = new vector<short>;
-                for (short i = 0; i < 3; i++) {
-                    temp->push_back(1);
-                }
-                vVec.push_back(*temp);
-                vVec2.push_back(*temp);
-                delete temp;
-            }
-
-
-
-            Print::Print2DVectorAsMatrix("Here is the first 3x3 Matrix:\n",vVec,"",true,3,3);
-            Print::Print2DVectorAsMatrix("Here is the second 3x3 Matrix:\n",vVec2,"",true,3,3);
-
-            bool result = Comparing::_2MatrixsElements<short>(vVec,vVec2);
-            cout << Print::CheckTrue(result, "The Both Matrixs Elements Are Equal","The Both Matrixs Elements Are NOT Equal") << endl;
-        }
-
-    }
 }

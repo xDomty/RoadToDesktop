@@ -1,7 +1,8 @@
 #include "../../include/Problems/Problem19.hpp"
+#include <iomanip>
 
 namespace Problem19 {
-    namespace MrSolution {
+
         void PrintMatrix(int arr[3][3], short Rows, short Cols)
         {
             for (short i = 0; i < Rows; i++)
@@ -53,19 +54,4 @@ namespace Problem19 {
             cout << "\n\nMax Number is: "  ; cout << MaxNumberInMatrix(Matrix1, 3, 3);
         }
 
-    }
-
-    namespace MySolution {
-        void main() {
-            vector <vector<short>> vVec;
-            Random::Numbers::FillVector2D<short>(vVec,3,3,1,100);
-            Print::Print2DVectorAsMatrix("Here is the 3x3 Matrix:\n",vVec,"",true,3,3);
-            cout << endl;
-            short max = OPERATIONS::_2DVectors::MaxAndMin::Max(vVec);
-            short min = OPERATIONS::_2DVectors::MaxAndMin::Min(vVec);
-
-            cout << "The Max Value Is: " << max << endl;
-            cout << "The Min Value Is: " << min << endl;
-        }
-    }
 }

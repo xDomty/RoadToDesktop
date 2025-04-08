@@ -1,14 +1,10 @@
 #pragma once
-#include "../HeadersAfterCourse/Operations.hpp"
+#include <iostream>
+using namespace std;
 
-namespace Problem30 {
-	namespace MrSolution {
-		string ReadString();
-		char ReadChar();
-		short CountLetter(string S1, char Letter);
-		void main();
-	}
-	namespace MySolution {
-		void main();
-	}
+namespace Problem30{
+    string ReadString();
+    char ReadChar();
+    short CountLetter(string S1, char Letter);
+    void main();
 }

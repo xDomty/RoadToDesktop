@@ -1,14 +1,9 @@
 #pragma once
-#include "../HeadersAfterCourse/Operations.hpp"
+#include <iostream>
+using namespace std;
 
 namespace Problem25 {
-	namespace MrSolution {
-		string ReadString();
-		string LowerFirstLetterOfEachWord(string S1);
-		void main();
-	}
-
-	namespace MySolution {
-		void main();
-	}
+	string ReadString();
+	string LowerFirstLetterOfEachWord(string S1);
+	void main();
 }

@@ -1,7 +1,7 @@
 #include "../../include/Problems/Problem22.hpp"
+#include <iomanip>
 
 namespace Problem22 {
-    namespace MrSolution {
         void PrintFibonacciUsingRecurssion(short Number, int Prev1, int Prev2)
         {
             int FebNumber = 0;
@@ -18,14 +18,4 @@ namespace Problem22 {
         {
             PrintFibonacciUsingRecurssion(10, 0, 1);
         }
-
-    }
-
-    namespace MySolution {
-        void main() {
-            short HowManyFibonacciNumbers = Validate::PositiveAndZero<short>("How Many Fibonacci Numbers Do You Want To Print?");
-            cout << "Here Is The Fibonacci Numbers:\n";
-            OPERATIONS::_1DVectors::PrintFibonacciSeriesUsingRecursion<short>(HowManyFibonacciNumbers);
-        }
-    }
 }
