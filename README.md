@@ -54,8 +54,8 @@ This repository is **continuously updated** as I progress.
 | 04 | [Advanced Solutions For Algorithms Level 1](./4.%20Advanced%20Solutions%20For%20Algorithms%20Level%201) | **Finished** | **Finished** |
 | 05 | [Algorithms Level 2](./5.%20Algorithms%20Level%202) | **Finished** | **Finished** |
 | 06 | [C++ Level 2 (Functional)](./6.%20C++%20Level%202%20(FUNCTIONS%20PROGRAMMING)) | **Finished** | **Finished** |
-| 07 | [Algorithms Level 3](./7.%20Algorithms%20Level%203) | **In Progress** | **Finished** |
-| 08 | [Algorithms Level 4](./8.%20Algorithms%20Level%204) | **In Progress** | **Finished** |
+| 07 | [Algorithms Level 3](./7.%20Algorithms%20Level%203) | **Finished** | **Finished** |
+| 08 | [Algorithms Level 4](./8.%20Algorithms%20Level%204) | **Finished** | **Finished** |
 | 09 | Foundations Level 2 | **Not Started** | **Finished** |
 | 10 | C++ Level 3 (OOP) | **Not Started** | **Finished** |
 | 11 | C++ Level 4 (OOP) | **Not Started** | **Finished** |
