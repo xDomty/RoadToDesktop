@@ -2,6 +2,7 @@
 
 This repository documents my journey and solutions for the **Algorithms Level 2** course by **[Programming Advices](https://www.ProgrammingAdvices.com)**. It serves as a portfolio piece demonstrating my understanding and application of algorithmic concepts.
 
+
 ## ⚠ Usage Policy
 
 This repository folder is for **portfolio and reference purposes only.**
@@ -9,6 +10,7 @@ This repository folder is for **portfolio and reference purposes only.**
  - **Respect Copyright:** If you haven’t purchased the official course, please **do not** copy or use this code directly. <br> <br>
  - **Enrolled Students:** Refer to the **official course materials** provided by *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* **and do not** use my code. <br> <br>
  - **All rights reserved** ([Programming Advices®](https://www.ProgrammingAdvices.com)).
+
 
 ## **Course Information**
 - **Course Creator:** *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <sub>[Programming Advices](https://www.ProgrammingAdvices.com)</sub>
@@ -28,6 +30,11 @@ This repository folder is for **portfolio and reference purposes only.**
 
       - Please don't use it if you can pay the course price (coupons are limited)
 
+## Technical Notes
+   - **Compilation:** Each `.cpp` file is designed for separate compilation.
+   - **Coding Style:** Clean, readable, and well-commented code as per course guidelines.
+
+   
 ## Problems Solutions Breakdown (50 Problems) 
 | **#** | **Problem Title** | **Official Session's <br> Problem Solution** <br> *(if course is paid)* | **My Own Problem <br> Solution  SRC** |
 |--------------|----------------------------|----------------------------|---------|
@@ -88,9 +95,7 @@ This repository folder is for **portfolio and reference purposes only.**
 | 01 | Tic Tac Toe &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41411121) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Projects/PROJECT%201)
 | 02 | Math Game | [Solution](https://programmingadvices.com/courses/00316b1111/lectures/41759998) | [Source Code](https://github.com/xDomty/RoadToDesktop/tree/main/5.%20Algorithms%20Level%202/src/Projects/PROJECT%202)
 
-## Technical Notes
-   - **Compilation:** Each `.cpp` file is designed for separate compilation.
-   - **Coding Style:** Clean, readable, and well-commented code as per course guidelines.
+
 
 ## 📢 Connect With Me
 
