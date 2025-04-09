@@ -2,5 +2,5 @@
 #include "../include/Projects/AllProjectsInclude.hpp"
 
 int main() {
-    Problem10::main();
+    Project1::main();
 }
