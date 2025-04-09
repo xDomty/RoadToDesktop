@@ -1,0 +1,3 @@
+/home/AdamKhalill/Documents/GitHub/RoadToDesktop/7. Algorithms Level 3/build/CMakeFiles/MyExecutable.dir
+/home/AdamKhalill/Documents/GitHub/RoadToDesktop/7. Algorithms Level 3/build/CMakeFiles/edit_cache.dir
+/home/AdamKhalill/Documents/GitHub/RoadToDesktop/7. Algorithms Level 3/build/CMakeFiles/rebuild_cache.dir

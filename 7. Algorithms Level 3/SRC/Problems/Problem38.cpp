@@ -2,7 +2,6 @@
 #include <string>
 
 namespace Problem38 {
-	enum enTrimTypes { All, Right, Left };
 
 	string TrimString(string text, enTrimTypes type = enTrimTypes::All)
 	{
