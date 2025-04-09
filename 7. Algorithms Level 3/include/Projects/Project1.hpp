@@ -1,62 +1,41 @@
-#pragma once
-#include <iostream>
+#ifndef PROJECT1_HPP
+#define PROJECT1_HPP
+
+#include <string>
 #include <vector>
-using namespace std;
+#include <iostream>
+#include <fstream>
+#include <iomanip>
 
 namespace Project1 {
 
-    struct strClient;
-    
-    enum enMainMenuOptions
-    {
-    	ListClients = 1, AddNewClient = 2,
-    	DeleteClient = 3, UpdateClient = 4,
-    	FindClient = 5, Exit = 6
+    // Define the structure for a client record
+    struct strClient {
+        std::string AccountNumber;
+        std::string PinCode;
+        std::string Name;
+        std::string Phone;
+        double AccountBalance;
     };
-    
-    const string ClientsFileName;
-    vector<strClient> vClients;
-    
-    vector<string> SplitString(string text, string delim);
-    
-    strClient ConvertLinetoRecord(string line, string delim);
-    
-    string ConvertRecordToLine(strClient& client, string delim);
-    
-    void PrintClientRecord(strClient& client);
-    
-    void PrintAllClientsData(vector<strClient>& vClients);
-    
-    void SaveClientsDataToFile();
-    
-    vector<strClient> LoadClientsDataFromFile(string fileName);
-    
-    vector<strClient>::iterator FindClientByAccNum(string accNum);
-    
-    strClient NewClient();
-    
-    void DelClientByAccNum(string accNum);
-    
-    void UpdClientByAccNum(string accNum);
-    
-    void AddClientsScreen();
-    
-    void DeleteClientScreen();
-    
-    void UpdateClientScreen();
-    
-    void FindClientScreen();
-    
-    void EndScreen();
-    
-    enMainMenuOptions ReadMainMenuOption();
-    
-    void GoBackToMainMenu();
-    
-    void PerfromMainMenuOption(enMainMenuOptions option);
-    
-    void MainMenu();
-    
-    void main();
 
+    // Global vector for holding client records
+    extern std::vector<strClient> vClients;
+
+    // Function declarations
+    void PrintClientRecord(const strClient& client);
+    void PrintAllClientsData(const std::vector<strClient>& vClients);
+    std::vector<strClient> LoadClientsDataFromFile(const std::string& fileName);
+    std::vector<strClient>::iterator FindClientByAccNum(const std::string& accNum);
+    void DeleteClientByAccNum(const std::string& accNum);
+    void UpdateClientByAccNum(const std::string& accNum);
+    void AddClientsScreen();
+    void DeleteClientScreen();
+    void UpdateClientScreen();
+    void FindClientScreen();
+    void EndScreen();
+    void MainMenu();
+    void InitializeData();
+    void main();
 }
+
+#endif // PROJECT1_HPP

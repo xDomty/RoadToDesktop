@@ -4,8 +4,6 @@ using namespace std;
 
 namespace Problem47 {
 
-    const string ClientsFileName;
-
     struct strClient;
     
     strClient NewClient();

@@ -5,7 +5,6 @@ using namespace std;
 
 namespace Problem49 {
 
-    const string ClientsFileName;
     
     struct strClient;
     

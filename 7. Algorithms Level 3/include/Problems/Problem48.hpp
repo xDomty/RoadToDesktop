@@ -5,8 +5,6 @@ using namespace std;
 
 namespace Problem48 {
 
-    const string ClientsFileName;
-
     struct strClient;
     
     vector<string> SplitString(string text, string delim);

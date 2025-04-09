@@ -4,7 +4,7 @@
 
 namespace Problem51 {
     
-    const string ClientsFileName = "Clients.txt";
+    string ClientsFileName = "Clients.txt";
     
     struct strClient
     {
@@ -31,7 +31,7 @@ namespace Problem51 {
     	return words;
     }
     
-    strClient ConvertLinetoRecord(string line, string delim = "#//#")
+    strClient ConvertLinetoRecord(string line, string delim)
     {
     	vector<string> vClientData = SplitString(line, delim);
     	strClient client;
@@ -43,7 +43,7 @@ namespace Problem51 {
     	return client;
     }
     
-    string ConvertRecordToLine(strClient& client, string delim = "#//#")
+    string ConvertRecordToLine(strClient& client, string delim)
     {
     	string recordToLine =
     		client.AccountNumber + delim

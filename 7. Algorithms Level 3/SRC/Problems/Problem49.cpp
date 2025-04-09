@@ -3,7 +3,7 @@
 #include <string>
 
 namespace Problem49 {
-    const string ClientsFileName = "Clients.txt";
+    string ClientsFileName = "Clients.txt";
     
     struct strClient
     {

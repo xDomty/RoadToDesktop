@@ -4,7 +4,7 @@
 
 namespace Problem47 {
 
-    const string ClientsFileName = "Clients.txt";
+    string ClientsFileName = "Clients.txt";
 
     struct strClient
     {

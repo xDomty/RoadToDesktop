@@ -1,85 +1,54 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <string>
+#include <limits>  // For std::numeric_limits
 using namespace std;
 
 namespace Project2 {
 
     struct strClient;
-    
-    enum enMainMenuOptions
-    {
-    	ListClients = 1, AddNewClient = 2,
-    	DeleteClient = 3, UpdateClient = 4,
-    	FindClient = 5, Transactions = 6, Exit = 7
-    };
-    
-    enum enTransactionsOptions
-    {
-    	ShowDeposit = 1, ShowWithdraw = 2,
-    	ShowTotalBalances = 3, ShowMainMenu = 4
-    };
-    
-    enum enTransactionsTypes { Deposit, Withdraw };
 
-    vector<strClient> LoadClientsDataFromFile(string fileName);
-    
-    const string ClientsFileName = "Clients.txt";
-    vector<strClient> vClients = LoadClientsDataFromFile(ClientsFileName);
-    
-    vector<string> SplitString(string text, string delim);
-    
-    strClient ConvertLinetoRecord(string line, string delim);
-    
-    string ConvertRecordToLine(strClient& client, string delim);
-    
-    void PrintClientRecord(strClient& client);
-    
-    void PrintAllClientsData(vector<strClient>& vClients);
-    
+    enum MainMenuOptions
+    {
+        LIST_CLIENTS = 1,
+        ADD_NEW_CLIENT = 2,
+        DELETE_CLIENT = 3,
+        UPDATE_CLIENT = 4,
+        FIND_CLIENT = 5,
+        EXIT = 6
+    };
+
+    extern std::string ClientsFileName;
+    extern std::vector<strClient> vClients;
+
+    std::vector<std::string> SplitString(std::string text, std::string delim);
+    strClient ConvertLinetoRecord(std::string line, std::string delim = "#//#");
+    std::string ConvertRecordToLine(const strClient& client, std::string delim = "#//#");
+    void PrintClientRecord(const strClient& client);
+    void PrintAllClientsData(const std::vector<strClient>& vClients);
     void SaveClientsDataToFile();
-    
-    vector<strClient> LoadClientsDataFromFile(string fileName);
-    
-    vector<strClient>::iterator FindClientByAccNum(string accNum);
-    
+    extern std::vector<strClient> LoadClientsDataFromFile(std::string fileName);
+    extern std::vector<strClient>::iterator FindClientByAccNum(std::string accNum);
     strClient NewClient();
-    
-    void DelClientByAccNum(string accNum);
-    
-    void UpdClientByAccNum(string accNum);
-    
+    void DeleteClientByAccNum(std::string accNum);
+    void UpdateClientByAccNum(std::string accNum);
     void AddClientsScreen();
-    
     void DeleteClientScreen();
-    
     void UpdateClientScreen();
-    
     void FindClientScreen();
-    
     void EndScreen();
-    
-    void DoTransaction(strClient& client, double amount, enTransactionsTypes transactionType);
-    
-    void DoTransactionsScreen(enTransactionsTypes transactionType);
-    
-    void TotalBalancesScreen();
-    
-    enMainMenuOptions ReadMainMenuOption();
-    
-    enTransactionsOptions ReadTransactionsOption();
-    
-    void GoBackToTransactionsMenu();
-    
+    MainMenuOptions ReadMainMenuOption();
     void GoBackToMainMenu();
-    
-    void PerfromTranactionsOption(enTransactionsOptions option);
-    
-    void PerfromMainMenuOption(enMainMenuOptions option);
-    
-    void TransactionsMenu();
-
+    void PerformMainMenuOption(MainMenuOptions option);
     void MainMenu();
-    
+    void InitializeData();
+
+    void ClearScreen();
+    bool IsValidAccountNumber(const std::string& accNum);
+    bool IsValidPinCode(const std::string& pinCode);
+    bool IsValidAccountBalance(double balance);
+
+
     void main();
 }

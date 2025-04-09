@@ -1,10 +1,11 @@
 #include "../../include/Problems/Problem48.hpp"
 #include <fstream>
+#include <string>
 #include <iomanip>
 
 namespace Problem48 {
 
-    const string ClientsFileName = "Clients.txt";
+    string ClientsFileName = "Clients.txt";
 
     struct strClient
     {
