@@ -24,7 +24,7 @@ file(GLOB_RECURSE SOURCES
 )
 
 # Add executable
-add_executable(MyExecutable main.cpp ${SOURCES})
+add_executable(MyExecutable SRC/main.cpp ${SOURCES})
 
 # Optional: Add compile flags (e.g., for warnings)
 # target_compile_options(MyExecutable PRIVATE "-Wall" "-Wextra")
