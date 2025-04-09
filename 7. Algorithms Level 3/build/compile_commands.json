@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/AdamKhalill/Documents/GitHub/RoadToDesktop/7. Algorithms Level 3/build",
-  "command": "/usr/bin/g++  -I\"/home/AdamKhalill/Documents/GitHub/RoadToDesktop/7. Algorithms Level 3/SRC/include/Problems\" -I\"/home/AdamKhalill/Documents/GitHub/RoadToDesktop/7. Algorithms Level 3/SRC/include/Projects\" -g -std=gnu++14 -o CMakeFiles/MyExecutable.dir/main.cpp.o -c \"/home/AdamKhalill/Documents/GitHub/RoadToDesktop/7. Algorithms Level 3/SRC/main.cpp\"",
-  "file": "/home/AdamKhalill/Documents/GitHub/RoadToDesktop/7. Algorithms Level 3/SRC/main.cpp",
-  "output": "CMakeFiles/MyExecutable.dir/main.cpp.o"
-}
-]
