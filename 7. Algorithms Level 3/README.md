@@ -14,7 +14,7 @@ This repository folder is for **portfolio and reference purposes only.**
 
 ## **Course Information**
 - **Course Creator:** *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <sub>[Programming Advices](https://www.ProgrammingAdvices.com)</sub>
-- **Course Playlist:** [Course Link](https://programmingadvices.com/courses/enrolled/1827205) <br>
+- **Course Playlist:** [Course Link](https://programmingadvices.com/p/algorithms-and-problem-solving-level-3) <br>
 - **Course Language:** Arabic
 - **Total Problems:** 51
 - **Total Projects:** 2
