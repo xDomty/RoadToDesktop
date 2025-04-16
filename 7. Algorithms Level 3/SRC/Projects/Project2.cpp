@@ -1,77 +1,108 @@
 #include "../../include/Projects/Project2.hpp"
+#include <iostream>
 #include <iomanip>
 #include <fstream>
-#include <string>
-#include <limits>
 #include <algorithm>
+#include <limits>
+#include <cstdlib>
+#include <string>
+#include <sstream>
+using namespace std;
 
 namespace Project2 {
 
-    struct strClient
-    {
-        string AccountNumber;
-        string PinCode;
-        string Name;
-        string Phone;
+    struct strClient {
+        std::string AccountNumber;
+        std::string PinCode;
+        std::string Name;
+        std::string Phone;
         double AccountBalance;
     };
+    // Define the global vector to hold clients
+    vector<strClient> vClients;  // Declare the global vector of clients
 
-    string ClientsFileName = "Clients.txt";
-    std::vector<strClient> vClients;
+    
 
-    vector<string> SplitString(string text, string delim)
-    {
-        string sWord;
-        vector<string> words;
-        short pos;
+    // Function to clear the console screen (cross-platform for both Windows and Linux)
+    void clearScreen() {
+        #ifdef _WIN32
+                system("cls");
+        #else
+                system("clear");
+        #endif
+    }
 
-        while ((pos = text.find(delim)) != string::npos)
-        {
-            sWord = text.substr(0, pos);
-            if (sWord != "") words.push_back(sWord);
-            text.erase(0, pos + delim.length());
+    // Function to pause the program and wait for user to press any key
+    void pressAnyKeyToContinue() {
+        cout << "\nPress any key to continue... ";
+        cin.get();  // Wait for user to press a key
+        cin.ignore();  // Ignore the newline character
+    }
+
+    // Function to validate if the input is a valid integer
+    bool isValidIntegerInput(const string& input) {
+        for (char ch : input) {
+            if (!isdigit(ch)) {
+                return false;
+            }
         }
-        if (text != "") words.push_back(text);
-        return words;
+        return true;
     }
 
-    strClient ConvertLinetoRecord(string line, string delim)
-    {
-        vector<string> vClientData = SplitString(line, delim);
-        strClient client;
-        client.AccountNumber = vClientData[0];
-        client.PinCode = vClientData[1];
-        client.Name = vClientData[2];
-        client.Phone = vClientData[3];
-        client.AccountBalance = stod(vClientData[4]);
-        return client;
+    // Function to check if input is not empty
+    bool isNotEmpty(const string& input) {
+        return !input.empty();
     }
 
-    string ConvertRecordToLine(const strClient& client, string delim)
-    {
-        string recordToLine =
-            client.AccountNumber + delim
-            + client.PinCode + delim
-            + client.Name + delim
-            + client.Phone + delim
-            + to_string(client.AccountBalance);
-        return recordToLine;
+    // Validation functions for different fields
+    bool validateAccountNumber(const string& accountNumber) {
+        return isNotEmpty(accountNumber) && isValidIntegerInput(accountNumber);
     }
 
-    void PrintClientRecord(const strClient& client)
-    {
+    bool validatePinCode(const string& pinCode) {
+        return isNotEmpty(pinCode) && pinCode.length() == 4 && isValidIntegerInput(pinCode);
+    }
+
+    bool validatePhoneNumber(const string& phone) {
+        return isNotEmpty(phone) && phone.length() == 10 && isValidIntegerInput(phone);
+    }
+
+    bool validateAccountBalance(double balance) {
+        return balance >= 0.0;
+    }
+
+    // Function to save the client data to a file
+    void SaveClientsDataToFile(const string& fileName) {
+        ofstream outFile(fileName);
+        if (outFile.is_open()) {
+            for (const strClient& client : vClients) {
+                outFile << client.AccountNumber << ","
+                    << client.PinCode << ","
+                    << client.Name << ","
+                    << client.Phone << ","
+                    << client.AccountBalance << "\n";
+            }
+            outFile.close();
+        }
+        else {
+            cerr << "Error opening file for writing!" << endl;
+        }
+    }
+
+    // Function definitions for client record operations
+
+    void PrintClientRecord(const strClient& client) {
         cout << "\nThe Following Are The Client Details:\n";
         cout << "------------------------------------";
         cout << "\nAccount Number  : " << client.AccountNumber;
-        cout << "\nPin Code        : " << client.PinCode;
-        cout << "\nName            : " << client.Name;
-        cout << "\nPhone           : " << client.Phone;
-        cout << "\nAccount Balance : " << client.AccountBalance;
+        cout << "\nPin Code       : " << client.PinCode;
+        cout << "\nName           : " << client.Name;
+        cout << "\nPhone          : " << client.Phone;
+        cout << "\nAccount Balance: " << client.AccountBalance;
         cout << "\n------------------------------------\n";
     }
 
-    void PrintAllClientsData(const vector<strClient>& vClients)
-    {
+    void PrintAllClientsData(const vector<strClient>& vClients) {
         cout << "\n\t\t\t\tClient List (" << vClients.size() << ") Client(s).";
         cout << "\n____________________________________________________";
         cout << "____________________________________________\n" << endl;
@@ -83,8 +114,7 @@ namespace Project2 {
         cout << "\n____________________________________________________";
         cout << "____________________________________________\n" << endl;
 
-        for (const strClient& client : vClients)
-        {
+        for (const strClient& client : vClients) {
             cout << "| " << setw(15) << left << client.AccountNumber;
             cout << "| " << setw(10) << left << client.PinCode;
             cout << "| " << setw(40) << left << client.Name;
@@ -97,152 +127,63 @@ namespace Project2 {
         cout << "____________________________________________\n";
     }
 
-    void SaveClientsDataToFile()
-    {
-        ofstream outFile(ClientsFileName, ios::trunc);
-        if (!outFile.is_open())
-        {
-            cerr << "Error opening file for writing!" << endl;
-            return;
-        }
-
-        for (const strClient& client : vClients)
-        {
-            outFile << ConvertRecordToLine(client) << endl;
-        }
-
-        outFile.close();
-    }
-
-    vector<strClient> LoadClientsDataFromFile(string fileName)
-    {
+    vector<strClient> LoadClientsDataFromFile(const string& fileName) {
         vector<strClient> vClients;
         ifstream inFile(fileName);
 
-        if (inFile.is_open())
-        {
+        if (inFile.is_open()) {
             string line;
-            while (getline(inFile, line))
-            {
-                strClient client = ConvertLinetoRecord(line);
+            while (getline(inFile, line)) {
+                // Parse each line to fill a strClient struct
+                strClient client;
+                stringstream ss(line);
+                getline(ss, client.AccountNumber, ',');
+                getline(ss, client.PinCode, ',');
+                getline(ss, client.Name, ',');
+                getline(ss, client.Phone, ',');
+                ss >> client.AccountBalance;
+
                 vClients.push_back(client);
             }
-
             inFile.close();
         }
-        else
-        {
+        else {
             cerr << "Error opening file for reading!" << endl;
         }
 
         return vClients;
     }
 
-    vector<strClient>::iterator FindClientByAccNum(string accNum)
-    {
+    vector<strClient>::iterator FindClientByAccNum(const string& accNum) {
         return find_if(vClients.begin(), vClients.end(),
             [&accNum](const strClient& client) { return client.AccountNumber == accNum; });
     }
 
-    strClient NewClient()
-    {
-        strClient client;
-
-        cout << "Adding New Client:\n\n";
-        cout << "Enter Account Number: ";
-        cin >> client.AccountNumber;
-
-        while (FindClientByAccNum(client.AccountNumber) != vClients.end() || !IsValidAccountNumber(client.AccountNumber))
-        {
-            cout << "Invalid or existing Account Number (" << client.AccountNumber << "). Enter a valid Account Number: ";
-            cin >> client.AccountNumber;
-        }
-
-        cout << "Enter Pin Code: ";
-        cin >> client.PinCode;
-        while (!IsValidPinCode(client.PinCode))
-        {
-            cout << "Invalid Pin Code. Enter a valid Pin Code: ";
-            cin >> client.PinCode;
-        }
-
-        cout << "Enter Name: ";
-        cin.ignore();
-        getline(cin, client.Name);
-        cout << "Enter Phone: ";
-        cin >> client.Phone;
-        cout << "Enter Account Balance: ";
-        while (!(cin >> client.AccountBalance) || !IsValidAccountBalance(client.AccountBalance))
-        {
-            cout << "Invalid Balance. Please enter a valid Account Balance: ";
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        }
-
-        return client;
-    }
-
-    bool IsValidAccountNumber(const string& accNum)
-    {
-        // Basic check for account number (length should be at least 4 digits)
-        return accNum.length() >= 4;
-    }
-
-    bool IsValidPinCode(const string& pinCode)
-    {
-        // Basic check for pin code (length should be exactly 4 digits)
-        return pinCode.length() == 4 && all_of(pinCode.begin(), pinCode.end(), ::isdigit);
-    }
-
-    bool IsValidAccountBalance(double balance)
-    {
-        return balance >= 0;
-    }
-
-    void ClearScreen()
-    {
-#ifdef _WIN32
-        system("cls");
-#else
-        system("clear");
-#endif
-    }
-
-    void DeleteClientByAccNum(string accNum)
-    {
+    void DeleteClientByAccNum(const string& accNum) {
         auto iter = FindClientByAccNum(accNum);
-        if (iter != vClients.end())
-        {
+        if (iter != vClients.end()) {
             PrintClientRecord(*iter);
             char confirmDel;
             cout << "\nAre You Sure You Want To Delete This Client [y/n]? ";
             cin >> confirmDel;
-
-            if (tolower(confirmDel) == 'y')
-            {
+            if (tolower(confirmDel) == 'y') {
                 vClients.erase(iter);
-                SaveClientsDataToFile();
-                cout << "\nClient Deleted Successfully.\n";
+                SaveClientsDataToFile("Clients.txt");  // Persist changes
             }
         }
-        else
-        {
+        else {
             cout << "\nThe Client With Account Number (" << accNum << ") Is Not Found.\n";
         }
     }
 
-    void UpdateClientByAccNum(string accNum)
-    {
+    void UpdateClientByAccNum(const string& accNum) {
         auto iter = FindClientByAccNum(accNum);
-        if (iter != vClients.end())
-        {
+        if (iter != vClients.end()) {
             PrintClientRecord(*iter);
             char confirmUpd;
             cout << "\nAre You Sure You Want To Update This Client [y/n]? ";
             cin >> confirmUpd;
-
-            if (tolower(confirmUpd) == 'y')
-            {
+            if (tolower(confirmUpd) == 'y') {
                 cout << "\nEnter Pin Code: ";
                 cin >> iter->PinCode;
                 cout << "Enter Name: ";
@@ -253,149 +194,165 @@ namespace Project2 {
                 cout << "Enter Account Balance: ";
                 cin >> iter->AccountBalance;
 
-                SaveClientsDataToFile();
-                cout << "\nClient Updated Successfully.\n";
+                SaveClientsDataToFile("Clients.txt");  // Persist changes
             }
         }
-        else
-        {
+        else {
             cout << "\nThe Client With Account Number (" << accNum << ") Is Not Found.\n";
         }
     }
 
-    void AddClientsScreen()
-    {
-        char addMore;
-        do
-        {
-            ClearScreen();
-            cout << "-----------------------------------\n";
-            cout << "      Add New Clients Screen";
-            cout << "\n-----------------------------------\n";
-            vClients.push_back(NewClient());
-            cout << "\nClient added successfully, do you want to add more clients [y/n]? ";
-            cin >> addMore;
-        } while (tolower(addMore) == 'y');
+    void AddClientsScreen() {
+        strClient newClient;
+        cout << "\nEnter Account Number: ";
+        cin >> newClient.AccountNumber;
+        while (!validateAccountNumber(newClient.AccountNumber)) {
+            cout << "Invalid Account Number! Please enter a valid one: ";
+            cin >> newClient.AccountNumber;
+        }
 
-        SaveClientsDataToFile();
+        cout << "Enter Pin Code: ";
+        cin >> newClient.PinCode;
+        while (!validatePinCode(newClient.PinCode)) {
+            cout << "Invalid Pin Code! Please enter a valid one: ";
+            cin >> newClient.PinCode;
+        }
+
+        cout << "Enter Name: ";
+        cin.ignore();
+        getline(cin, newClient.Name);
+        while (!isNotEmpty(newClient.Name)) {
+            cout << "Name cannot be empty! Please enter a valid name: ";
+            getline(cin, newClient.Name);
+        }
+
+        cout << "Enter Phone: ";
+        cin >> newClient.Phone;
+        while (!validatePhoneNumber(newClient.Phone)) {
+            cout << "Invalid Phone Number! Please enter a valid one: ";
+            cin >> newClient.Phone;
+        }
+
+        cout << "Enter Account Balance: ";
+        cin >> newClient.AccountBalance;
+        while (!validateAccountBalance(newClient.AccountBalance)) {
+            cout << "Account Balance cannot be negative! Please enter a valid balance: ";
+            cin >> newClient.AccountBalance;
+        }
+
+        vClients.push_back(newClient);
+        SaveClientsDataToFile("Clients.txt");  // Persist new client
+        cout << "\nClient Added Successfully!\n";
+        pressAnyKeyToContinue();  // Wait for user to press any key to continue
     }
 
-    void DeleteClientScreen()
-    {
+    void DeleteClientScreen() {
         string accNum;
-        cout << "-----------------------------------\n";
-        cout << "\tDelete Client Screen";
-        cout << "\n-----------------------------------\n";
-        cout << "\nEnter Account Number: ";
+        cout << "\nEnter Account Number of Client to Delete: ";
         cin >> accNum;
         DeleteClientByAccNum(accNum);
+        pressAnyKeyToContinue();  // Wait for user to press any key to continue
     }
 
-    void UpdateClientScreen()
-    {
+    void UpdateClientScreen() {
         string accNum;
-        cout << "-----------------------------------\n";
-        cout << "\tUpdate Client Info Screen";
-        cout << "\n-----------------------------------\n";
-        cout << "\nEnter Account Number: ";
+        cout << "\nEnter Account Number of Client to Update: ";
         cin >> accNum;
         UpdateClientByAccNum(accNum);
+        pressAnyKeyToContinue();  // Wait for user to press any key to continue
     }
 
-    void FindClientScreen()
-    {
+    void FindClientScreen() {
         string accNum;
-        cout << "-----------------------------------\n";
-        cout << "\tFind Client Screen";
-        cout << "\n-----------------------------------\n";
-        cout << "\nEnter Account Number: ";
+        cout << "\nEnter Account Number of Client to Find: ";
         cin >> accNum;
+
         auto iter = FindClientByAccNum(accNum);
-        if (iter != vClients.end())
+        if (iter != vClients.end()) {
             PrintClientRecord(*iter);
-        else
+        }
+        else {
             cout << "\nThe Client With Account Number (" << accNum << ") Is Not Found.\n";
-    }
-
-    void EndScreen()
-    {
-        cout << "\n\nThanks for using the system!";
-    }
-
-    MainMenuOptions ReadMainMenuOption()
-    {
-        int option;
-        cout << "\nMain Menu\n";
-        cout << "1. List Clients\n";
-        cout << "2. Add New Client\n";
-        cout << "3. Delete Client\n";
-        cout << "4. Update Client\n";
-        cout << "5. Find Client\n";
-        cout << "6. Exit\n";
-        cout << "Enter your option: ";
-        cin >> option;
-
-        return static_cast<MainMenuOptions>(option);
-    }
-
-    void GoBackToMainMenu()
-    {
-        char goBack;
-        cout << "\nPress any key to go back to the Main Menu...";
-        cin >> goBack;
-    }
-
-    void PerformMainMenuOption(MainMenuOptions option)
-    {
-        switch (option)
-        {
-        case LIST_CLIENTS:
-            PrintAllClientsData(vClients);
-            break;
-        case ADD_NEW_CLIENT:
-            AddClientsScreen();
-            break;
-        case DELETE_CLIENT:
-            DeleteClientScreen();
-            break;
-        case UPDATE_CLIENT:
-            UpdateClientScreen();
-            break;
-        case FIND_CLIENT:
-            FindClientScreen();
-            break;
-        case EXIT:
-            EndScreen();
-            break;
-        default:
-            cout << "\nInvalid option, please try again.\n";
         }
+        pressAnyKeyToContinue();  // Wait for user to press any key to continue
     }
 
-    void MainMenu()
-    {
-        bool exit = false;
-        while (!exit)
-        {
-            MainMenuOptions option = ReadMainMenuOption();
-            if (option == EXIT)
-            {
-                exit = true;
+    void TransactionScreen() {
+        string accNum;
+        cout << "\nEnter Account Number of Client for Transaction: ";
+        cin >> accNum;
+
+        auto iter = FindClientByAccNum(accNum);
+        if (iter != vClients.end()) {
+            PrintClientRecord(*iter);
+            char transactionType;
+            cout << "\nEnter Transaction Type (d for deposit, w for withdrawal): ";
+            cin >> transactionType;
+
+            double amount;
+            cout << "Enter Amount: ";
+            cin >> amount;
+
+            if (tolower(transactionType) == 'd') {
+                iter->AccountBalance += amount;
+                cout << "\nDeposit Successful! New Balance: " << iter->AccountBalance << endl;
+            } else if (tolower(transactionType) == 'w') {
+                if (amount > iter->AccountBalance) {
+                    cout << "\nInsufficient Balance! Transaction Failed.\n";
+                } else {
+                    iter->AccountBalance -= amount;
+                    cout << "\nWithdrawal Successful! New Balance: " << iter->AccountBalance << endl;
+                }
+            } else {
+                cout << "\nInvalid Transaction Type!\n";
             }
-            else
-            {
-                PerformMainMenuOption(option);
-            }
+
+            SaveClientsDataToFile("Clients.txt");  // Persist changes
+        } else {
+            cout << "\nThe Client With Account Number (" << accNum << ") Is Not Found.\n";
         }
+
+        pressAnyKeyToContinue();  // Wait for user to press any key to continue
     }
 
-    void InitializeData()
-    {
-        vClients = LoadClientsDataFromFile(ClientsFileName);
+    void EndScreen() {
+        cout << "\n\nThanks for using the system!" << endl;
+        pressAnyKeyToContinue();  // Wait for user to press any key to exit
     }
 
-    void main()
-    {
+    void MainMenu() {
+        int choice;
+        do {
+            clearScreen();  // Clear the screen each time
+            cout << "\nMain Menu\n";
+            cout << "1. Add Client\n";
+            cout << "2. Delete Client\n";
+            cout << "3. Update Client\n";
+            cout << "4. Find Client\n";
+            cout << "5. Print All Clients\n";
+            cout << "6. Transaction\n";
+            cout << "7. End\n";
+            cout << "Enter your choice: ";
+            cin >> choice;
+
+            switch (choice) {
+            case 1: clearScreen(); AddClientsScreen(); break;
+            case 2: clearScreen(); PrintAllClientsData(vClients); DeleteClientScreen(); break;
+            case 3: clearScreen(); PrintAllClientsData(vClients); UpdateClientScreen(); break;
+            case 4: clearScreen(); PrintAllClientsData(vClients); FindClientScreen();  break;
+            case 5: clearScreen(); PrintAllClientsData(vClients); pressAnyKeyToContinue(); break;
+            case 6: clearScreen(); PrintAllClientsData(vClients); TransactionScreen(); break;
+            case 7: EndScreen(); break;
+            default: cout << "\nInvalid choice!\n"; pressAnyKeyToContinue(); break;
+            }
+        } while (choice != 7);
+    }
+
+    void InitializeData() {
+        vClients = LoadClientsDataFromFile("Clients.txt");
+    }
+
+    void main() {
         InitializeData();
         MainMenu();
     }
