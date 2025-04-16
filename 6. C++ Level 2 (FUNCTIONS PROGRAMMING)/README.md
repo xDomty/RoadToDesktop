@@ -1,6 +1,6 @@
 # C++ Level 2 <sub>*[Show Adam's Certificate](https://github.com/xDomty/RoadToDesktop/blob/main/0.%20My%20Certifications/6.%20C%2B%2B%20Level%202.pdf)* [![Language](https://img.shields.io/badge/Language-C%2B%2B-blue.svg)](https://isocpp.org/)</sub>
 
-This repository documents my journey and solutions for the **Algorithms Level 2** course by **[Programming Advices](https://www.ProgrammingAdvices.com)**. It serves as a portfolio piece demonstrating my understanding and application of algorithmic concepts.
+This repository documents my journey and solutions for the **C++ Level 2** course by **[Programming Advices](https://www.ProgrammingAdvices.com)**. It serves as a portfolio piece demonstrating my understanding and application of more C++ concepts.
 
 
 ## ⚠ Usage Policy
