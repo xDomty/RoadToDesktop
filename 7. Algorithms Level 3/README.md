@@ -31,7 +31,7 @@ This repository folder is for **portfolio and reference purposes only.**
       - Please don't use it if you can pay the course price (coupons are limited)
 
 ## Technical Notes
-   - **Compilation:** `C++ 14` USING `CMake OR Visual Studio SLN` 
+   - **Compilation:** `C++ 14` USING `CMake OR Visual Studio SLN` --> [CMakeLists.txt](https://github.com/xDomty/RoadToDesktop/blob/main/7.%20Algorithms%20Level%203/CMakeLists.txt)
    - **Folder Tree:**
 
          📁 Include
