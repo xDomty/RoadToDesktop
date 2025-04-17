@@ -1,9 +1,50 @@
-# **Algorithms Level 4 Course**
-This course consists of **65 problems** and **2 projects**. 
+# Algorithms Level 4 <sub>*[Show Adam's Certificate](https://github.com/xDomty/RoadToDesktop/blob/main/0.%20My%20Certifications/8.%20Algorithms%20Level%204.pdf)* [![Language](https://img.shields.io/badge/Language-C%2B%2B-blue.svg)](https://isocpp.org/)</sub>
 
----
+This repository documents my journey and solutions for the **Algorithms Level 4** course by **[Programming Advices](https://www.ProgrammingAdvices.com)**. It serves as a portfolio piece demonstrating my understanding and application of algorithmic concepts.
 
-## Below is the list of problems.
+
+## ⚠ Usage Policy
+
+This repository folder is for **portfolio and reference purposes only.**
+
+ - **Respect Copyright:** If you haven’t purchased the official course, please **do not** copy or use this code directly. <br> <br>
+ - **Enrolled Students:** Refer to the **official course materials** provided by *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* **and do not** use my code. <br> <br>
+ - **All rights reserved** ([Programming Advices®](https://www.ProgrammingAdvices.com)).
+
+
+## **Course Information**
+- **Course Creator:** *[Dr. Mohammed Abu Hadhood](https://jo.linkedin.com/in/abuhadhoud)* <sub>[Programming Advices](https://www.ProgrammingAdvices.com)</sub>
+- **Course Playlist:** [Course Link](https://programmingadvices.com/p/08-algorithms-problem-solving-level-4) <br>
+- **Course Language:** Arabic
+- **Total Problems:** 65
+- **Total Projects:** 2
+- **Course Price:** 20 USD 
+- **Support Coupons:** [ProgrammingAdvices.com/p/supportcoupons](https://programmingadvices.com/p/supportcoupons)
+
+     - You can use these support coupons on course payment site
+     - You can get support coupons (25% , 50% , 75% and even 100%!) on course price <br> <br>
+     
+      Caution : 
+
+      - This support coupons made only for people who can't pay the course price
+
+      - Please don't use it if you can pay the course price (coupons are limited)
+
+## Technical Notes
+   - **Compilation:** `C++ 14` USING `CMake OR Visual Studio SLN` 
+   - **Folder Tree:**
+
+         📁 Include
+             ├── 📁 Problems        (Header files for Problems)
+             └── 📁 Projects      (Header files for Projects)
+
+         📁 SRC
+             ├── 📁 Problems        (CPP files for Problems)
+             └── 📁 Projects      (CPP files for Projects)
+             └── main.cpp
+
+
+## Problems List :) (65 Problems)
 
 | **Problem No.** | **Problem Name** | **Header File** | **SRC File** |
 |------|----------------------------|--------------|--------------|
