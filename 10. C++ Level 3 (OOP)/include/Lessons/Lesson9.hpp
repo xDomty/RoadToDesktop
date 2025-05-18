@@ -61,4 +61,4 @@ namespace Lesson9 {
 
 }
 
-// Lesson 9 : Read Only Property & Write Only Property (END HEADER'S BLOCK)
+// Lesson 9 : Property SET/GET  (END HEADERS'S BLOCK)

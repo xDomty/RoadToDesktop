@@ -26,9 +26,6 @@ namespace Lesson8 {
 				 string clsStudent::getLastName() {
 					 return _LastName;
 				 };
-				 string clsStudent::getFullName() {
-					 return _FirstName + " " + _LastName;
-				 };
 	             short clsStudent::getAge(){
 					 return _Age;
 				 }
@@ -39,6 +36,9 @@ namespace Lesson8 {
 				 int clsStudent::getID() {
 					 return _ID;
 				 }
+				 string clsStudent::getFullName() {
+					 return _FirstName + " " + _LastName;
+				 };
 	      
 	      // Write Only Properties:
 	      

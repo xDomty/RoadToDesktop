@@ -30,7 +30,6 @@ namespace Lesson8 {
 	        	// PROPERTY GET:					     
 	        	  string getFirstName()              ;   // Definition in source file
 	        	  string getLastName()               ;   // Definition in source file
-	        	  string getFullName()               ;   // Definition in source file
 	        	  short getAge()                     ;   // Definition in source file
 													     
 
@@ -38,6 +37,7 @@ namespace Lesson8 {
 			 
 				// PROPERTY GET:
 				  int getID()                        ;   // Definition in source file
+				  string getFullName();                  // Definition in source file
 				   
 		     // Write Only Properties:
 
