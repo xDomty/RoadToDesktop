@@ -1,4 +1,4 @@
-# **Algorithms Level 1** <sub>*[Show Adam's Certificate](https://github.com/xDomty/RoadToDesktop/blob/main/0.%20My%20Certifications/2.%20Algorithms%20Level%201.pdf)*</sub> 
+# **Algorithms Level 1** <sub>*[Show Adam's Certificate](https://github.com/xDomty/RoadToDesktop/blob/main/00.%20My%20Certifications/2.%20Algorithms%20Level%201.pdf)*</sub> 
 
 ## **Course Information**
 - **Total Problems:** 50
@@ -10,7 +10,7 @@
 ## **Important Note**
 - This Course Solved Using FlowCharts (*Not Code*)
 - I Solved This Course in Microsoft OneNote 
-- In Order To Access My Solutions [Download This File](https://github.com/xDomty/RoadToDesktop/raw/refs/heads/main/2.%20Algorithms%20Level%201/ALGORITHMS%20L1.onepkg) and open it using Microsoft OneNote
+- In Order To Access My Solutions [Download This File](https://github.com/xDomty/RoadToDesktop/raw/refs/heads/main/02.%20Algorithms%20Level%201/ALGORITHMS%20L1.onepkg) and open it using Microsoft OneNote
 
 ## **Solution Example**
 ![لقطة شاشة 2025-03-30 151220](https://github.com/user-attachments/assets/6c3d5e17-5ddd-4481-8376-fcc6328f1517)
