@@ -57,7 +57,7 @@ This repository is **continuously updated** as I progress.
 | 07 | [Algorithms Level 3](./7.%20Algorithms%20Level%203) | **Finished** | **Finished** |
 | 08 | [Algorithms Level 4](./8.%20Algorithms%20Level%204) | **Finished** | **Finished** |
 | 09 | Foundations Level 2 | **Not Started** | **Finished** |
-| 10 | C++ Level 3 (OOP) | **Not Started** | **Finished** |
+| 10 | C++ Level 3 (OOP) | **In Progress** | **Finished** |
 | 11 | C++ Level 4 (OOP) | **Not Started** | **Finished** |
 | 12 | Data Structures Level 1 | **Not Started** | **Finished** |
 | 13 | Algorithms Level 5 | **Not Started** | **Finished** |
