@@ -1,6 +1,0 @@
-//DERIVED
-  //1.FUNCTION
-  //2.ARRAY
-  //3.POINTER
-  //4.REFERENCE
-    
