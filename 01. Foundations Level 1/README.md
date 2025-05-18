@@ -1,4 +1,4 @@
-# **Foundations Level 1** <sub>*[Show Adam's Certificate](../00.%20My%20Certifications/1.%20Foundations%20Level%201.pdf)*</sub>
+# **Foundations Level 1** <sub>*[Show Adam's Certificate](../00.%20My%20Certifications/01.%20Foundations%20Level%201.pdf)*</sub>
 
 ## **Course Information**  
 - **Total Lessons:** 16 
