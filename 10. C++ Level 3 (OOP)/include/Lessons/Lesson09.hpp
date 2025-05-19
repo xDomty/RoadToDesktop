@@ -47,7 +47,7 @@ namespace Lesson9 {
     
 			 // Read Only Properties:    
 				  const int& ID();                 // Definition in source file
-				  const string FullName();        // Definition in source file
+				  const string FullName();         // Definition in source file
 	    };
 
 	// clsStudent (END BLOCK)

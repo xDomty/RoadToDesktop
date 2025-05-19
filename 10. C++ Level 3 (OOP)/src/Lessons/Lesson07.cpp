@@ -1,4 +1,4 @@
-#include "../../include/Lessons/Lesson7.hpp"
+#include "../../include/Lessons/Lesson07.hpp"
 
 // Lesson 7 : Property Set / Get (START DEFINING BLOCK)
 

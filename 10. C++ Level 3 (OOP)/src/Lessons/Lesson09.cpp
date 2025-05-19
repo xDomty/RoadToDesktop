@@ -1,4 +1,4 @@
-#include "../../include/Lessons/Lesson9.hpp"
+#include "../../include/Lessons/Lesson09.hpp"
 
 // Lesson 9 : Property SET/GET  (START SOURCE'S BLOCK)
 
@@ -49,7 +49,7 @@ namespace Lesson9 {
 	            const string clsStudent::FullName() {
 	            	return _FirstName + " " + _LastName;
 	            };
-				
+
 
     // clsStudent (End BLOCK)
 
