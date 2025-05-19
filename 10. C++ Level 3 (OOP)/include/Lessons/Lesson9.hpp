@@ -23,30 +23,31 @@ namespace Lesson9 {
 			 // Read And Write Properties:	
 			 
 	        	// PROPERTY SET:
-	        	  void setFirstName(string FirstName);   // Definition in source file
-	        	  void setLastName(string LastName)  ;   // Definition in source file
-				  void setAge(short Age)             ;   // Definition in source file
-	        										     
-	        	// PROPERTY GET:					     
-	        	  string getFirstName()              ;   // Definition in source file
-	        	  string getLastName()               ;   // Definition in source file
-	        	  short getAge()                     ;   // Definition in source file
+	        	  // void setFirstName(string FirstName); //  DECLINCED !!  BETTER APPROACH IS BELLOW (THE COMMENTED DIFINITION IN SOURCE FILE)
+	        	  // void setLastName(string LastName)  ; //  DECLINCED !!  BETTER APPROACH IS BELLOW (THE COMMENTED DIFINITION IN SOURCE FILE)
+				  // void setAge(short Age)             ; //  DECLINCED !!  BETTER APPROACH IS BELLOW (THE COMMENTED DIFINITION IN SOURCE FILE)
+	        										      //  DECLINCED !!  BETTER APPROACH IS BELLOW (THE COMMENTED DIFINITION IN SOURCE FILE)
+	        	// PROPERTY GET:					      //  DECLINCED !!  BETTER APPROACH IS BELLOW (THE COMMENTED DIFINITION IN SOURCE FILE)
+	        	  // string getFirstName()              ; //  DECLINCED !!  BETTER APPROACH IS BELLOW (THE COMMENTED DIFINITION IN SOURCE FILE)
+	        	  // string getLastName()               ; //  DECLINCED !!  BETTER APPROACH IS BELLOW (THE COMMENTED DIFINITION IN SOURCE FILE)
+	        	  // short getAge()                     ; //  DECLINCED !!  BETTER APPROACH IS BELLOW (THE COMMENTED DIFINITION IN SOURCE FILE)
 							
 				// DECLARATIONS SPECIFICATIONS:
-				  __declspec(property(put = setFirstName, get = getFirstName)) string FirstName;
-				  __declspec(property(put = setLastName, get = getLastName))   string LastName;
-				  __declspec(property(put = setAge, get = getAge))             short Age;
 
-			 // Read Only Properties:
-			 
-				// PROPERTY GET:
-				  int getID()                        ;   // Definition in source file
-				  string getFullName();                  // Definition in source file
+				  // Windows ONLY APRROACH (BECAUSE IT'S ON WINDOWS C++ COMPILER LEVEL)
+				   // __declspec(property(put = setFirstName, get = getFirstName)) string FirstName;
+				   // __declspec(property(put = setLastName, get = getLastName))   string LastName;
+				   // __declspec(property(put = setAge, get = getAge))             short Age;
 
-		     // Write Only Properties:
-
-				// PROPERTY SET: 
-				  // nothing here yet
+                  // For everything ! (BETTER APPROACH AND DOESN'T NEED PROPERTY SET/GET FUNCTIONS)
+				    string& FirstName();           // Definition in source file
+                    string& LastName();            // Definition in source file
+                    short& Age();                  // Definition in source file
+    
+    
+			 // Read Only Properties:    
+				  const int& ID();                 // Definition in source file
+				  const string FullName();        // Definition in source file
 	    };
 
 	// clsStudent (END BLOCK)
