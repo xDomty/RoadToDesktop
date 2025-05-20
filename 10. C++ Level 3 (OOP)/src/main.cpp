@@ -1,5 +1,5 @@
-#include "../include/LessonsInclude.hpp"
+#include "../include/ProjectsInclude.hpp"
 
 int main() {
-	Lesson9::run();
+    Project01::run();
 }
