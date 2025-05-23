@@ -61,13 +61,13 @@
                          case Multiply:  opTypeStr = "Multiply"; break;
                          case Divide:    opTypeStr = "Divide"; break;
                          default:        opTypeStr = "Unknown"; break;
-                         }
+                         };
 
                          cout << setw(15) << op[0]
-                             << setw(15) << op[1]
-                             << setw(15) << op[2]
-                             << setw(15) << opTypeStr << "\n";
-                     }
+                              << setw(15) << op[1]
+                              << setw(15) << op[2]
+                              << setw(15) << opTypeStr << "\n";
+                     }        
                  }
 
         // clsCalculator (End Defining Block)
@@ -77,9 +77,10 @@
 
              void run() {
                  clsCalculator Calculator;
-                 Calculator.SumNum(10);
-				 Calculator.SumNum(5);
-                 Calculator.MultiplyNum(20);
+                 Calculator.SumNum(10000);
+                 Calculator.MultiplyNum(9);
+                 Calculator.DivideNum(2);
+
 
                  Calculator.GetFinalResultsWithHistory();
                  
