@@ -14,9 +14,9 @@ This repository is for **portfolio and reference purposes only.**
 
 ## About Me
 
-My name is **Adam Ahmed** (*nicknamed Domty*), born on **February 26, 2009**. I'm passionate about **programming and software development**, and this repository reflects my dedication to learning and growth.
+My name is **Adam Ahmed** (*nicknamed Domty*), born on **Feburary 26, 2009**. I'm passionate about **programming and software development**, and this repository reflects my dedication to learning and growth.
 
-**Certifications:** [View Here](./0.%20My%20Certifications)
+**Certifications:** [View Here](./00.%20My%20Certifications)
 
 ---
 
@@ -51,7 +51,7 @@ This repository is **continuously updated** as I progress.
 | 01 | [Foundations Level 1](./01.%20Foundations%20Level%201) | **Finished** | **Finished** |
 | 02 | [Algorithms Level 1](./02.%20Algorithms%20Level%201) | **Finished** | **Finished** |
 | 03 | [C++ Level 1 (Functional)](./03.%20C++%20LEVEL%201%20(FUNCTIONS%20PROGRAMMING)) | **Finished** | **Finished** |
-| 04 | [Advanced Solutions For Algorithms Level 1](./04.%20Advanced%20Solutions%20For%20Algorithms%20Level%201) | **Finished** | **Finished** |
+| 04 | [Advanced Solutions For Algorithms Level 1](./04.%20Advanced%20Solutions%20For%20Algotihms%20Level%201) | **Finished** | **Finished** |
 | 05 | [Algorithms Level 2](./05.%20Algorithms%20Level%202) | **Finished** | **Finished** |
 | 06 | [C++ Level 2 (Functional)](./06.%20C++%20Level%202%20(FUNCTIONS%20PROGRAMMING)) | **Finished** | **Finished** |
 | 07 | [Algorithms Level 3](./07.%20Algorithms%20Level%203) | **Finished** | **Finished** |
