@@ -1,4 +1,4 @@
-#include "../../include/Lessons/Lesson09.hpp"
+#include "Lessons/Lesson09.hpp"
 
 // Lesson 9 : Property SET/GET  (START SOURCE'S BLOCK)
 

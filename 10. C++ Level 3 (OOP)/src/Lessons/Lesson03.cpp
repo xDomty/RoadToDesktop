@@ -1,4 +1,4 @@
-#include "../../include/Lessons/Lesson03.hpp"
+#include "Lessons/Lesson03.hpp"
 
 // Lesson 3 : Classes and objects
 

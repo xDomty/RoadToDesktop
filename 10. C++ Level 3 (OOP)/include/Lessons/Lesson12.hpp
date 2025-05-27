@@ -20,7 +20,7 @@ namespace Lesson12 {
 	    
 				clsAddress(string AddressLine1, string AddressLine2, string PoBOX, string ZipCode); // Definition in the source file
 	    																							
-				void GetAddress();         // Definition in the source file
+				void GetAddress();                                                                  // Definition in the source file
 	    
 	    };
 

@@ -1,4 +1,4 @@
-#include "../../include/Lessons/Lesson06.hpp"
+#include "Lessons/Lesson06.hpp"
 
 // Lesson 6 : Access speciiers / modifiers (START BLOCK)
 

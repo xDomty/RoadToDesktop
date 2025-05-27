@@ -1,9 +1,8 @@
-#include "../include/LessonsInclude.hpp"
-#include "../include/HomeworksInclude.hpp"
-#include "../include/ProjectsInclude.hpp"
-
+#include "LessonsInclude.hpp"
+#include "HomeworksInclude.hpp"
+#include "ProjectsInclude.hpp"
 
 int main() {
     // You can call here the (lesson / Homework / Project) You Want To SHOW
-        Lesson12::run();
+        Lesson14::run();
 }

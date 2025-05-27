@@ -1,4 +1,4 @@
-#include "../../include/Lessons/Lesson08.hpp"
+#include "Lessons/Lesson08.hpp"
 
 // Lesson 8 : Read Only Property & Write Only Property (START SOURCE'S BLOCK)
 

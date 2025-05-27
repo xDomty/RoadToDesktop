@@ -1,4 +1,4 @@
-#include "../../include/Lessons/Lesson12.hpp"
+#include "Lessons/Lesson12.hpp"
 
 
 // Lesson 12 : CONSTRUCTORS  (START NAMESPACE'S BLOCK)
