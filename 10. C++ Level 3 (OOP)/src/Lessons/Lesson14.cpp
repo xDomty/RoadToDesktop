@@ -1,5 +1,7 @@
 #include "Lessons/Lesson14.hpp"
 
+// Lesson 14 : DESTRUCTORS (START NAMESPACE'S BLOCK)
+
 namespace Lesson14 {
 
 	// clsPerson (Start Block In SOURCE)
@@ -39,3 +41,5 @@ namespace Lesson14 {
 	// run (Start Defining the lesson's 14 excutable block)
 
 }
+
+// Lesson 14 : DESTRUCTORS (END NAMESPACE'S BLOCK)

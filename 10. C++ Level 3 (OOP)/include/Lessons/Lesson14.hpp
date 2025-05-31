@@ -4,7 +4,6 @@ using namespace std;
 
 // Lesson 14 : DESTRUCTORS (START NAMESPACE'S BLOCK)
 
-
 namespace Lesson14 {
 
 	// clsPerson (Start Block In HEADER)
