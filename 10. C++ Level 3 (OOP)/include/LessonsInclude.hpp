@@ -8,3 +8,5 @@
 #include "Lessons/Lesson13.hpp"
 #include "Lessons/Lesson14.hpp"
 #include "Lessons/Lesson15.hpp"
+#include "Lessons/Lesson16.hpp"
+#include "Lessons/Lesson17.hpp"

@@ -14,7 +14,7 @@ namespace Lesson15{
             public:
 
               // vars
-               int ExpVar;          // defined per object (in source)
+               int ExVar;          // defined per object (in source)
 
               // static vars
                static int counter; // defined in source (and can be modified in object globally)
@@ -27,7 +27,7 @@ namespace Lesson15{
 
         };
 
-    // clsA (Start Header's block)
+    // clsA (End Header's block)
 
 
     // run (Start declaring the lesson's 15 excutable block)

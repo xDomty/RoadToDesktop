@@ -16,20 +16,22 @@ namespace Lesson15{
      
       // functions and procedures
         void clsA::Print(){
-            cout << "var = " << ExpVar << endl;
+            cout << "var = " << ExVar << endl;
             cout << "counter = " << counter << endl << endl;
         }
     
         
-    // clsA (Start Source's block)
+    // clsA (End Source's block)
 
+
+    // run (Start Defining the lesson's 15 excutable block)
 
     void run(){
 
         clsA A1, A2,A3;
-        A1.ExpVar = 10;
-        A2.ExpVar = 20;
-        A3.ExpVar = 30;
+        A1.ExVar = 10;
+        A2.ExVar = 20;
+        A3.ExVar = 30;
 
         cout << "A1 Info:\n"; A1.Print();
         cout << "A2 Info:\n"; A2.Print();
@@ -43,6 +45,8 @@ namespace Lesson15{
         cout << "A3 Info:\n"; A3.Print();
 
     }
+
+    // run (Start Defining the lesson's 15 excutable block)
 
 }
 
