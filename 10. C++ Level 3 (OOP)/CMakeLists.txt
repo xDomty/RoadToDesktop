@@ -13,4 +13,4 @@ file(GLOB_RECURSE SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 file(GLOB_RECURSE HEADER_FILES ${PROJECT_SOURCE_DIR}/include/*.hpp)
 
 # Create the executable with all source files
-add_executable(CPP_LEVEL3_OOP ${SRC_FILES} ${HEADER_FILES})
+add_executable(CPP_LEVEL3_OOP ${SRC_FILES} ${HEADER_FILES} "include/Homeworks/Based On (Lesson 1 TO 19)/Homework3.hpp")
