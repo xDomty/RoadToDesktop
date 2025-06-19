@@ -95,13 +95,13 @@ namespace Homework3 {
 
             // Normal Methods
                // Propery Set (Write Only)
-			    void SetProgrammingLanguage(string ProgrammingLanguage);   // Defined in source
-				void SetExperienceYears(short ExperienceYears);            // Defined in source
-
-			   //  Property Get (Read Only)
-				string GetProgrammingLanguage() const;                     // Defined in source
-				short  GetExperienceYears() const;                         // Defined in source
-				void   GetInfo() override;                                 // Defined in source
+			            void SetProgrammingLanguage(string ProgrammingLanguage);   // Defined in source
+				          void SetExperienceYears(short ExperienceYears);            // Defined in source
+                  
+               //  Property Get (Read Only)
+				          string GetProgrammingLanguage() const;                     // Defined in source
+				          short  GetExperienceYears() const;                         // Defined in source
+				          void   GetInfo() override;                                 // Defined in source
 
     };
 

@@ -1,5 +1,7 @@
 #include "Homeworks/Based On (Lesson 1 TO 19)/Homework3.hpp"
 
+// Homework 3 : clsProgrammer (Start Namespace's Block)
+
 namespace Homework3 {
 
     // clsPerson (Start Block)
@@ -120,3 +122,5 @@ namespace Homework3 {
     // run (End declaring the Homework's 3 excutable block)
 
 }
+
+// Homework 3 : clsProgrammer (End Namespace's Block)

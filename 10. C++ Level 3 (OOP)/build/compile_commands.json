@@ -1,0 +1,140 @@
+[
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o \"CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_16)/Homework1.cpp.o\" -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Homeworks/Based On (Lesson 1 TO 16)/Homework1.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Homeworks/Based On (Lesson 1 TO 16)/Homework1.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_16)/Homework1.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o \"CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_16)/Homework2.cpp.o\" -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Homeworks/Based On (Lesson 1 TO 16)/Homework2.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Homeworks/Based On (Lesson 1 TO 16)/Homework2.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_16)/Homework2.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o \"CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_19)/Homework3.cpp.o\" -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Homeworks/Based On (Lesson 1 TO 19)/Homework3.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Homeworks/Based On (Lesson 1 TO 19)/Homework3.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_19)/Homework3.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson03.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson03.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson03.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson03.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson06.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson06.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson06.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson06.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson07.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson07.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson07.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson07.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson08.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson08.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson08.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson08.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson09.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson09.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson09.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson09.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson12.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson12.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson12.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson12.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson13.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson13.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson13.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson13.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson14.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson14.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson14.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson14.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson15.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson15.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson15.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson15.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson16.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson16.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson16.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson16.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson17.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson17.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson17.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson17.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson18.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson18.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson18.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson18.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson19.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson19.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson19.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson19.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson20.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson20.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson20.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson20.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson21.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson21.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson21.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson21.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson22.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson22.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson22.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson22.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson23.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson23.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson23.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson23.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson24.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson24.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson24.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson24.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o \"CMakeFiles/CPP_LEVEL3_OOP.dir/src/Projects/Based_On_(Lesson_01_-_11)/Project01.cpp.o\" -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Projects/Based On (Lesson 01 - 11)/Project01.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/Projects/Based On (Lesson 01 - 11)/Project01.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Projects/Based_On_(Lesson_01_-_11)/Project01.cpp.o"
+},
+{
+  "directory": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/main.cpp.o -c \"/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/main.cpp\"",
+  "file": "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/src/main.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/main.cpp.o"
+}
+]

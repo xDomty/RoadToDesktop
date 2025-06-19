@@ -12,3 +12,8 @@
 #include "Lessons/Lesson17.hpp"
 #include "Lessons/Lesson18.hpp"
 #include "Lessons/Lesson19.hpp"
+#include "Lessons/Lesson20.hpp"
+#include "Lessons/Lesson21.hpp"
+#include "Lessons/Lesson22.hpp"
+#include "Lessons/Lesson23.hpp"
+#include "Lessons/Lesson24.hpp"
