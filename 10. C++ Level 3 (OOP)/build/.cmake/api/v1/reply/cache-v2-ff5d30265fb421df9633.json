@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build"
+			"value" : "/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -139,10 +139,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/sbin/g++"
 		},
 		{
@@ -267,10 +267,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/sbin/gcc"
 		},
 		{
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)"
+			"value" : "/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1179,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)/build"
+			"value" : "/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/build"
 		},
 		{
 			"name" : "CPP_LEVEL3_OOP_IS_TOP_LEVEL",
@@ -1203,7 +1203,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/domty/Own Forks/RoadToDesktop/10. C++ Level 3 (OOP)"
+			"value" : "/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)"
 		}
 	],
 	"kind" : "cache",
