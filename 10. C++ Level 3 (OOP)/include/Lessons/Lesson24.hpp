@@ -6,19 +6,18 @@
 namespace Lesson24 {
 
     // =============================
-    // Base and Derived Classes
+    // clsBase and clsDerived Classes
     // =============================
-    class Base {
+    class clsBase {
     public:
         virtual void speak() const;
-        virtual ~Base() = default;
-    }; // class Base
+        virtual ~clsBase() = default;
+    }; // class clsBase
 
-    class Derived : public Base {
+    class clsDerived : public clsBase {
     public:
         void speak() const override;
-        void derivedOnly() const;
-    }; // class Derived
+    }; // class clsDerived
 
     // =============================
     // Upcasting Demo

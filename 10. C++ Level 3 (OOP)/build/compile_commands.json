@@ -127,6 +127,12 @@
 },
 {
   "directory": "/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/build",
+  "command": "/sbin/g++ -I\"/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson25.cpp.o -c \"/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson25.cpp\"",
+  "file": "/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/src/Lessons/Lesson25.cpp",
+  "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson25.cpp.o"
+},
+{
+  "directory": "/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/build",
   "command": "/sbin/g++ -I\"/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/include\" -g -std=gnu++17 -o \"CMakeFiles/CPP_LEVEL3_OOP.dir/src/Projects/Based_On_(Lesson_01_-_11)/Project01.cpp.o\" -c \"/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/src/Projects/Based On (Lesson 01 - 11)/Project01.cpp\"",
   "file": "/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/src/Projects/Based On (Lesson 01 - 11)/Project01.cpp",
   "output": "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Projects/Based_On_(Lesson_01_-_11)/Project01.cpp.o"

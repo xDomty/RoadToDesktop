@@ -4,18 +4,14 @@
 namespace Lesson24 {
 
     // =============================
-    // Base and Derived Classes
+    // clsBase and clsDerived Classes
     // =============================
-    void Base::speak() const {
-        std::cout << "Base speaking." << std::endl;
+    void clsBase::speak() const {
+        std::cout << "clsBase speaking." << std::endl;
     }
 
-    void Derived::speak() const {
-        std::cout << "Derived speaking!" << std::endl;
-    }
-
-    void Derived::derivedOnly() const {
-        std::cout << "Derived-only method called." << std::endl;
+    void clsDerived::speak() const {
+        std::cout << "clsDerived speaking!" << std::endl;
     }
 
     // =============================
@@ -26,11 +22,11 @@ namespace Lesson24 {
         void demo() {
             std::cout << "[Upcasting Demo]" << std::endl;
 
-            Derived derivedObj;
-            Base* basePtr = &derivedObj; // Upcasting: Derived* -> Base*
-            basePtr->speak();            // Calls Derived::speak() due to virtual function
+            clsDerived derivedObj;
+            clsBase* basePtr = &derivedObj; // Upcasting: clsDerived* -> clsBase*
+            basePtr->speak();            // Calls clsDerived::speak() due to virtual function
 
-            std::cout << "Upcasting allows treating a Derived object as a Base pointer/reference." << std::endl;
+            std::cout << "Upcasting allows treating a clsDerived object as a clsBase pointer/reference." << std::endl;
             std::cout << std::endl;
         }
 
@@ -43,29 +39,7 @@ namespace Lesson24 {
 
         void demo() {
             std::cout << "[Downcasting Demo]" << std::endl;
-
-            Derived derivedObj;
-            Base* basePtr = &derivedObj; // Upcasting
-
-            // Downcasting: Base* -> Derived*
-            Derived* derivedPtr = dynamic_cast<Derived*>(basePtr);
-            if (derivedPtr) {
-                derivedPtr->speak();        // Calls Derived::speak()
-                derivedPtr->derivedOnly();  // Safe access to derived-only members
-                std::cout << "Downcasting successful!" << std::endl;
-            } else {
-                std::cout << "Downcasting failed!" << std::endl;
-            }
-
-            // Unsafe downcasting example
-            Base baseObj;
-            Base* basePtr2 = &baseObj;
-            Derived* wrongCast = dynamic_cast<Derived*>(basePtr2);
-            if (!wrongCast)
-                std::cout << "Downcasting failed as expected when casting Base* to Derived*." << std::endl;
-
-            std::cout << "Downcasting is needed to access derived-specific members from a base pointer, but should be used with care!" << std::endl;
-            std::cout << std::endl;
+            std::cout << "U Can't DownCasting because it gives us errors\n";
         }
    
     } // namespace Downcasting

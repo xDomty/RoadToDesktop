@@ -262,6 +262,16 @@ build CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson24.cpp.o: CXX_COMPILER__CP
   TARGET_COMPILE_PDB = CMakeFiles/CPP_LEVEL3_OOP.dir/
   TARGET_PDB = CPP_LEVEL3_OOP.pdb
 
+build CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson25.cpp.o: CXX_COMPILER__CPP_LEVEL3_OOP_unscanned_Debug /home/domty/GitHub/RoadToDesktop/10.$ C++$ Level$ 3$ (OOP)/src/Lessons/Lesson25.cpp || cmake_object_order_depends_target_CPP_LEVEL3_OOP
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson25.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I"/home/domty/GitHub/RoadToDesktop/10. C++ Level 3 (OOP)/include"
+  OBJECT_DIR = CMakeFiles/CPP_LEVEL3_OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons
+  TARGET_COMPILE_PDB = CMakeFiles/CPP_LEVEL3_OOP.dir/
+  TARGET_PDB = CPP_LEVEL3_OOP.pdb
+
 build CMakeFiles/CPP_LEVEL3_OOP.dir/src/Projects/Based_On_(Lesson_01_-_11)/Project01.cpp.o: CXX_COMPILER__CPP_LEVEL3_OOP_unscanned_Debug /home/domty/GitHub/RoadToDesktop/10.$ C++$ Level$ 3$ (OOP)/src/Projects/Based$ On$ (Lesson$ 01$ -$ 11)/Project01.cpp || cmake_object_order_depends_target_CPP_LEVEL3_OOP
   CONFIG = Debug
   DEP_FILE = "CMakeFiles/CPP_LEVEL3_OOP.dir/src/Projects/Based_On_(Lesson_01_-_11)/Project01.cpp.o.d"
@@ -291,7 +301,7 @@ build CMakeFiles/CPP_LEVEL3_OOP.dir/src/main.cpp.o: CXX_COMPILER__CPP_LEVEL3_OOP
 #############################################
 # Link the executable CPP_LEVEL3_OOP
 
-build CPP_LEVEL3_OOP: CXX_EXECUTABLE_LINKER__CPP_LEVEL3_OOP_Debug CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_16)/Homework1.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_16)/Homework2.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_19)/Homework3.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson03.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson06.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson07.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson08.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson09.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson12.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson13.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson14.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson15.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson16.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson17.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson18.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson19.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson20.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson21.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson22.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson23.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson24.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Projects/Based_On_(Lesson_01_-_11)/Project01.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/main.cpp.o
+build CPP_LEVEL3_OOP: CXX_EXECUTABLE_LINKER__CPP_LEVEL3_OOP_Debug CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_16)/Homework1.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_16)/Homework2.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Homeworks/Based_On_(Lesson_1_TO_19)/Homework3.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson03.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson06.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson07.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson08.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson09.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson12.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson13.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson14.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson15.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson16.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson17.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson18.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson19.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson20.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson21.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson22.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson23.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson24.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Lessons/Lesson25.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/Projects/Based_On_(Lesson_01_-_11)/Project01.cpp.o CMakeFiles/CPP_LEVEL3_OOP.dir/src/main.cpp.o
   CONFIG = Debug
   DEP_FILE = CMakeFiles/CPP_LEVEL3_OOP.dir/link.d
   FLAGS = -g
