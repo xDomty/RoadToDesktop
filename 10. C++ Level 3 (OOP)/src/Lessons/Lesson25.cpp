@@ -1,6 +1,8 @@
 #include "Lessons/Lesson25.hpp"
 #include <iostream>
 
+// Lesson25: Virtual Functions
+
 namespace Lesson25{
 
     // clsPerson
@@ -36,3 +38,5 @@ namespace Lesson25{
         Person2->GetInfo();
     }
 }
+
+// Lesson25: Virtual Functions
