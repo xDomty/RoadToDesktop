@@ -17,3 +17,4 @@
 #include "Lessons/Lesson22.hpp"
 #include "Lessons/Lesson23.hpp"
 #include "Lessons/Lesson24.hpp"
+#include "Lessons/Lesson25.hpp"
