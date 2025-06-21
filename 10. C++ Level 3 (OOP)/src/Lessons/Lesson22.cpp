@@ -1,4 +1,5 @@
 #include "Lessons/Lesson22.hpp"
+#include <iostream>
 
 namespace Lesson22 {
 

@@ -1,6 +1,4 @@
 #pragma once
-#include <string>
-#include <iostream>
 
 // Lesson22: DERIVED CLASSES VISIBILITY MODES
 

@@ -1,5 +1,4 @@
 #pragma once
-#include <string>
 
 // Lesson23: Classes Inheritance Types
 

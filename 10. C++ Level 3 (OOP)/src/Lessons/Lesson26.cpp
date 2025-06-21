@@ -29,7 +29,7 @@ namespace Lesson26{
         clsStudent  Student1;
 
         clsPerson Person0;
-        std::cout << "Static / Early Bining DEMO:\n";
+        std::cout << "Static / Early Binding DEMO:\n";
         Person0.GetInfo(); std::cout << std::endl;
        
 

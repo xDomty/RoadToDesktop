@@ -1,5 +1,4 @@
 #pragma once
-#include <string>
 
 // Lesson24: Upcasting VS Downcasting
 
