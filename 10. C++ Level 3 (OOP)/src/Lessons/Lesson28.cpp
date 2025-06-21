@@ -60,6 +60,7 @@ namespace Lesson28{
     
 
     void run(){
+        
         std::cout << "Lesson28 DEMO: interface with pure functions\n";
 
         std::cout << "- clsMobile can't be an object because it's a interface\n\n";

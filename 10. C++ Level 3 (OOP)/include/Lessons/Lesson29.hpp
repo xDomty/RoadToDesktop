@@ -1,0 +1,33 @@
+#pragma once
+
+namespace Lesson29 {
+
+    class clsY; // Forward declaration
+
+    class clsX { // class --> members --> objects
+
+        friend class clsY; // friend class is accessible to all the classes below
+
+    private:
+        int privateVar;
+        void privateMethod();
+
+    protected:
+        int protectedVar;
+        void protectedMethod();
+
+    public:
+        int publicVar;
+        void publicMethod();
+
+        // Constructor for demonstration
+        clsX();
+
+    };
+
+    class clsY : public clsX {
+    public:
+        void iHaveThePowerOfClsX();
+    };
+
+}
