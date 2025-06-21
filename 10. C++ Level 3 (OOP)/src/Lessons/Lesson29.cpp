@@ -3,26 +3,31 @@
 
 namespace Lesson29 {
 
-    // Implementation of clsX methods
-    clsX::clsX() {
-        privateVar = 1;
-        protectedVar = 2;
-        publicVar = 3;
-    }
+    // START Implementation of clsX methods
 
-    void clsX::privateMethod() {
-        std::cout << "clsX::privateMethod() called. privateVar = " << privateVar << std::endl;
-    }
+       clsX::clsX() {
+           privateVar = 1;
+           protectedVar = 2;
+           publicVar = 3;
+       }
+   
+       void clsX::privateMethod() {
+           std::cout << "clsX::privateMethod() called. privateVar = " << privateVar << std::endl;
+       }
+   
+       void clsX::protectedMethod() {
+           std::cout << "clsX::protectedMethod() called. protectedVar = " << protectedVar << std::endl;
+       }
+   
+       void clsX::publicMethod() {
+           std::cout << "clsX::publicMethod() called. publicVar = " << publicVar << std::endl;
+       }
 
-    void clsX::protectedMethod() {
-        std::cout << "clsX::protectedMethod() called. protectedVar = " << protectedVar << std::endl;
-    }
+    // END Implementation of clsX methods
 
-    void clsX::publicMethod() {
-        std::cout << "clsX::publicMethod() called. publicVar = " << publicVar << std::endl;
-    }
 
-    // Implementation of clsY
+    // START Implementation of clsY
+
     void clsY::iHaveThePowerOfClsX() {
         // Because clsY is a friend of clsX, it can access all members of clsX.
         clsX obj;
@@ -40,10 +45,18 @@ namespace Lesson29 {
         obj.publicMethod();
 
         // Accessing inherited protected and public members
-        std::cout << "Inherited protectedVar: " << protectedVar << std::endl;
-        protectedMethod();
-        std::cout << "Inherited publicVar: " << publicVar << std::endl;
-        publicMethod();
+        std::cout << "Inherited protectedVar: " << obj.protectedVar << std::endl;
+        obj.protectedMethod();
+        std::cout << "Inherited publicVar: " << obj.publicVar << std::endl;
+        obj.publicMethod();
+    }
+
+    // END Implementation of clsY
+
+    void run(){
+        clsY clsY;
+
+        clsY.iHaveThePowerOfClsX();
     }
 
 }

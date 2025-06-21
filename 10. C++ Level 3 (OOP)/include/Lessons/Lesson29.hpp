@@ -25,9 +25,11 @@ namespace Lesson29 {
 
     };
 
-    class clsY : public clsX {
+    class clsY {
     public:
         void iHaveThePowerOfClsX();
     };
+
+    void run();
 
 }
