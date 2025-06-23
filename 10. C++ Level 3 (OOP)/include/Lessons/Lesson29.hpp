@@ -1,5 +1,7 @@
 #pragma once
 
+// Lesson29: Friend Classes
+
 namespace Lesson29 {
 
     class clsY; // Forward declaration
@@ -33,3 +35,5 @@ namespace Lesson29 {
     void run();
 
 }
+
+// Lesson29: Friend Classes

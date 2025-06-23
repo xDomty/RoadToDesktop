@@ -1,6 +1,8 @@
 #include "Lessons/Lesson29.hpp"
 #include <iostream>
 
+// Lesson29: Friend Classes
+
 namespace Lesson29 {
 
     // START Implementation of clsX methods
@@ -28,7 +30,8 @@ namespace Lesson29 {
 
     // START Implementation of clsY
 
-    void clsY::iHaveThePowerOfClsX() {
+    void clsY::iHaveThePowerOfClsX() { 
+
         // Because clsY is a friend of clsX, it can access all members of clsX.
         clsX obj;
 
@@ -60,3 +63,5 @@ namespace Lesson29 {
     }
 
 }
+
+// Lesson29: Friend Classes

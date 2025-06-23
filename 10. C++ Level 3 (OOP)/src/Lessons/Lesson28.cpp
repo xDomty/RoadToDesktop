@@ -43,7 +43,7 @@ namespace Lesson28{
     
     // clsSamsung Start
 
-       void clsSamsung::Dial(std::string PhoneNumber){
+        void clsSamsung::Dial(std::string PhoneNumber){
             std::cout << "clsSamsung : The Phone " << PhoneNumber << " has ringed !";
         }
      
@@ -60,7 +60,7 @@ namespace Lesson28{
     
 
     void run(){
-        
+
         std::cout << "Lesson28 DEMO: interface with pure functions\n";
 
         std::cout << "- clsMobile can't be an object because it's a interface\n\n";
