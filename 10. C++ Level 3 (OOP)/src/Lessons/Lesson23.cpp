@@ -1,6 +1,8 @@
 #include "Lessons/Lesson23.hpp"
 #include <iostream>
 
+// Lesson23: Classes Inheritance Types
+
 namespace Lesson23 {
 
     // =============================

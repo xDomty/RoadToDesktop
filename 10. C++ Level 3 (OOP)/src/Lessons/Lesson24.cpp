@@ -1,6 +1,8 @@
 #include "Lessons/Lesson24.hpp"
 #include <iostream>
 
+// Lesson24: Upcasting VS Downcasting
+
 namespace Lesson24 {
 
     // =============================

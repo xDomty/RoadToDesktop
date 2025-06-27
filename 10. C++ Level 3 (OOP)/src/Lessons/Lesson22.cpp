@@ -1,6 +1,8 @@
 #include "Lessons/Lesson22.hpp"
 #include <iostream>
 
+// Lesson22: DERIVED CLASSES VISIBILITY MODES
+
 namespace Lesson22 {
 
     // clsBase methods
