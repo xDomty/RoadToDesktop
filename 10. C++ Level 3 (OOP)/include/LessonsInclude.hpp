@@ -21,3 +21,4 @@
 #include "Lessons/Lesson26.hpp"
 #include "Lessons/Lesson28.hpp"
 #include "Lessons/Lesson29.hpp"
+#include "Lessons/Lesson30.hpp"

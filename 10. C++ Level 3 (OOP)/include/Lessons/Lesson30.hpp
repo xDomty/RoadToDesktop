@@ -1,55 +1,92 @@
 #pragma once
 #include <string>
+#include <vector>
 
 // Lesson30: Structures Inside Classes
 
 namespace Lesson30{
 
+    // Protected Structures
+        
 
-    class clsPerson{
-
-        public:
-
-          struct stAddress {
-              std::string street;
-              std::string city;
-              std::string country;
-          };
-  
-          struct stName {
-              std::string firstName;
-              std::string lastName;
-          };
-  
-          struct stCommunication {
-              std::string email;
-              std::string phone;
-          };
-
+    class clsPerson {
 
         private:
-        stAddress       _Address      ;
-        stName          _Name         ;
-        stCommunication _Communication;
+            struct _stAddress{
+                  std::string street;
+                  std::string city;
+                  std::string country;
+
+                  private: 
+                  friend class clsPerson;
+
+                  bool IsValid() const {
+                      return (!street.empty() && !city.empty() && !country.empty());
+                  }
+            };
+        
+            struct _stName{
+                  std::string firstName;
+                  std::string lastName;
+
+                  private:
+                  friend class clsPerson;
+
+                  bool IsValid() const {
+                     return (!firstName.empty() && !lastName.empty());
+                  }
+            };
+        
+            struct _stCommunication {
+                  std::string email;
+                  std::string phone;
+
+                  private:
+                  friend class clsPerson;
+
+                  bool IsValid() const {
+                      return (!email.empty() && !phone.empty());
+                  }
+
+            };
+
+           std::string _ObjName;
 
         public:
-        clsPerson(const stAddress& addr, const stName& name, const stCommunication& comm);
-        
-        // Property Set
-           void setAddress(const stAddress& addr);
-           void setName(const stName& name);
-           void setCommunication(const stCommunication& comm);
+        _stAddress Address; _stName Name; _stCommunication Communication;
 
-        // Property Get
-           stAddress       GetAddress()       const;
-           stName          GetName()          const;
-           stCommunication GetCommunication() const;
+        void GetInfo();
 
-        // Property Print
-           void PrintAddress();
-           void PrintName();
-           void PrintCommunication();
+        private:
+
+         enum _enMissingData {
+             MissingNone          = 0,
+             MissingName          = 1 << 0, 
+             MissingAddress       = 1 << 1,
+             MissingCommunication = 1 << 2
+         };
+         
+         void _CheckField(const std::string& fieldValue, const std::string& fieldName, std::vector<std::string>& errors);
+
+         std::vector<std::string> _ReturnMissedName();
+
+         std::vector<std::string> _ReturnMissedAddress();
+
+         std::vector<std::string> _ReturnMissedCommunication();
+
+         _enMissingData _WhichDataIsMissing();
+
+         bool _IsDataValid();
+
+         void _PrintInvalidData();
+
+        public:
+        clsPerson(std::string ObjName);
+        ~clsPerson();
+
     };
+
+    void run();
 
 }
 
