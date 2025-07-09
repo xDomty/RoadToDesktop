@@ -1,112 +1,79 @@
 #include "Lessons/Lesson30.hpp"
 #include <iostream>
-#include <stdexcept>
 
-// Lesson30: Structures inside classes
+// Lesson30: Structures Inside Clasees
 
 namespace Lesson30 {
 
-    bool clsPerson::_IsDataValid() {
-        return _WhichDataIsMissing() == MissingNone;
-    }
+    // class clsPerson definition start 
+     
+        // stName constructor
+           clsPerson::stName::stName(const std::string& first, const std::string& last)
+               : _first(first), _last(last) {}
+        
+        // stAddress constructor
+           clsPerson::stAddress::stAddress(const std::string& street, const std::string& city, const std::string& country)
+               : _street(street), _city(city), _country(country) {}
+        
+        // stCommunication constructor
+           clsPerson::stCommunication::stCommunication(const std::string& email, const std::string& phone)
+               : _email(email), _phone(phone) {}
+        
+        // clsPerson constructor
+           clsPerson::clsPerson(const stName& name, const stAddress& address, const stCommunication& comm)
+               : _StObjName(name), _StObjAddress(address), _StObjComm(comm) {}
 
-    void clsPerson::GetInfo() {
-        if (!_IsDataValid()) return;
+        // Setters
+           void clsPerson::SetName(std::string first, std::string last) {
+               if (!first.empty()) _StObjName._first = first;
+               if (!last.empty())  _StObjName._last = last;
+           }
+           
+           void clsPerson::SetAddress(std::string street, std::string city, std::string country) {
+               if (!street.empty())  _StObjAddress._street  =  street;
+               if (!city.empty())    _StObjAddress._city    =    city;
+               if (!country.empty()) _StObjAddress._country = country;
+           }
 
-        std::cout << "Name: " << Name.firstName << " " << Name.lastName << "\n";
-        std::cout << "Address: " << Address.street << ", " << Address.city << ", " << Address.country << "\n";
-        std::cout << "Communication: " << Communication.email << ", " << Communication.phone << "\n";
-    }
+           void clsPerson::SetCommunication(std::string email, std::string phone) {
+               if (!email.empty())   _StObjComm._email = email;
+               if (!phone.empty())   _StObjComm._phone = phone;
+           }
 
-    void clsPerson::_CheckField(const std::string& fieldValue, const std::string& fieldName, std::vector<std::string>& errors) {
-        if (fieldValue.empty()) {
-            errors.push_back(fieldName + " is missing");
-        }
-    }
+        // Getters
+        
+           std::string clsPerson::GetFullName() const {
+               return _StObjName._first + " " + _StObjName._last;
+           }
 
-    std::vector<std::string> clsPerson::_ReturnMissedName() {
-        std::vector<std::string> errors;
-        _CheckField(Name.firstName, "First Name", errors);
-        _CheckField(Name.lastName, "Last Name", errors);
-        return errors;
-    }
+           std::string clsPerson::GetAddress() const {
+               return (_StObjAddress._city + ", " + _StObjAddress._country + ", " + _StObjAddress._street);
+           }
+           
+           std::string clsPerson::GetCommunication() const {
+               return (_StObjComm._email + ", " + _StObjComm._phone);
+           }
 
-    std::vector<std::string> clsPerson::_ReturnMissedAddress() {
-        std::vector<std::string> errors;
-        _CheckField(Address.street, "Street", errors);
-        _CheckField(Address.city, "City", errors);
-        _CheckField(Address.country, "Country", errors);
-        return errors;
-    }
+           void clsPerson::GetInfo() const {
+               std::cout << "Full Name: " << clsPerson::GetFullName() << "\n"
+                   << "Address: " << clsPerson::GetAddress() << "\n"
+                   << "Communication: " << clsPerson::GetCommunication() << "\n";
+           }
 
-    std::vector<std::string> clsPerson::_ReturnMissedCommunication() {
-        std::vector<std::string> errors;
-        _CheckField(Communication.email, "Email", errors);
-        _CheckField(Communication.phone, "Phone", errors);
-        return errors;
-    }
-
-    clsPerson::_enMissingData clsPerson::_WhichDataIsMissing() {
-        int result = MissingNone;
-
-        if (!Name.IsValid()) result |= MissingName;
-        if (!Address.IsValid()) result |= MissingAddress;
-        if (!Communication.IsValid()) result |= MissingCommunication;
-
-        return static_cast<_enMissingData>(result);
-    }
-
-    
-
-    void clsPerson::_PrintInvalidData() {
-        if (_IsDataValid()) return;
-
-        std::cout << "INVALID DATA OF THE OBJECT (" << _ObjName << ") REPORT : \n\n";
-        if (!Name.IsValid()) {
-            std::cout << "Name Errors:\n";
-            for (const auto& err : _ReturnMissedName()) {
-                std::cout << "- " << err << "\n";
-            }
-            std::cout << std::endl;
-        }
-
-        if (!Address.IsValid()) {
-            std::cout << "Address Errors:\n";
-            for (const auto& err : _ReturnMissedAddress()) {
-                std::cout << "- " << err << "\n";
-            }
-            std::cout << std::endl;
-        }
-
-        if (!Communication.IsValid()) {
-            std::cout << "Communication Errors:\n";
-            for (const auto& err : _ReturnMissedCommunication()) {
-                std::cout << "- " << err << "\n";
-            }
-            std::cout << std::endl;
-        }
-    }
-
-    clsPerson::clsPerson(std::string ObjName){
-        _ObjName = ObjName;
-    }
-    
-    clsPerson::~clsPerson(){
-        if (!clsPerson::_IsDataValid()){
-            std::cerr << "Warning: Object (" << _ObjName << ") was destroyed with invalid data.\n\n";
-            _PrintInvalidData();
-        }
-    }
-
+    // class clsPerson definition end
+        
     void run() {
-        clsPerson person1("person1");
 
-        
-        person1.Address.city = "hi";
+        clsPerson Person(
+            clsPerson::stName("Adam", "Ahmed"),
+            clsPerson::stAddress("Street 10", "Cairo", "Egypt"),
+            clsPerson::stCommunication("xdomty@gmail.com", "+971525239436")
+        );
 
-        
+        Person.GetInfo();
+
     }
 
-} // namespace Lesson30
+}
 
-// Lesson30: Structures inside classes
+// Lesson30: Structures Inside Clasees

@@ -1,93 +1,71 @@
 #pragma once
 #include <string>
-#include <vector>
 
-// Lesson30: Structures Inside Classes
 
-namespace Lesson30{
+// Lesson30: Structures Inside Clasees
 
-    // Protected Structures
-        
+namespace Lesson30 {
 
     class clsPerson {
 
-        private:
-            struct _stAddress{
-                  std::string street;
-                  std::string city;
-                  std::string country;
+       public:
+       
+           struct stName {
+       
+               private:
+                   std::string _first, _last;
+                   friend class clsPerson;
+       
+               public:
+                   stName(const std::string& first, const std::string& last);
+       
+           };
+       
+           struct stAddress {
+       
+               private:
+                   std::string _street, _city, _country;
+                   friend class clsPerson;
+       
+               public:
+                   stAddress(const std::string& street, const std::string& city, const std::string& country);
+       
+           };
+       
+           struct stCommunication {
+       
+               private:
+                   std::string _email, _phone;
+                   friend class clsPerson;
+       
+               public:
+                   stCommunication(const std::string& email, const std::string& phone);
+       
+           };
+       
+           clsPerson(const stName& name, const stAddress& address, const stCommunication& comm);
+           
+           // Setters
+              void SetName(std::string first, std::string last);
+              void SetAddress(std::string street, std::string city, std::string country);
+              void SetCommunication(std::string email, std::string phone);
+              
 
-                  private: 
-                  friend class clsPerson;
-
-                  bool IsValid() const {
-                      return (!street.empty() && !city.empty() && !country.empty());
-                  }
-            };
-        
-            struct _stName{
-                  std::string firstName;
-                  std::string lastName;
-
-                  private:
-                  friend class clsPerson;
-
-                  bool IsValid() const {
-                     return (!firstName.empty() && !lastName.empty());
-                  }
-            };
-        
-            struct _stCommunication {
-                  std::string email;
-                  std::string phone;
-
-                  private:
-                  friend class clsPerson;
-
-                  bool IsValid() const {
-                      return (!email.empty() && !phone.empty());
-                  }
-
-            };
-
-           std::string _ObjName;
-
-        public:
-        _stAddress Address; _stName Name; _stCommunication Communication;
-
-        void GetInfo();
-
-        private:
-
-         enum _enMissingData {
-             MissingNone          = 0,
-             MissingName          = 1 << 0, 
-             MissingAddress       = 1 << 1,
-             MissingCommunication = 1 << 2
-         };
-         
-         void _CheckField(const std::string& fieldValue, const std::string& fieldName, std::vector<std::string>& errors);
-
-         std::vector<std::string> _ReturnMissedName();
-
-         std::vector<std::string> _ReturnMissedAddress();
-
-         std::vector<std::string> _ReturnMissedCommunication();
-
-         _enMissingData _WhichDataIsMissing();
-
-         bool _IsDataValid();
-
-         void _PrintInvalidData();
-
-        public:
-        clsPerson(std::string ObjName);
-        ~clsPerson();
-
+           // Getters
+              std::string GetFullName() const;
+              std::string GetAddress() const;
+              std::string GetCommunication() const;
+              void GetInfo() const;
+       
+       private:
+           stName _StObjName;
+           stAddress _StObjAddress;
+           stCommunication _StObjComm;
+       
     };
 
     void run();
 
 }
 
-// Lesson30: Structures Inside Classes
+// Lesson30: Structures Inside Clasees
