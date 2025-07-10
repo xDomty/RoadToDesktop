@@ -25,3 +25,4 @@
 #include "Lessons/Lesson31.hpp"
 #include "Lessons/Lesson32.hpp"
 #include "Lessons/Lesson35.hpp"
+#include "Lessons/Lesson36.hpp"
