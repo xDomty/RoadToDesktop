@@ -73,11 +73,5 @@ This repository is **continuously updated** as I progress.
 | 23 | Algorithms Level 6 | **Not Started** | **Finished** |
 | 24 | Windows Services | **Not Started** | **Finished** |
 
----
-
-## Contact Me
-
-**Email:** domty4business@gmail.com  
-**WhatsApp:** [+971525239436](https://wa.me/+971525239436)
 
 
