@@ -1,5 +1,4 @@
 #pragma once
-#include "Lessons/Lesson36.hpp"
 
 // Lesson36: Adding Objects to vectors
 
