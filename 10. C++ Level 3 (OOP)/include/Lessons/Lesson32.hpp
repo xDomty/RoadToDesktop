@@ -1,9 +1,9 @@
 #pragma once
 #include <string>
 
-// Lesson31: Classes Inside clsPerson
+// Lesson32: Classes Inside clsPerson
 
-namespace Lesson31 {
+namespace Lesson32 {
 
     class clsPerson {
 
@@ -57,4 +57,4 @@ namespace Lesson31 {
 
 }
 
-// Lesson31: Classes Inside clsPerson
+// Lesson32: Classes Inside clsPerson

@@ -1,9 +1,9 @@
-#include "Lessons/Lesson30.hpp"
+#include "Lessons/Lesson31.hpp"
 #include <iostream>
 
-// Lesson30: Structures Inside Clasees
+// Lesson31: Structures Inside Clasees
 
-namespace Lesson30 {
+namespace Lesson31 {
 
     // class clsPerson definition start 
      
@@ -76,4 +76,4 @@ namespace Lesson30 {
 
 }
 
-// Lesson30: Structures Inside Clasees
+// Lesson31: Structures Inside Clasees

@@ -1,9 +1,9 @@
-#include "Lessons/Lesson31.hpp"
+#include "Lessons/Lesson32.hpp"
 #include <iostream>
 
-// Lesson31: Classes Inside clsPerson
+// Lesson32: Classes Inside clsPerson
 
-namespace Lesson31 {
+namespace Lesson32 {
 
     // class clsPerson definition start 
 
@@ -80,4 +80,4 @@ namespace Lesson31 {
 
 }
 
-// Lesson31: Classes Inside clsPerson
+// Lesson32: Classes Inside clsPerson
