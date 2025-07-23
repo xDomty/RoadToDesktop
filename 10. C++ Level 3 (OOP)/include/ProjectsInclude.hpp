@@ -9,3 +9,5 @@
 #include "Projects/Based On (Lesson 01 - 39)/Project02/run.hpp"
 
 // Project03:
+#include "Projects/Based On (Lesson 01 - 39)/Project03/clsDate.hpp"
+#include "Projects/Based On (Lesson 01 - 39)/Project03/run.hpp"
