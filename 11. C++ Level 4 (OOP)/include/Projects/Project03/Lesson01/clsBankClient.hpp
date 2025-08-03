@@ -20,7 +20,7 @@ namespace Project03 {
 		    	static std::vector <clsBankClient> _ConvertFileIntoBankClientObjVector(const std::string& FileName, const std::string Seperator = "#//#");
 		    	static void _WriteBankClientObjToFile(const clsBankClient& BankClient, const std::string& FileName, const std::string Seperator = "#//#");
 		    	void _Update();
-		    	void _AddDataLineToFile(const std::string& FileName, const std::string Seperator = "#//#") const;
+		    	void _AddDataLineToFile(const std::string& FileName = "Clients.txt", const std::string Seperator = "#//#") const;
 		    	static clsBankClient _GetEmptyBankClientObj();
 				// i am stuck somehow ._. wait give me a second to think about it
 		    

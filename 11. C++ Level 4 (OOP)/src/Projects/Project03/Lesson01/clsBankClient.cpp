@@ -63,6 +63,33 @@ namespace Project03 {
 
 			  }
 
+			  std::vector <clsBankClient> clsBankClient::_ConvertFileIntoBankClientObjVector(const std::string& FileName, const std::string Seperator ){
+
+				// i didn't deal with files algorithms for maybe 3 months i guess so ._. 
+				std::vector <clsBankClient> vClients;
+
+				std::fstream ClientsFile;
+
+				ClientsFile.open(FileName, std::ios::in);
+
+				// if --> while loop
+
+				if (ClientsFile.is_open()){
+                    std::string Line;
+                    
+
+					while (getline(ClientsFile,Line)){
+					   clsBankClient BankClient = _ConvertLineToBankClientObj(Line,Seperator);
+                       vClients.push_back(BankClient);
+					}
+
+					ClientsFile.close();
+				}
+
+				return vClients;
+
+			  } 
+
 		      void clsBankClient::_Update() {
 		      
 		      }
