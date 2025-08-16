@@ -29,8 +29,6 @@ namespace Project02 {
 			   return false;
 		   }
 		   return true;
-
-		   
 	   }
 	   bool clsIsValid::PositiveNumber(const size_t number) {
 		   if (number > 0) return true;

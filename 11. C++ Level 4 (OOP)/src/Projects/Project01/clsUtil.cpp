@@ -70,17 +70,24 @@ namespace Project01
 		  } return Tabs;
 	  }
 
-	  std::string clsUtil::EncryptString(std::string& str, short key) {
-		  std::string encryptedStr;
-		  for (char c : str) {
-			  encryptedStr += static_cast<char>(c + key);
-		  } return encryptedStr;
+	  // ENCRYPT DECRYPT
+			// Helper function to XOR encrypt/decrypt a string with a key
+	  std::string clsUtil::EncryptDecryptString(const std::string& input, const std::string& key) {
+		  std::string output = input;
+		  for (size_t i = 0; i < input.size(); ++i) {
+			  output[i] = input[i] ^ key[i % key.size()];
+		  }
+		  return output;
 	  }
-	  std::string clsUtil::DecryptString(std::string& str, short key) {
-		  std::string decryptedStr;
-		  for (char c : str) {
-			  decryptedStr += static_cast<char>(c - key);
-		  } return decryptedStr;
+
+	  // Encrypts a string using the provided PinCode
+	  std::string clsUtil::EncryptString(const std::string& input, const std::string& PinCode) {
+		  return EncryptDecryptString(input, PinCode);
+	  }
+
+	  // Decrypts a string using the provided PinCode
+	  std::string clsUtil::DecryptString(const std::string& input, const std::string& PinCode) {
+		  return EncryptDecryptString(input, PinCode);
 	  }
 
 	// clsUtil class definition ends here

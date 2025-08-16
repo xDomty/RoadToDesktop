@@ -1,7 +1,10 @@
 #include "Projects/Project03/Lesson01/clsBankClient.hpp"
+#include "Projects/Project01/clsUtil.hpp" // for Project01::clsUtil:: (DecryptString | EncryptString)
 #include <string>
 #include <vector>
 #include <fstream> // this is for file opeations shit XD
+
+using namespace Project01;
 
 // Project03: Bank Project
 //    Lesson01: Find Person
@@ -27,6 +30,8 @@ namespace Project03 {
 		 
 		   // PRIVATE:
 
+		      const std::string clsBankClient::_FileEncryptionKey = "domty :D"; // used to encrypt/decrypt the file data
+
 		      clsBankClient clsBankClient::_ConvertLineToBankClientObj(const std::string& Line, const std::string Seperator) {
 		          std::vector <std::string> vClientData;
                   vClientData = Global::clsString::SplitString(Line, Seperator); // idk if this can be used in the other one
@@ -44,7 +49,7 @@ namespace Project03 {
 				  
 		      }
 
-			  std::string clsBankClient::_ConvertBankClientObjToLine(const clsBankClient& BankClient, const std::string Seperator) {
+			  std::string clsBankClient::_ConvertBankClientObjToLineENCRYPTED(const clsBankClient& BankClient, const std::string Seperator) {
 				    // so bassically this function will do the opposite of the above function
 
 					std::string sClientRecord = ""; // s stands for string ... st stands for structure
@@ -52,18 +57,18 @@ namespace Project03 {
 				// this is so important	// FirstName#//#LastName#//#Age#//#Email#//#PhoneNumber#//#AccountNumber#//#PinCode#//#AccountBalance
 
 					sClientRecord += BankClient.GetFirstName() + Seperator;
-					sClientRecord += BankClient.GetLastName()  + Seperator;
-                    sClientRecord += std::to_string(BankClient.GetAge()) + Seperator; // bcs this was an unsigned short
+					sClientRecord += BankClient.GetLastName() + Seperator;
+					sClientRecord += std::to_string(BankClient.GetAge()) + Seperator;
 					sClientRecord += BankClient.GetEmail() + Seperator;
-					sClientRecord += BankClient.GetPhoneNumber() + Seperator; // fixed
+					sClientRecord += BankClient.GetPhoneNumber() + Seperator;
 					sClientRecord += BankClient.GetAccountNumber() + Seperator;
-					sClientRecord += BankClient.GetPinCode() + Seperator; 
+					sClientRecord += BankClient.GetPinCode() + Seperator;
 					sClientRecord += std::to_string(BankClient.GetAccountBalance());
-					return sClientRecord;
+					// Encrypt the line with the PinCode
+					return clsUtil::EncryptString(sClientRecord, _FileEncryptionKey);
 
 			  }
-
-			  std::vector <clsBankClient> clsBankClient::_ConvertFileIntoBankClientObjVector(const std::string& FileName, const std::string Seperator ){
+			  std::vector <clsBankClient> clsBankClient::_LoadClientsDataFromFileDECRYPTED(const std::string& FileName, const std::string Seperator ){
 
 				// i didn't deal with files algorithms for maybe 3 months i guess so ._. 
 				std::vector <clsBankClient> vClients;
@@ -79,20 +84,67 @@ namespace Project03 {
                     
 
 					while (getline(ClientsFile,Line)){
-					   clsBankClient BankClient = _ConvertLineToBankClientObj(Line,Seperator);
+					   clsBankClient BankClient = _ConvertLineToBankClientObj(clsUtil::DecryptString(Line,_FileEncryptionKey), Seperator);
                        vClients.push_back(BankClient);
 					}
 
 					ClientsFile.close();
+					
 				}
-
 				return vClients;
 
 			  } 
+			  void clsBankClient::_AddBankClientObjToFile(const clsBankClient& BankClient, const std::string& FileName, const std::string Seperator) {
+				  std::string ClientDataLineENCRYPTED = _ConvertBankClientObjToLineENCRYPTED(BankClient, Seperator);
 
-		      void clsBankClient::_Update() {
-		      
+				  std::fstream ClientsFile;
+				  ClientsFile.open(FileName, std::ios::out | std::ios::app); // open in append mode
+
+				  if (ClientsFile.is_open()) {
+					  ClientsFile << ClientDataLineENCRYPTED << std::endl; // write the data line to the file
+				  }
+
+			  }
+			  void clsBankClient::_SaveClientsDataToFile(std::vector <clsBankClient> vClients, const std::string &FileName, const std::string &Seperator) {
+				  std::fstream ClientsFile;
+				  ClientsFile.open(FileName, std::ios::out); // open in write mode (this will overwrite the file)
+
+				  if (ClientsFile.is_open()) {
+					  std::string DataLineENCRYPTED;
+					  for (const clsBankClient& C : vClients) {
+						  DataLineENCRYPTED = _ConvertBankClientObjToLineENCRYPTED(C, Seperator);
+						  ClientsFile << DataLineENCRYPTED << std::endl; // write the data line to the file
+					  }
+					  ClientsFile.close();
+				  }
+			  }
+		      void clsBankClient::_UpdateClient(const std::string& FileName, const std::string &Seperator) {
+				  std::vector <clsBankClient> _vClients;
+				  _vClients = _LoadClientsDataFromFileDECRYPTED(FileName,Seperator);
+
+				  for (clsBankClient& C : _vClients) {
+				  
+					  if (C.GetAccountNumber() == GetAccountNumber()) {
+						  C = *this; break;
+					  }
+
+				  } 
+
+				  _SaveClientsDataToFile(_vClients, FileName, Seperator); // save the updated clients data to the file
+
+
 		      }
+			  void clsBankClient::_AddDataLineToFile(std::string sDataLineENCRYPTED, const std::string& FileName) {
+				  std::fstream ClientsFile;
+				  ClientsFile.open("Clients.txt", std::ios::out | std::ios::app); // open in append mode
+
+				  if (ClientsFile.is_open()) {
+					  ClientsFile << sDataLineENCRYPTED << std::endl; // write the data line to the file
+				  }
+			  };
+			  clsBankClient clsBankClient::_GetEmptyBankClientObj() {
+				  return clsBankClient(enMode::EmptyMode, "", "", 0 , "", "", "", "", 0);
+			  };
 
 		   // PUBLIC:
               clsBankClient::clsBankClient(const enMode& Mode, const std::string& FirstName, const std::string& LastName,
@@ -103,12 +155,12 @@ namespace Project03 {
 		                                          _AccountNumber = AccountNumber;
 		                                          _PinCode = PinCode;
 		                                          _AccountBalance = AccountBalance;
-			  						       } 
+			  						       }
 
 
 			// Setters
 			    void clsBankClient::SetPinCode(const std::string PinCode) {
-			        _PinCode = PinCode; // ok that's litterally a glitch it's not a error
+			        _PinCode = PinCode;
 			    } 
 				void clsBankClient::SetAccountBalance(const size_t AccountBalance) {
 			        _AccountBalance = AccountBalance;
@@ -116,7 +168,7 @@ namespace Project03 {
 
 			// Getters
 				std::string clsBankClient::GetPinCode() const {
-			        return _PinCode; //
+			        return _PinCode; 
 				}
 				std::string clsBankClient::GetAccountNumber() const {
 			        return _AccountNumber; // Read ONLY (okie makes sense)
@@ -125,8 +177,17 @@ namespace Project03 {
 			        return _AccountBalance; 
 				} 
 
-			// FIND
-			   // we will do it later
+			   // Clients
+			   bool clsBankClient::IsClientExist(std::string AccNumber, const std::string& FileName, const std::string& Seperator) {
+				   std::vector <clsBankClient> vClients = _LoadClientsDataFromFileDECRYPTED(FileName,Seperator);
+				   for (const clsBankClient& C : vClients) {
+					   if (C.GetAccountNumber() == AccNumber) {
+						   return true; // found
+					   }
+				   }
+				   return false; // not found
+			   }
+
 
 				
 
@@ -152,6 +213,3 @@ namespace Project03 {
 } // namespace Project03
 
 
-// clsBankClient.hpp
-//    Lesson01: Find Person
-//       Project03: Bank Project

@@ -42,8 +42,15 @@ namespace Project01 {
 	    		   static std::string AddTabs(size_t NumOfTabs);
 	    
 	    		 // ENCRYPT DECRYPT
-	    		   static std::string EncryptString(std::string& str, short key);
-	    		   static std::string DecryptString(std::string& str, short key);
+	    		    // Helper function to XOR encrypt/decrypt a string with a key
+				   static std::string EncryptDecryptString(const std::string& input, const std::string& key);
+		            
+                    // Encrypts a string using the provided PinCode
+					static std::string EncryptString(const std::string& input, const std::string& PinCode);
+		            
+                    // Decrypts a string using the provided PinCode
+					static std::string DecryptString(const std::string& input, const std::string& PinCode);
+
 	    
 	};
 

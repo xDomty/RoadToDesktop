@@ -14,16 +14,20 @@ namespace Project03 {
 		    	std::string _AccountNumber = "";
 		    	std::string _PinCode = "";
 		    	size_t _AccountBalance = 0;
-		    
+
+				static const std::string _FileEncryptionKey; // used to encrypt/decrypt the file data
+
 		    	static clsBankClient _ConvertLineToBankClientObj(const std::string& Line, const std::string Seperator = "#//#");
-		    	static std::string _ConvertBankClientObjToLine(const clsBankClient& BankClient, const std::string Seperator = "#//#"); //mhm
-		    	static std::vector <clsBankClient> _ConvertFileIntoBankClientObjVector(const std::string& FileName, const std::string Seperator = "#//#");
-		    	static void _WriteBankClientObjToFile(const clsBankClient& BankClient, const std::string& FileName, const std::string Seperator = "#//#");
-		    	void _Update();
-		    	void _AddDataLineToFile(const std::string& FileName = "Clients.txt", const std::string Seperator = "#//#") const;
+		    	static std::string _ConvertBankClientObjToLineENCRYPTED(const clsBankClient& BankClient, const std::string Seperator = "#//#"); //mhm
+		    	static std::vector <clsBankClient> _LoadClientsDataFromFileDECRYPTED(const std::string& FileName = "Clients.txt", const std::string Seperator = "#//#");
+		    	static void _AddBankClientObjToFile(const clsBankClient& BankClient, const std::string& FileName, const std::string Seperator = "#//#");
+				static void _SaveClientsDataToFile(std::vector <clsBankClient> vClients, const std::string &FileName = "Clients.txt", const std::string &Seperator = "#//#");
+		    	void _UpdateClient(const std::string& FileName = "Clients.txt", const std::string &Seperator = "#//#");
+		    	void _AddDataLineToFile(std::string sDataLineENCRYPTED, const std::string& FileName = "Clients.txt");
 		    	static clsBankClient _GetEmptyBankClientObj();
 				// i am stuck somehow ._. wait give me a second to think about it
-		    
+		        
+				
 		    
 		    public: // PUBLIC MEMBERS
 		        
@@ -41,10 +45,10 @@ namespace Project03 {
 		    	size_t GetAccountBalance() const; // ok now the idea is clear
 				
 		    
-		    	// FIND
-		    	static clsBankClient Find(std::string AccNumber);
-		    	static clsBankClient Find(std::string AccNumber, std::string PinCode);
-		    
+		    	// Clients
+		    	static bool IsClientExist(std::string AccNumber, const std::string &FileName = "Clients.txt", const std::string &Seperator = "#//#");
+		        static clsBankClient GetClientInfo(std::string AccNumber, std::string )
+				
 		        // SAVE
 				enum enSaveResults {svFailedEmptyObject,svSucceeded};
 				enSaveResults Save();
@@ -53,6 +57,8 @@ namespace Project03 {
 				static bool IsClientExist(std::string AccountNumber);
 				bool IsEmpty() const;
 
+				// Print
+				void Print();
 
 		}; // class clsBankClient : public clsPerson
 
