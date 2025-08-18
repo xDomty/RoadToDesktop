@@ -44,7 +44,7 @@
       
       
 		     // Other methods
-		         void Print() const;
+		         void Print();
 
 		    }; // class clsPerson
 

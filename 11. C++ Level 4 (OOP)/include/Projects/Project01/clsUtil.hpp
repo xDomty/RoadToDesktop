@@ -43,8 +43,7 @@ namespace Project01 {
 	    
 	    		 // ENCRYPT DECRYPT
 	    		    // Helper function to XOR encrypt/decrypt a string with a key
-				   static std::string EncryptDecryptString(const std::string& input, const std::string& key);
-		            
+				   static std::string HexToBytes(const std::string& hex);
                     // Encrypts a string using the provided PinCode
 					static std::string EncryptString(const std::string& input, const std::string& PinCode);
 		            

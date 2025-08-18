@@ -65,7 +65,7 @@ namespace Project03 {
 		  } // okie nice
 
 	  // Other methods
-	  	  void clsPerson::Print() const{
+	  	  void clsPerson::Print(){
 	  	  	    std::cout << "Person INFO:\n";
 	  	  	    std::cout << "------------------------" << std::endl;
 	  	  	    std::cout << "Name: " << _FullName << std::endl;

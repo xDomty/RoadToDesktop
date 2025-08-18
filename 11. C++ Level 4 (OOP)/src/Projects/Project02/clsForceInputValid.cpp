@@ -19,6 +19,7 @@ namespace Project02 {
 		} while (!clsIsValid::PhoneNumber(phoneNumber));
 		return phoneNumber;
 	}
+
 	std::string clsForceInputValid::URL() {
 		std::string url;
 		do {
@@ -26,6 +27,7 @@ namespace Project02 {
 		} while (!clsIsValid::URL(url));
 		return url;
 	}
+
 	std::string clsForceInputValid::Password(size_t minLength, bool requireSpecialChar) {
 		std::string password;
 		do {
@@ -33,6 +35,7 @@ namespace Project02 {
 		} while (!clsIsValid::Password(password, minLength, requireSpecialChar));
 		return password;
 	}
+
 	size_t clsForceInputValid::Number(std::string message, std::string messageIfTextFail) {
 		size_t number;
 		std::cout << message; std::cin >> number;
@@ -42,6 +45,7 @@ namespace Project02 {
 			std::cout << messageIfTextFail; std::cin >> number;
 		} return number;
 	}
+
     size_t clsForceInputValid::PositiveNumber(std::string message, std::string messageIfTextFail, std::string messageIfNumFail) {
         size_t number;
         while (true) {

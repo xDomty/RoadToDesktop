@@ -72,23 +72,51 @@ namespace Project01
 
 	  // ENCRYPT DECRYPT
 			// Helper function to XOR encrypt/decrypt a string with a key
-	  std::string clsUtil::EncryptDecryptString(const std::string& input, const std::string& key) {
-		  std::string output = input;
-		  for (size_t i = 0; i < input.size(); ++i) {
-			  output[i] = input[i] ^ key[i % key.size()];
-		  }
-		  return output;
-	  }
+	  
 
-	  // Encrypts a string using the provided PinCode
-	  std::string clsUtil::EncryptString(const std::string& input, const std::string& PinCode) {
-		  return EncryptDecryptString(input, PinCode);
-	  }
+      // Converts a hex string back to its original byte string
+      std::string clsUtil::HexToBytes(const std::string& hex) {
+           std::string bytes;
+           if (hex.length() % 2 != 0) return bytes; // Invalid hex string
+           for (size_t i = 0; i < hex.length(); i += 2) {
+               unsigned int byte;
+               if (sscanf(hex.substr(i, 2).c_str(), "%2X", &byte) == 1) {
+                  bytes += static_cast<char>(byte);
+               }
+           }
+           return bytes;
+      }
 
-	  // Decrypts a string using the provided PinCode
-	  std::string clsUtil::DecryptString(const std::string& input, const std::string& PinCode) {
-		  return EncryptDecryptString(input, PinCode);
-	  }
+      // Encrypts a string using the provided PinCode
+      std::string clsUtil::EncryptString(const std::string& input, const std::string& key) {
+           std::string cleanedInput;
+           for (char c : input) {
+                if (c != '\n' && c != '\r') cleanedInput += c;
+           }
+           std::string encrypted = cleanedInput;
+           for (size_t i = 0; i < cleanedInput.size(); ++i) encrypted[i] ^= key[i % key.size()];
+
+           // Convert to hex string to avoid newlines in output
+           std::string hexOutput;
+           for (unsigned char c : encrypted) {
+               char buf[3];
+               snprintf(buf, sizeof(buf), "%02X", c);
+               hexOutput += buf;
+           }
+
+           return hexOutput;
+      }
+
+      // Decrypts a string using the provided PinCode
+      std::string clsUtil::DecryptString(const std::string& input, const std::string& key) {
+
+           std::string encrypted = HexToBytes(input);
+           std::string decrypted = encrypted;
+           for (size_t i = 0; i < encrypted.size(); ++i)
+           decrypted[i] ^= key[i % key.size()];
+           return decrypted;
+
+      }
 
 	// clsUtil class definition ends here
 
