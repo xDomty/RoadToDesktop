@@ -8,7 +8,7 @@
 using namespace Project01;
 
 // Project03: Bank Project
-//    Lesson01: Find Person
+//    Lesson01: Find Client
 //        clsBankClient.cpp
 
 namespace Project03 {
@@ -229,46 +229,46 @@ namespace Project03 {
 			 	  _UpdateClient(FileName, Seperator);
 			 }
 
-      // Asks
-      bool clsBankClient::IsClientExist(std::string AccNumber, const std::string& FileName, const std::string& Seperator) {
-       std::vector <clsBankClient> vClients = _LoadClientsDataFromFileDECRYPTED(FileName,Seperator);
-       for (const clsBankClient& C : vClients) {
-        if (C.GetAccountNumber() == AccNumber) {
-         return true; // found
-        }
-       }
-       return false; // not found
-      }
-      bool clsBankClient::IsEmpty() const{
-       return (_Mode == enMode::EmptyMode);
-      }
-
-      // Clients
-      clsBankClient clsBankClient::GetClientInfo(std::string AccNumber, const std::string &FileName, const std::string &Seperator) {
-       std::vector <clsBankClient> vClients = _LoadClientsDataFromFileDECRYPTED(FileName,Seperator);
-       for (const clsBankClient& C : vClients) {
-        if (C.GetAccountNumber() == AccNumber) {
-         return C; // found
-        }
-       }
-       return _GetEmptyBankClientObj(); // not found
-      }
-
-      // Print
-      void clsBankClient::Print(std::string PinCode) {
-       if (PinCode == _PinCode) {
-        std::cout << "First Name: " << GetFirstName() << std::endl;
-        std::cout << "Last Name: " << GetLastName() << std::endl;
-        std::cout << "Full Name: " << GetFullName() << std::endl;
-        std::cout << "Age: " << GetAge() << std::endl;
-        std::cout << "Email: " << GetEmail() << std::endl;
-        std::cout << "Phone Number: " << GetPhoneNumber() << std::endl;
-        std::cout << "Account Number: " << GetAccountNumber() << std::endl;
-        std::cout << "Pin Code: " << GetPinCode() << std::endl;
-        std::cout << "Account Balance: " << GetAccountBalance() << std::endl;
-       }
-       else { std::cout << "Invalid Pin Code!" << std::endl; }
-      }
+            // Asks
+             bool clsBankClient::IsClientExist(std::string AccNumber, const std::string& FileName, const std::string& Seperator) {
+                  std::vector <clsBankClient> vClients = _LoadClientsDataFromFileDECRYPTED(FileName,Seperator);
+                  for (const clsBankClient& C : vClients) {
+                      if (C.GetAccountNumber() == AccNumber) {
+                          return true; // found
+                      }
+                  }
+                  return false; // not found
+             }
+             bool clsBankClient::IsEmpty() const{
+                  return (_Mode == enMode::EmptyMode);
+             }
+             
+            // Clients
+             clsBankClient clsBankClient::GetClientInfo(std::string AccNumber, const std::string &FileName, const std::string &Seperator) {
+                  std::vector <clsBankClient> vClients = _LoadClientsDataFromFileDECRYPTED(FileName,Seperator);
+                  for (const clsBankClient& C : vClients) {
+                      if (C.GetAccountNumber() == AccNumber) {
+                       return C; // found
+                      }
+                  }
+                  return _GetEmptyBankClientObj(); // not found
+             }
+             
+            // Print
+             void clsBankClient::Print(std::string PinCode) {
+                  if (PinCode == _PinCode) {
+                      std::cout << "First Name: " << GetFirstName() << std::endl;
+                      std::cout << "Last Name: " << GetLastName() << std::endl;
+                      std::cout << "Full Name: " << GetFullName() << std::endl;
+                      std::cout << "Age: " << GetAge() << std::endl;
+                      std::cout << "Email: " << GetEmail() << std::endl;
+                      std::cout << "Phone Number: " << GetPhoneNumber() << std::endl;
+                      std::cout << "Account Number: " << GetAccountNumber() << std::endl;
+                      std::cout << "Pin Code: " << GetPinCode() << std::endl;
+                      std::cout << "Account Balance: " << GetAccountBalance() << std::endl;
+                  }
+                  else { std::cout << "Invalid Pin Code!" << std::endl; }
+             }    
       
 
 		// clsBankClient class Definition Ends Here
@@ -278,3 +278,6 @@ namespace Project03 {
 } // namespace Project03        
 
 
+// clsBankClient.cpp
+  // Lesson01: Find Client
+     // Project03: Bank Project

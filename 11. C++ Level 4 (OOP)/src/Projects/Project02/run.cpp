@@ -13,11 +13,11 @@ namespace Project02 {
 		std::cout << "You entered: " << Number << std::endl << std::endl;
 
 		std::cout << "2. Please enter a valid email demo: ";
-		std::string Email = clsForceInputValid::Email();
+		std::string Email = clsForceInputValid::Email("Email? ");
 		std::cout << "You entered: " << Email << std::endl << std::endl;
 
 		std::cout << "3. Please enter a valid phone number demo: ";
-		std::string PhoneNumber = clsForceInputValid::PhoneNumber();
+		std::string PhoneNumber = clsForceInputValid::PhoneNumber("Phone Number? ");
 		std::cout << "You entered: " << PhoneNumber << std::endl << std::endl;
 
 		std::cout << "4. Please enter a valid URL demo: ";
@@ -37,7 +37,7 @@ namespace Project02 {
 		std::cout << "You entered: " << NegativeNumber << std::endl;
 
 		std::cout << "8. Please enter a number between 1 and 10 demo: ";
-		size_t NumberBetween = clsForceInputValid::NumberBetween(1, 10);
+		size_t NumberBetween = clsForceInputValid::NumberBetween("pls enter num between 1 and 10: ",1, 10, "number");
 		std::cout << "You entered: " << NumberBetween << std::endl;
 
 		std::cout << "Thank you for using the Input Validation Program! made by domty :D" << std::endl;
