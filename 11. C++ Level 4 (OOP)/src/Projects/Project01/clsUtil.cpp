@@ -118,6 +118,11 @@ namespace Project01
 
       }
 
+	  void clsUtil::pressAnyKeyToContinue() {
+                std::cout << "\nPress any key to continue... ";
+                std::cin.get();
+      }
+
 	// clsUtil class definition ends here
 
 }

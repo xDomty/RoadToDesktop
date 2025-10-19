@@ -5,5 +5,5 @@ int main() {
 	Global::clsDate CurrentDate;
 	CurrentDate.PrintDate();
 
-    Project03::Lesson03::frontend::run();
+    Project03::Lesson03::run();
 }

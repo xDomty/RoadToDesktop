@@ -50,6 +50,7 @@ namespace Project01 {
                     // Decrypts a string using the provided PinCode
 					static std::string DecryptString(const std::string& input, const std::string& PinCode);
 
+				static void pressAnyKeyToContinue();
 	    
 	};
 
