@@ -5,19 +5,17 @@
 namespace Project02 {
 
 	std::string clsForceInputValid::Email(std::string message) {
-		std::cout << message;
-		std::string email;
+		std::string email = "";
 		do {
-			email = Global::clsString::ReadString("Please enter a valid email address: ");
+			email = Global::clsString::ReadString(message);
 		} while (!clsIsValid::Email(email));
 		return email;
 	}
 	
 	std::string clsForceInputValid::PhoneNumber(std::string message) {
-		std::cout << message;
 		std::string phoneNumber;
 		do {
-			phoneNumber = Global::clsString::ReadString("Please enter a valid phone number: ");
+			phoneNumber = Global::clsString::ReadString(message);
 		} while (!clsIsValid::PhoneNumber(phoneNumber));
 		return phoneNumber;
 	}
@@ -98,10 +96,10 @@ namespace Project02 {
 		std::cout << message;
 		size_t number;
 		std::cin >> number;
-		while (std::cin.fail() || clsIsValid::NumberBetween(number,from,to)) {
+		while (std::cin.fail() || !clsIsValid::NumberBetween(number,from,to)) {
 			std::cin.clear(); // clear the error flag
 			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // discard invalid input
-			std::cout << "Please enter a valid " << inputType << "between " << from << " and " << to << ": ";
+			std::cout << "\nPlease enter a valid " << inputType << "between " << from << " and " << to << ": ";
 			std::cin >> number;
 		} return number;
 	}

@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cctype>
 #include <algorithm>
+#include <limits>
 
 // Global: String Class Library
 
@@ -12,7 +13,7 @@ namespace Global {
     std::string clsString::ReadString(std::string message) {
         std::string S1;
         std::cout << message;
-        std::cin.ignore();
+        std::cin >> std::ws;
         std::getline(std::cin, S1);
         return S1;
     }

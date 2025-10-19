@@ -11,11 +11,17 @@ namespace Project02 {
 			   return false;
 		   } return true;
 	   }
-	   bool clsIsValid::PhoneNumber(const std::string phoneNumber) {
-		   if (phoneNumber.empty() || phoneNumber.length() < 10 || !std::all_of(phoneNumber.begin(), phoneNumber.end(), ::isdigit)) {
-			   return false;
-		   } return true;
-	   }
+	bool clsIsValid::PhoneNumber(const std::string phoneNumber) {
+		 if (phoneNumber.empty() || phoneNumber.length() < 10) {
+			  return false;
+		 }
+		 
+		 // Check if the first character is '+' and skip it in the digit check
+		 size_t startPos = (phoneNumber[0] == '+') ? 1 : 0;
+		 
+		 // Check if all remaining characters are digits
+		 return std::all_of(phoneNumber.begin() + startPos, phoneNumber.end(), ::isdigit);
+	}
 	   bool clsIsValid::URL(const std::string url) {
 		   if (url.empty() || (url.find("http://") != 0 && url.find("https://") != 0)) {
 			   return false;

@@ -7,7 +7,7 @@ namespace Project03 {
     namespace Lesson01 {
     
 		class clsBankClient : public clsPerson {
-            public: static enum enMode { EmptyMode, UpdateMode }; 
+            public: enum enMode { EmptyMode, UpdateMode }; 
 
 		    private: // PRIVATE MEMBERS
 		        enMode _Mode;

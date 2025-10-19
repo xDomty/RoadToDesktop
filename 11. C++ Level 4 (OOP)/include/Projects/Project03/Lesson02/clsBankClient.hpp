@@ -54,7 +54,7 @@ namespace Project03 {
 		    	size_t GetAccountBalance() const; // ok now the idea is clear
 				
 		        // SAVE
-				static enum class enSaveResults : short {
+				enum class enSaveResults : short {
 					svFailedEmptyObject,
 					svSucceeded
 				};
