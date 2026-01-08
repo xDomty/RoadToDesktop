@@ -1,28 +1,24 @@
-# cmake version keep it if u want to ._.
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 cmake_minimum_required(VERSION 3.10)
-
-# PROJECT NAME (IN MY CASE WAS CPP_LEVEL4_OOP)
 project(CPP_LEVEL4_OOP LANGUAGES CXX)
 
-# CPP VERSION
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
 
-# output dirs
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-
-# include dirs
+# include_directories is okay, but target_include_directories is better
+# It tells the compiler to look in /include for any "" style includes
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-# FIND ALL FILES IN HEADER FOLDER AND SRC FOLDER
-file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS ${PROJECT_SOURCE_DIR}/src/*.cpp)
-file(GLOB_RECURSE HEADER_FILES CONFIGURE_DEPENDS ${PROJECT_SOURCE_DIR}/include/*.hpp)
+# Re-scan for files
+file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS 
+    "${PROJECT_SOURCE_DIR}/src/*.cpp"
+)
+file(GLOB_RECURSE HEADER_FILES CONFIGURE_DEPENDS 
+    "${PROJECT_SOURCE_DIR}/include/*.hpp"
+    "${PROJECT_SOURCE_DIR}/include/*.tpp" # Added for your .tpp file in Project01
+)
 
-# EXCUTABLE NAME (IN MY CASE WAS CPP_LEVEL4_OOP)
-add_executable(CPP_LEVEL4_OOP ${SRC_FILES})
-
-
-
+# Adding HEADER_FILES here helps the IDE "see" the relationship
+# Replace the old include_directories line with this:
+add_executable(CPP_LEVEL4_OOP ${SRC_FILES} ${HEADER_FILES})
+target_include_directories(CPP_LEVEL4_OOP PRIVATE "${PROJECT_SOURCE_DIR}/include")
