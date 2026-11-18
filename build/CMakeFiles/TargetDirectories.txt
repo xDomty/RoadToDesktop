@@ -1,0 +1,3 @@
+/home/domty/roadtodesktop/build/CMakeFiles/CPP_LEVEL4_OOP.dir
+/home/domty/roadtodesktop/build/CMakeFiles/edit_cache.dir
+/home/domty/roadtodesktop/build/CMakeFiles/rebuild_cache.dir

@@ -3,3 +3,7 @@ build/
 out/
 .vs/
 .vscode/
+CPP_LEVEL4_OOP
+cmake_install.cmake
+MakeFile
+CMakeCache.txt

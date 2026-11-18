@@ -1,7 +1,7 @@
 #include "Global/clsString.hpp"
-#include <iostream>
-#include <cctype>
 #include <algorithm>
+#include <cctype>
+#include <iostream>
 #include <limits>
 
 // Global: String Class Library
@@ -21,13 +21,14 @@ namespace Global {
     std::string clsString::TrimString(std::string text, TrimType type) {
         if (type == TrimType::Left || type == TrimType::All) {
             text.erase(text.begin(), std::find_if(text.begin(), text.end(), [](unsigned char ch) {
-                return !std::isspace(ch);
-            }));
+                           return !std::isspace(ch);
+                       }));
         }
         if (type == TrimType::Right || type == TrimType::All) {
             text.erase(std::find_if(text.rbegin(), text.rend(), [](unsigned char ch) {
-                return !std::isspace(ch);
-            }).base(), text.end());
+                           return !std::isspace(ch);
+                       }).base(),
+                       text.end());
         }
         return text;
     }
@@ -35,7 +36,8 @@ namespace Global {
     std::string clsString::RemovePunct(std::string text) {
         std::string result;
         for (char c : text) {
-            if (!std::ispunct(static_cast<unsigned char>(c))) result += c;
+            if (!std::ispunct(static_cast<unsigned char>(c)))
+                result += c;
         }
         return result;
     }
@@ -59,8 +61,7 @@ namespace Global {
             if (!std::isspace(static_cast<unsigned char>(c)) && isFirst) {
                 c = std::toupper(static_cast<unsigned char>(c));
                 isFirst = false;
-            }
-            else if (std::isspace(static_cast<unsigned char>(c))) {
+            } else if (std::isspace(static_cast<unsigned char>(c))) {
                 isFirst = true;
             }
         }
@@ -73,8 +74,7 @@ namespace Global {
             if (!std::isspace(static_cast<unsigned char>(c)) && isFirst) {
                 c = std::tolower(static_cast<unsigned char>(c));
                 isFirst = false;
-            }
-            else if (std::isspace(static_cast<unsigned char>(c))) {
+            } else if (std::isspace(static_cast<unsigned char>(c))) {
                 isFirst = true;
             }
         }
@@ -102,8 +102,7 @@ namespace Global {
                 if (s == StringToReplace) {
                     s = sRepalceTo;
                 }
-            }
-            else {
+            } else {
                 if (LowerAllString(s) == LowerAllString(StringToReplace)) {
                     s = sRepalceTo;
                 }
@@ -118,10 +117,11 @@ namespace Global {
         short Counter = 0;
         for (char ch : S1) {
             if (MatchCase) {
-                if (ch == Letter) Counter++;
-            }
-            else {
-                if (std::tolower(ch) == std::tolower(Letter)) Counter++;
+                if (ch == Letter)
+                    Counter++;
+            } else {
+                if (std::tolower(ch) == std::tolower(Letter))
+                    Counter++;
             }
         }
         return Counter;
@@ -132,21 +132,23 @@ namespace Global {
         std::string word;
         for (char c : S1) {
             if (std::isspace(static_cast<unsigned char>(c))) {
-                if (!word.empty()) count++;
+                if (!word.empty())
+                    count++;
                 word.clear();
-            }
-            else {
+            } else {
                 word += c;
             }
         }
-        if (!word.empty()) count++;
+        if (!word.empty())
+            count++;
         return count;
     }
 
     short clsString::CountVowels(std::string text) {
         short count = 0;
         for (char c : text) {
-            if (_clsCharObj.IsVowel(c)) count++;
+            if (_clsCharObj.IsVowel(c))
+                count++;
         }
         return count;
     }
@@ -154,7 +156,8 @@ namespace Global {
     short clsString::CountCapitalLetters(std::string S1) {
         short Counter = 0;
         for (char c : S1) {
-            if (std::isupper(static_cast<unsigned char>(c))) Counter++;
+            if (std::isupper(static_cast<unsigned char>(c)))
+                Counter++;
         }
         return Counter;
     }
@@ -162,7 +165,8 @@ namespace Global {
     short clsString::CountSmallLetters(std::string S1) {
         short Counter = 0;
         for (char c : S1) {
-            if (std::islower(static_cast<unsigned char>(c))) Counter++;
+            if (std::islower(static_cast<unsigned char>(c)))
+                Counter++;
         }
         return Counter;
     }
@@ -183,8 +187,7 @@ namespace Global {
             if (!std::isspace(static_cast<unsigned char>(c)) && isFirst) {
                 std::cout << c << std::endl;
                 isFirst = false;
-            }
-            else if (std::isspace(static_cast<unsigned char>(c))) {
+            } else if (std::isspace(static_cast<unsigned char>(c))) {
                 isFirst = true;
             }
         }
@@ -197,10 +200,12 @@ namespace Global {
         size_t pos = 0;
         while ((pos = text.find(delim)) != std::string::npos) {
             std::string token = text.substr(0, pos);
-            if (!token.empty()) tokens.push_back(token);
+            if (!token.empty())
+                tokens.push_back(token);
             text.erase(0, pos + delim.length());
         }
-        if (!text.empty()) tokens.push_back(text);
+        if (!text.empty())
+            tokens.push_back(text);
         return tokens;
     }
 
@@ -208,7 +213,8 @@ namespace Global {
         std::string result;
         for (size_t i = 0; i < words.size(); ++i) {
             result += words[i];
-            if (i < words.size() - 1) result += delim;
+            if (i < words.size() - 1)
+                result += delim;
         }
         return result;
     }
@@ -217,9 +223,60 @@ namespace Global {
         std::string result;
         for (short i = 0; i < length; ++i) {
             result += words[i];
-            if (i < length - 1) result += delim;
+            if (i < length - 1)
+                result += delim;
         }
         return result;
+    }
+
+    // Number To String
+    std::string clsString::NumberToText(int Number) {
+        if (Number == 0) {
+            return "";
+        }
+
+        if (Number >= 1 && Number <= 19) {
+            std::string arr[] = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven",
+                                 "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen",
+                                 "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+
+            return arr[Number] + " ";
+        }
+
+        if (Number >= 20 && Number <= 99) {
+            std::string arr[] = {"", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
+            return arr[Number / 10] + " " + NumberToText(Number % 10);
+        }
+
+        if (Number >= 100 && Number <= 199) {
+            return "One Hundred " + NumberToText(Number % 100);
+        }
+
+        if (Number >= 200 && Number <= 999) {
+            return NumberToText(Number / 100) + "Hundreds " + NumberToText(Number % 100);
+        }
+
+        if (Number >= 1000 && Number <= 1999) {
+            return "One Thousand " + NumberToText(Number % 1000);
+        }
+
+        if (Number >= 2000 && Number <= 999999) {
+            return NumberToText(Number / 1000) + "Thousands " + NumberToText(Number % 1000);
+        }
+
+        if (Number >= 1000000 && Number <= 1999999) {
+            return "One Million " + NumberToText(Number % 1000000);
+        }
+
+        if (Number >= 2000000 && Number <= 999999999) {
+            return NumberToText(Number / 1000000) + "Millions " + NumberToText(Number % 1000000);
+        }
+
+        if (Number >= 1000000000 && Number <= 1999999999) {
+            return "One Billion " + NumberToText(Number % 1000000000);
+        } else {
+            return NumberToText(Number / 1000000000) + "Billions " + NumberToText(Number % 1000000000);
+        }
     }
 
 } // namespace Global

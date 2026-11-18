@@ -1,0 +1,10 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+IndentWidth: 4
+AccessModifierOffset: -4
+NamespaceIndentation: All
+PointerAlignment: Left
+
+# --- FIX THE WRAPPING HERE ---
+ColumnLimit: 0  # 0 completely disables the line length limit
