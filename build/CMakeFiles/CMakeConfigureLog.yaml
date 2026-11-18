@@ -633,8 +633,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV"
-      binary: "/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV"
+      source: "/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31"
+      binary: "/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-23"
       CMAKE_CXX_FLAGS: ""
@@ -646,13 +646,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV'
+        Change Dir: '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6fcfa/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_6fcfa.dir/build.make CMakeFiles/cmTC_6fcfa.dir/build
-        gmake[1]: Entering directory '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV'
-        Building CXX object CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5c2cc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5c2cc.dir/build.make CMakeFiles/cmTC_5c2cc.dir/build
+        gmake[1]: Entering directory '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31'
+        Building CXX object CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang version 23.1.5 (Fedora 23.1.5-2.fc45)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -665,7 +665,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
          (in-process)
-         "/usr/bin/clang-23" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -debugger-tuning=gdb -fdebug-compilation-dir=/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV -v -fcoverage-compilation-dir=/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV -resource-dir /usr/bin/../lib/clang/23 -dependency-file CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward -internal-isystem /usr/bin/../lib/clang/23/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/bin/clang-23" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -debugger-tuning=gdb -fdebug-compilation-dir=/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31 -v -fcoverage-compilation-dir=/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31 -resource-dir /usr/bin/../lib/clang/23 -dependency-file CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward -internal-isystem /usr/bin/../lib/clang/23/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 23.1.5 based upon LLVM 23.1.5 default target x86_64-redhat-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"
         ignoring nonexistent directory "/include"
@@ -678,8 +678,8 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        Linking CXX executable cmTC_6fcfa
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fcfa.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_5c2cc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c2cc.dir/link.txt --verbose=1
         clang version 23.1.5 (Fedora 23.1.5-2.fc45)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -691,10 +691,10 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6fcfa /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/bin/../lib/clang/23/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5c2cc /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/bin/../lib/clang/23/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
         GNU ld version 2.47.20260726
-        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6fcfa
-        gmake[1]: Leaving directory '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV'
+        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5c2cc
+        gmake[1]: Leaving directory '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31'
         
       exitCode: 0
   -
@@ -733,13 +733,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV']
+        ignore line: [Change Dir: '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6fcfa/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_6fcfa.dir/build.make CMakeFiles/cmTC_6fcfa.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV']
-        ignore line: [Building CXX object CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5c2cc/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_5c2cc.dir/build.make CMakeFiles/cmTC_5c2cc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31']
+        ignore line: [Building CXX object CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 23.1.5 (Fedora 23.1.5-2.fc45)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -755,7 +755,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang-23" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -debugger-tuning=gdb -fdebug-compilation-dir=/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV -v -fcoverage-compilation-dir=/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-98wAMV -resource-dir /usr/bin/../lib/clang/23 -dependency-file CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward -internal-isystem /usr/bin/../lib/clang/23/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/bin/clang-23" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -debugger-tuning=gdb -fdebug-compilation-dir=/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31 -v -fcoverage-compilation-dir=/home/domty/roadtodesktop/build/CMakeFiles/CMakeScratch/TryCompile-QSgK31 -resource-dir /usr/bin/../lib/clang/23 -dependency-file CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward -internal-isystem /usr/bin/../lib/clang/23/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 23.1.5 based upon LLVM 23.1.5 default target x86_64-redhat-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -768,8 +768,8 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_6fcfa]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fcfa.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_5c2cc]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c2cc.dir/link.txt --verbose=1]
         ignore line: [clang version 23.1.5 (Fedora 23.1.5-2.fc45)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -784,7 +784,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6fcfa /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/bin/../lib/clang/23/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5c2cc /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/bin/../lib/clang/23/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -794,7 +794,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_6fcfa] ==> ignore
+          arg [cmTC_5c2cc] ==> ignore
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o]
@@ -806,7 +806,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_6fcfa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_5c2cc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]

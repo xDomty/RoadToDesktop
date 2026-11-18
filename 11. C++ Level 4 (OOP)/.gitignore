@@ -5,5 +5,9 @@ out/
 .vscode/
 CPP_LEVEL4_OOP
 cmake_install.cmake
+CMakeSettings.json
+compile_commands.json
+.gdb_history
 MakeFile
 CMakeCache.txt
+.clang-format

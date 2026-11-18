@@ -29,8 +29,11 @@ set(OLD_GLOB
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include/Projects/Project03/ui/transactions/clsTransactionsScreen.hpp"
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include/Projects/Project03/ui/transactions/clsWithdrawScreen.hpp"
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include/Projects/Project03/ui/users/clsAddNewUserScreen.hpp"
+  "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include/Projects/Project03/ui/users/clsDeleteUserScreen.hpp"
+  "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include/Projects/Project03/ui/users/clsFindUserScreen.hpp"
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include/Projects/Project03/ui/users/clsListUsersScreen.hpp"
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include/Projects/Project03/ui/users/clsManageUsersScreen.hpp"
+  "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include/Projects/Project03/ui/users/clsUpdateUserScreen.hpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -105,8 +108,11 @@ set(OLD_GLOB
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp"
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp"
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp"
+  "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp"
+  "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsFindUserScreen.cpp"
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsListUsersScreen.cpp"
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp"
+  "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp"
   "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

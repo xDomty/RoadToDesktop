@@ -129,7 +129,7 @@ namespace Project03 {
             _Permissions = Permissions;
         }
 
-        // pub funcs and some shit i swear
+        // pub funcs and some shit i swear 
         clsUser clsUser::Find(std::string UserName) {
             std::fstream UsersFile;
             UsersFile.open("Users.txt", std::ios::in); // read mode
@@ -174,7 +174,6 @@ namespace Project03 {
             case enMode::UpdateMode: {
                 _Update();
                 return enSaveResults::svSucceeded;
-
                 break;
             }
 

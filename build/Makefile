@@ -682,6 +682,54 @@ src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.s
 .PHONY : src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.s
 
+src/Projects/Project03/ui/users/clsDeleteUserScreen.o: src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o
+.PHONY : src/Projects/Project03/ui/users/clsDeleteUserScreen.o
+
+# target to build an object file
+src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o
+.PHONY : src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o
+
+src/Projects/Project03/ui/users/clsDeleteUserScreen.i: src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.i
+.PHONY : src/Projects/Project03/ui/users/clsDeleteUserScreen.i
+
+# target to preprocess a source file
+src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.i
+.PHONY : src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.i
+
+src/Projects/Project03/ui/users/clsDeleteUserScreen.s: src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.s
+.PHONY : src/Projects/Project03/ui/users/clsDeleteUserScreen.s
+
+# target to generate assembly for a file
+src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.s
+.PHONY : src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.s
+
+src/Projects/Project03/ui/users/clsFindUserScreen.o: src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o
+.PHONY : src/Projects/Project03/ui/users/clsFindUserScreen.o
+
+# target to build an object file
+src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o
+.PHONY : src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o
+
+src/Projects/Project03/ui/users/clsFindUserScreen.i: src/Projects/Project03/ui/users/clsFindUserScreen.cpp.i
+.PHONY : src/Projects/Project03/ui/users/clsFindUserScreen.i
+
+# target to preprocess a source file
+src/Projects/Project03/ui/users/clsFindUserScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.i
+.PHONY : src/Projects/Project03/ui/users/clsFindUserScreen.cpp.i
+
+src/Projects/Project03/ui/users/clsFindUserScreen.s: src/Projects/Project03/ui/users/clsFindUserScreen.cpp.s
+.PHONY : src/Projects/Project03/ui/users/clsFindUserScreen.s
+
+# target to generate assembly for a file
+src/Projects/Project03/ui/users/clsFindUserScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.s
+.PHONY : src/Projects/Project03/ui/users/clsFindUserScreen.cpp.s
+
 src/Projects/Project03/ui/users/clsListUsersScreen.o: src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o
 .PHONY : src/Projects/Project03/ui/users/clsListUsersScreen.o
 
@@ -729,6 +777,30 @@ src/Projects/Project03/ui/users/clsManageUsersScreen.s: src/Projects/Project03/u
 src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.s
 .PHONY : src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.s
+
+src/Projects/Project03/ui/users/clsUpdateUserScreen.o: src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o
+.PHONY : src/Projects/Project03/ui/users/clsUpdateUserScreen.o
+
+# target to build an object file
+src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o
+.PHONY : src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o
+
+src/Projects/Project03/ui/users/clsUpdateUserScreen.i: src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.i
+.PHONY : src/Projects/Project03/ui/users/clsUpdateUserScreen.i
+
+# target to preprocess a source file
+src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.i
+.PHONY : src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.i
+
+src/Projects/Project03/ui/users/clsUpdateUserScreen.s: src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.s
+.PHONY : src/Projects/Project03/ui/users/clsUpdateUserScreen.s
+
+# target to generate assembly for a file
+src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.s
+.PHONY : src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.s
 
 src/Projects/main.o: src/Projects/main.cpp.o
 .PHONY : src/Projects/main.o
@@ -832,12 +904,21 @@ help:
 	@echo "... src/Projects/Project03/ui/users/clsAddNewUserScreen.o"
 	@echo "... src/Projects/Project03/ui/users/clsAddNewUserScreen.i"
 	@echo "... src/Projects/Project03/ui/users/clsAddNewUserScreen.s"
+	@echo "... src/Projects/Project03/ui/users/clsDeleteUserScreen.o"
+	@echo "... src/Projects/Project03/ui/users/clsDeleteUserScreen.i"
+	@echo "... src/Projects/Project03/ui/users/clsDeleteUserScreen.s"
+	@echo "... src/Projects/Project03/ui/users/clsFindUserScreen.o"
+	@echo "... src/Projects/Project03/ui/users/clsFindUserScreen.i"
+	@echo "... src/Projects/Project03/ui/users/clsFindUserScreen.s"
 	@echo "... src/Projects/Project03/ui/users/clsListUsersScreen.o"
 	@echo "... src/Projects/Project03/ui/users/clsListUsersScreen.i"
 	@echo "... src/Projects/Project03/ui/users/clsListUsersScreen.s"
 	@echo "... src/Projects/Project03/ui/users/clsManageUsersScreen.o"
 	@echo "... src/Projects/Project03/ui/users/clsManageUsersScreen.i"
 	@echo "... src/Projects/Project03/ui/users/clsManageUsersScreen.s"
+	@echo "... src/Projects/Project03/ui/users/clsUpdateUserScreen.o"
+	@echo "... src/Projects/Project03/ui/users/clsUpdateUserScreen.i"
+	@echo "... src/Projects/Project03/ui/users/clsUpdateUserScreen.s"
 	@echo "... src/Projects/main.o"
 	@echo "... src/Projects/main.i"
 	@echo "... src/Projects/main.s"

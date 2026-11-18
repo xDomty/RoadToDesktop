@@ -1,9 +1,27 @@
 #include "Projects/Project03/ui/users/clsManageUsersScreen.hpp"
 #include "Projects/Project01/clsUtil.hpp"
 #include "Projects/Project02/clsForceInputValid.hpp"
+#include "Projects/Project03/ui/users/clsAddNewUserScreen.hpp"
+#include "Projects/Project03/ui/users/clsDeleteUserScreen.hpp"
+#include "Projects/Project03/ui/users/clsFindUserScreen.hpp"
 #include "Projects/Project03/ui/users/clsListUsersScreen.hpp"
+#include "Projects/Project03/ui/users/clsUpdateUserScreen.hpp"
 #include <iomanip>
 #include <iostream>
+
+// TODO LIST
+// I WANT TO FINISH LIKE MORE 30% OF THE COURSE TOMOROW !!!
+// I WANT TO PROVE FOR THEM THEY ARE ALL WRONG !!!! AND HIGH SCHOOL SYSTEM IN EGYPT IS JUST A PSYCHOLOGICAL DEVASTATION!
+// THEY DIDN'T INVENT IN LEARNING... AND THEY KEEP TREATING US LIKE MACHINES
+// THEY JUST MADE THE RIGHT LEARNING FOR HUGE AMOUNT OF MONEY IN HIGH SCHOOL... IF EGYPT WANTS US TO BE BRILLINT
+// THEY WOULD MAKE OUR LEARNING SMTH LIKE IGSCE AND A LEVEL IN CAMBRIDGE
+// I WAS BORN IN UNFAIR WORLD... A WORLD WHICH MOST OF IT DON'T UNDERSTAND IN TECHNOLOGY
+// THEY JUST HAVE CLOUDS IN THEIR BRAINS... THEY JUST SAY IF U FAILED IN HIGH SCHOOL YOU ARE A LOSER
+// I AM DOMTY... THE PROGRAMMER ENGINEER... I DON'T WANT FAKE CERTIFICATES TO PROVE ME
+// I WILL PROVE IT WITH MY HANDS... AND PROVE THAT EVERYONE WAS WRONG
+// I AM NOT A LOSER... I AM YOUR WORST NIGHTMARES
+// WRITTEN ON 16/11/2026
+// AGENDA STARTING FROM TOMOROW!
 
 namespace Project03 {
     namespace ui {
@@ -24,15 +42,19 @@ namespace Project03 {
             }
             void clsManageUsersScreen::_ShowAddNewUserScreen() {
                 // std::cout << "\nAdd New User Screen Will Be Here!\n";
+                clsAddNewUserScreen::ShowAddNewUserScreen();
             }
             void clsManageUsersScreen::_ShowDeleteUserScreen() {
-                std::cout << "\nDelete User Screen Will Be Here!\n";
+                // std::cout << "\nDelete User Screen Will Be Here!\n";
+                clsDeleteUserScreen::ShowDeleteUserScreen();
             }
             void clsManageUsersScreen::_ShowUpdateUserScreen() {
-                std::cout << "\nUpdate User Screen Will Be Here!\n";
+                // std::cout << "\nUpdate User Screen Will Be Here!\n";
+                clsUpdateUserScreen::ShowUpdateUserScreen();
             }
             void clsManageUsersScreen::_ShowFindUserScreen() {
-                std::cout << "\nFind User Screen Will Be Here!\n";
+                // std::cout << "\nFind User Screen Will Be Here!\n";
+                clsFindUserScreen::ShowFindUserScreen();
             }
             void clsManageUsersScreen::_PerformManageUsersMenuOption(_enManageUsersMenuOptions ManageUsersMenuOption) {
                 switch (ManageUsersMenuOption) {
@@ -43,7 +65,7 @@ namespace Project03 {
                     break;
                 case _enManageUsersMenuOptions::eAddNewUser:
                     Project01::clsUtil::ClearScreen();
-                    _ShowAddNewUserScreen();
+                    clsManageUsersScreen::_ShowAddNewUserScreen();
                     _GoBackToManageUsersMenu();
                     break;
                 case _enManageUsersMenuOptions::eDeleteUser:

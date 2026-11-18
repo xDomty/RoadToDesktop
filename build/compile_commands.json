@@ -139,6 +139,18 @@
 },
 {
   "directory": "/home/domty/roadtodesktop/build",
+  "command": "/usr/bin/clang++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp\"",
+  "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp",
+  "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o"
+},
+{
+  "directory": "/home/domty/roadtodesktop/build",
+  "command": "/usr/bin/clang++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsFindUserScreen.cpp\"",
+  "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsFindUserScreen.cpp",
+  "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o"
+},
+{
+  "directory": "/home/domty/roadtodesktop/build",
   "command": "/usr/bin/clang++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsListUsersScreen.cpp\"",
   "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsListUsersScreen.cpp",
   "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o"
@@ -148,6 +160,12 @@
   "command": "/usr/bin/clang++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp\"",
   "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp",
   "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o"
+},
+{
+  "directory": "/home/domty/roadtodesktop/build",
+  "command": "/usr/bin/clang++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp\"",
+  "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp",
+  "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o"
 },
 {
   "directory": "/home/domty/roadtodesktop/build",
