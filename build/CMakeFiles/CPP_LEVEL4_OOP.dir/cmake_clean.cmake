@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/clsIsValid.cpp.o.d"
   "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.o"
   "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.o.d"
+  "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o"
+  "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o.d"
   "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o"
   "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o.d"
   "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o"

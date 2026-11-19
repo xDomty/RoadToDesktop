@@ -49,6 +49,12 @@
 },
 {
   "directory": "/home/domty/roadtodesktop/build",
+  "command": "/usr/bin/clang++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/CurrentLoggedUser.cpp\"",
+  "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/CurrentLoggedUser.cpp",
+  "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o"
+},
+{
+  "directory": "/home/domty/roadtodesktop/build",
   "command": "/usr/bin/clang++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/clsBankClient.cpp\"",
   "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/clsBankClient.cpp",
   "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o"

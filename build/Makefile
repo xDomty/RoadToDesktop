@@ -322,6 +322,30 @@ src/Projects/Project02/run.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.s
 .PHONY : src/Projects/Project02/run.cpp.s
 
+src/Projects/Project03/core/CurrentLoggedUser.o: src/Projects/Project03/core/CurrentLoggedUser.cpp.o
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.o
+
+# target to build an object file
+src/Projects/Project03/core/CurrentLoggedUser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.cpp.o
+
+src/Projects/Project03/core/CurrentLoggedUser.i: src/Projects/Project03/core/CurrentLoggedUser.cpp.i
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.i
+
+# target to preprocess a source file
+src/Projects/Project03/core/CurrentLoggedUser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.i
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.cpp.i
+
+src/Projects/Project03/core/CurrentLoggedUser.s: src/Projects/Project03/core/CurrentLoggedUser.cpp.s
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.s
+
+# target to generate assembly for a file
+src/Projects/Project03/core/CurrentLoggedUser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.s
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.cpp.s
+
 src/Projects/Project03/core/clsBankClient.o: src/Projects/Project03/core/clsBankClient.cpp.o
 .PHONY : src/Projects/Project03/core/clsBankClient.o
 
@@ -859,6 +883,9 @@ help:
 	@echo "... src/Projects/Project02/run.o"
 	@echo "... src/Projects/Project02/run.i"
 	@echo "... src/Projects/Project02/run.s"
+	@echo "... src/Projects/Project03/core/CurrentLoggedUser.o"
+	@echo "... src/Projects/Project03/core/CurrentLoggedUser.i"
+	@echo "... src/Projects/Project03/core/CurrentLoggedUser.s"
 	@echo "... src/Projects/Project03/core/clsBankClient.o"
 	@echo "... src/Projects/Project03/core/clsBankClient.i"
 	@echo "... src/Projects/Project03/core/clsBankClient.s"
