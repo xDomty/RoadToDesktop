@@ -1,14 +1,22 @@
-./build/
-./CMakeFiles/
+# Build directories and outputs
+build/
+out/
+CMakeFiles/
 .cache/
-./out/
+
+# IDE and Editor files
 .vs/
 .vscode/
-./CPP_LEVEL4_OOP
-./cmake_install.cmake
-./CMakeSettings.json
-./compile_commands.json
-./.gdb_history
-./MakeFile
-./CMakeCache.txt
-./.clang-format
+CMakeSettings.json
+
+# CMake generated files
+cmake_install.cmake
+CMakeCache.txt
+compile_commands.json
+MakeFile
+
+# Compiled executable binary
+CPP_LEVEL4_OOP
+
+# Debug history
+.gdb_history
