@@ -92,7 +92,7 @@ namespace Project03 {
 
                 switch (SaveResult) {
                 case core::clsUser::enSaveResults::svSucceeded: {
-                    std::cout << "\nUser Addeded Successfully :-)\n";
+                    std::cout << "\nUser Added Successfully :-)\n";
                     _PrintUser(NewUser);
                     break;
                 }

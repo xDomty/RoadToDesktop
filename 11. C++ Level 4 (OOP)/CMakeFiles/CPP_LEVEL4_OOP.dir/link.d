@@ -10,6 +10,7 @@ CPP_LEVEL4_OOP: \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/clsForceInputValid.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/clsIsValid.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.o \
+  CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o \
@@ -19,7 +20,8 @@ CPP_LEVEL4_OOP: \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o \
-  CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o \
+  CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o \
+  CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o \
   CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o \
@@ -88,6 +90,8 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/clsIsValid.cpp.o:
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.o:
 
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o:
+
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o:
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o:
@@ -106,7 +110,9 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScr
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o:
 
-CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o:
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o:
+
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o:
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o:
 

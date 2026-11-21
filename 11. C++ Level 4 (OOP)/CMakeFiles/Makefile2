@@ -85,12 +85,12 @@ clean: CMakeFiles/CPP_LEVEL4_OOP.dir/clean
 CMakeFiles/CPP_LEVEL4_OOP.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target CPP_LEVEL4_OOP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target CPP_LEVEL4_OOP"
 .PHONY : CMakeFiles/CPP_LEVEL4_OOP.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CPP_LEVEL4_OOP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" 30
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CPP_LEVEL4_OOP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" 0
 .PHONY : CMakeFiles/CPP_LEVEL4_OOP.dir/rule
@@ -102,7 +102,7 @@ CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/rule
 # codegen rule for target.
 CMakeFiles/CPP_LEVEL4_OOP.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Finished codegen for target CPP_LEVEL4_OOP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Finished codegen for target CPP_LEVEL4_OOP"
 .PHONY : CMakeFiles/CPP_LEVEL4_OOP.dir/codegen
 
 # clean rule for target.

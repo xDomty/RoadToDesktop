@@ -39,7 +39,6 @@ namespace Project03 {
                 } else
                     std::cout << "Operation was cancelled!.\n";
             }
-
         } // namespace transactions
 
     } // namespace ui

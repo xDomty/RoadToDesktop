@@ -322,6 +322,30 @@ src/Projects/Project02/run.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.s
 .PHONY : src/Projects/Project02/run.cpp.s
 
+src/Projects/Project03/core/CurrentLoggedUser.o: src/Projects/Project03/core/CurrentLoggedUser.cpp.o
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.o
+
+# target to build an object file
+src/Projects/Project03/core/CurrentLoggedUser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.cpp.o
+
+src/Projects/Project03/core/CurrentLoggedUser.i: src/Projects/Project03/core/CurrentLoggedUser.cpp.i
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.i
+
+# target to preprocess a source file
+src/Projects/Project03/core/CurrentLoggedUser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.i
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.cpp.i
+
+src/Projects/Project03/core/CurrentLoggedUser.s: src/Projects/Project03/core/CurrentLoggedUser.cpp.s
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.s
+
+# target to generate assembly for a file
+src/Projects/Project03/core/CurrentLoggedUser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.s
+.PHONY : src/Projects/Project03/core/CurrentLoggedUser.cpp.s
+
 src/Projects/Project03/core/clsBankClient.o: src/Projects/Project03/core/clsBankClient.cpp.o
 .PHONY : src/Projects/Project03/core/clsBankClient.o
 
@@ -538,29 +562,53 @@ src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.s
 .PHONY : src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.s
 
-src/Projects/Project03/ui/clsMainScreen.o: src/Projects/Project03/ui/clsMainScreen.cpp.o
-.PHONY : src/Projects/Project03/ui/clsMainScreen.o
+src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.o: src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o
+.PHONY : src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.o
 
 # target to build an object file
-src/Projects/Project03/ui/clsMainScreen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o
-.PHONY : src/Projects/Project03/ui/clsMainScreen.cpp.o
+src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o"
+.PHONY : src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o
 
-src/Projects/Project03/ui/clsMainScreen.i: src/Projects/Project03/ui/clsMainScreen.cpp.i
-.PHONY : src/Projects/Project03/ui/clsMainScreen.i
+src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.i: src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.i
+.PHONY : src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.i
 
 # target to preprocess a source file
-src/Projects/Project03/ui/clsMainScreen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.i
-.PHONY : src/Projects/Project03/ui/clsMainScreen.cpp.i
+src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.i"
+.PHONY : src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.i
 
-src/Projects/Project03/ui/clsMainScreen.s: src/Projects/Project03/ui/clsMainScreen.cpp.s
-.PHONY : src/Projects/Project03/ui/clsMainScreen.s
+src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.s: src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.s
+.PHONY : src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.s
 
 # target to generate assembly for a file
-src/Projects/Project03/ui/clsMainScreen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.s
-.PHONY : src/Projects/Project03/ui/clsMainScreen.cpp.s
+src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.s"
+.PHONY : src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.s
+
+src/Projects/Project03/ui/mainmenu/clsMainMenu.o: src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o
+.PHONY : src/Projects/Project03/ui/mainmenu/clsMainMenu.o
+
+# target to build an object file
+src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o
+.PHONY : src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o
+
+src/Projects/Project03/ui/mainmenu/clsMainMenu.i: src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.i
+.PHONY : src/Projects/Project03/ui/mainmenu/clsMainMenu.i
+
+# target to preprocess a source file
+src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.i
+.PHONY : src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.i
+
+src/Projects/Project03/ui/mainmenu/clsMainMenu.s: src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.s
+.PHONY : src/Projects/Project03/ui/mainmenu/clsMainMenu.s
+
+# target to generate assembly for a file
+src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_LEVEL4_OOP.dir/build.make CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.s
+.PHONY : src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.s
 
 src/Projects/Project03/ui/transactions/clsDepositScreen.o: src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o
 .PHONY : src/Projects/Project03/ui/transactions/clsDepositScreen.o
@@ -859,6 +907,9 @@ help:
 	@echo "... src/Projects/Project02/run.o"
 	@echo "... src/Projects/Project02/run.i"
 	@echo "... src/Projects/Project02/run.s"
+	@echo "... src/Projects/Project03/core/CurrentLoggedUser.o"
+	@echo "... src/Projects/Project03/core/CurrentLoggedUser.i"
+	@echo "... src/Projects/Project03/core/CurrentLoggedUser.s"
 	@echo "... src/Projects/Project03/core/clsBankClient.o"
 	@echo "... src/Projects/Project03/core/clsBankClient.i"
 	@echo "... src/Projects/Project03/core/clsBankClient.s"
@@ -886,9 +937,12 @@ help:
 	@echo "... src/Projects/Project03/ui/clients/clsUpdateClientScreen.o"
 	@echo "... src/Projects/Project03/ui/clients/clsUpdateClientScreen.i"
 	@echo "... src/Projects/Project03/ui/clients/clsUpdateClientScreen.s"
-	@echo "... src/Projects/Project03/ui/clsMainScreen.o"
-	@echo "... src/Projects/Project03/ui/clsMainScreen.i"
-	@echo "... src/Projects/Project03/ui/clsMainScreen.s"
+	@echo "... src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.o"
+	@echo "... src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.i"
+	@echo "... src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.s"
+	@echo "... src/Projects/Project03/ui/mainmenu/clsMainMenu.o"
+	@echo "... src/Projects/Project03/ui/mainmenu/clsMainMenu.i"
+	@echo "... src/Projects/Project03/ui/mainmenu/clsMainMenu.s"
 	@echo "... src/Projects/Project03/ui/transactions/clsDepositScreen.o"
 	@echo "... src/Projects/Project03/ui/transactions/clsDepositScreen.i"
 	@echo "... src/Projects/Project03/ui/transactions/clsDepositScreen.s"

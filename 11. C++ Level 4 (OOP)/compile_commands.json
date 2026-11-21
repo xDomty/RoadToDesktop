@@ -49,6 +49,12 @@
 },
 {
   "directory": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)",
+  "command": "/usr/bin/c++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/CurrentLoggedUser.cpp\"",
+  "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/CurrentLoggedUser.cpp",
+  "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o"
+},
+{
+  "directory": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)",
   "command": "/usr/bin/c++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/clsBankClient.cpp\"",
   "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/clsBankClient.cpp",
   "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o"
@@ -103,9 +109,15 @@
 },
 {
   "directory": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)",
-  "command": "/usr/bin/c++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clsMainScreen.cpp\"",
-  "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clsMainScreen.cpp",
-  "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o"
+  "command": "/usr/bin/c++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o \"CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o\" -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp\"",
+  "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp",
+  "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o"
+},
+{
+  "directory": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)",
+  "command": "/usr/bin/c++  -I\"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/include\" -g -std=gnu++17 -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o -c \"/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp\"",
+  "file": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp",
+  "output": "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o"
 },
 {
   "directory": "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)",

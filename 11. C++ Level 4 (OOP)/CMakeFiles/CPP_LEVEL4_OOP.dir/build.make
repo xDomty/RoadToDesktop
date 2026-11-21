@@ -184,10 +184,24 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project02/run.cpp" -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.s
 
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o: src/Projects/Project03/core/CurrentLoggedUser.cpp
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/CurrentLoggedUser.cpp"
+
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/CurrentLoggedUser.cpp" > CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.i
+
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/CurrentLoggedUser.cpp" -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.s
+
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o: src/Projects/Project03/core/clsBankClient.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/clsBankClient.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.s: c
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o: src/Projects/Project03/core/clsPerson.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/clsPerson.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.i: cmake_force
@@ -215,7 +229,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.s: cmake
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o: src/Projects/Project03/core/clsUser.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/core/clsUser.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.i: cmake_force
@@ -229,7 +243,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.s: cmake_f
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.o: src/Projects/Project03/ui/base/clsScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/base/clsScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.i: cmake_force
@@ -243,7 +257,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/base/clsScreen.cpp.s: cm
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp.o: src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientScreen.cpp.i: cmake_force
@@ -257,7 +271,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsAddNewClientS
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp.o: src/Projects/Project03/ui/clients/clsClientsListScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListScreen.cpp.i: cmake_force
@@ -271,7 +285,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsClientsListSc
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o: src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.i: cmake_force
@@ -285,7 +299,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientS
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o: src/Projects/Project03/ui/clients/clsFindClientScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.i: cmake_force
@@ -299,7 +313,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScr
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o: src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.i: cmake_force
@@ -310,24 +324,38 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientS
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp" -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.s
 
-CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
-CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o: src/Projects/Project03/ui/clsMainScreen.cpp
-CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clsMainScreen.cpp"
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o: src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o" -MF "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o.d" -o "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o" -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp"
 
-CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clsMainScreen.cpp" > CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.i
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp" > "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.i"
 
-CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/clsMainScreen.cpp" -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.s
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp" -o "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.s"
+
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o: src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp"
+
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp" > CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.i
+
+CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp" -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.s
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o: src/Projects/Project03/ui/transactions/clsDepositScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.i: cmake_force
@@ -341,7 +369,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositS
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o: src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.i: cmake_force
@@ -355,7 +383,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBal
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o: src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.i: cmake_force
@@ -369,7 +397,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransact
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp.o: src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdrawScreen.cpp.i: cmake_force
@@ -383,7 +411,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsWithdraw
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.o: src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScreen.cpp.i: cmake_force
@@ -397,7 +425,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsAddNewUserScree
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o: src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScreen.cpp.i: cmake_force
@@ -411,7 +439,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsDeleteUserScree
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o: src/Projects/Project03/ui/users/clsFindUserScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsFindUserScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.cpp.i: cmake_force
@@ -425,7 +453,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsFindUserScreen.
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o: src/Projects/Project03/ui/users/clsListUsersScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsListUsersScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen.cpp.i: cmake_force
@@ -439,7 +467,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsListUsersScreen
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o: src/Projects/Project03/ui/users/clsManageUsersScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScreen.cpp.i: cmake_force
@@ -453,7 +481,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsManageUsersScre
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o: src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScreen.cpp.i: cmake_force
@@ -467,7 +495,7 @@ CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/users/clsUpdateUserScree
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/flags.make
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.o: src/Projects/main.cpp
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.o: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.o -MF CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.o.d -o CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.o -c "/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/src/Projects/main.cpp"
 
 CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.i: cmake_force
@@ -488,6 +516,7 @@ CPP_LEVEL4_OOP_OBJECTS = \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/clsForceInputValid.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/clsIsValid.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.o" \
+"CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o" \
@@ -497,7 +526,8 @@ CPP_LEVEL4_OOP_OBJECTS = \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o" \
-"CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o" \
+"CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o" \
+"CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o" \
 "CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o" \
@@ -521,6 +551,7 @@ CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project01/run.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/clsForceInputValid.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/clsIsValid.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project02/run.cpp.o
+CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/CurrentLoggedUser.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsBankClient.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsPerson.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/core/clsUser.cpp.o
@@ -530,7 +561,8 @@ CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsDeleteClientScreen.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsFindClientScreen.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clients/clsUpdateClientScreen.cpp.o
-CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/clsMainScreen.cpp.o
+CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/login&&permissions/clsShowLoginScreen.cpp.o
+CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/mainmenu/clsMainMenu.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsDepositScreen.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTotalBalancesScreen.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/Project03/ui/transactions/clsTransactionsScreen.cpp.o
@@ -545,7 +577,7 @@ CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/src/Projects/main.cpp.o
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/build.make
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/compiler_depend.ts
 CPP_LEVEL4_OOP: CMakeFiles/CPP_LEVEL4_OOP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable CPP_LEVEL4_OOP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/domty/roadtodesktop/11. C++ Level 4 (OOP)/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable CPP_LEVEL4_OOP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP_LEVEL4_OOP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
