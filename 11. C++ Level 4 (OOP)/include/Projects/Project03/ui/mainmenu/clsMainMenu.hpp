@@ -28,7 +28,8 @@ namespace Project03 {
                 static void _ShowFindClientScreen();
                 static void _ShowTransactionsMenu();
                 static void _ShowManageUsersMenu();
-                static void _ShowEndScreen();
+                // static void _ShowEndScreen();
+                static void _Logout();
                 static void _PerformMainMenuOption(enMainMenuOptions MainMenuOption);
 
             public:

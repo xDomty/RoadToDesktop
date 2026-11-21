@@ -5,11 +5,14 @@
 #include "Projects/Project03/ui/mainmenu/clsMainMenu.hpp"
 #include "Projects/Project01/clsUtil.hpp"
 #include "Projects/Project02/clsForceInputValid.hpp"
+#include "Projects/Project03/core/CurrentLoggedUser.hpp"
+#include "Projects/Project03/core/clsUser.hpp"
 #include "Projects/Project03/ui/clients/clsAddNewClientScreen.hpp"
 #include "Projects/Project03/ui/clients/clsClientsListScreen.hpp"
 #include "Projects/Project03/ui/clients/clsDeleteClientScreen.hpp"
 #include "Projects/Project03/ui/clients/clsFindClientScreen.hpp"
 #include "Projects/Project03/ui/clients/clsUpdateClientScreen.hpp"
+#include "Projects/Project03/ui/login_and_permissions/clsLoginScreen.hpp"
 #include "Projects/Project03/ui/transactions/clsTransactionsScreen.hpp"
 #include "Projects/Project03/ui/users/clsManageUsersScreen.hpp"
 #include <iomanip>
@@ -67,10 +70,16 @@ namespace Project03 {
                 // std::cout << "\nUsers Menu Will be here...\n";
                 users::clsManageUsersScreen::ShowManageUsersMenu();
             }
-            void clsMainMenu::_ShowEndScreen() {
-                std::cout << "\nEnd Screen Will Be Here...\n";
+            //   void clsMainMenu::_ShowEndScreen() {
+            //      std::cout << "\nEnd Screen Will Be Here...\n";
+            //   }
+
+            void clsMainMenu::_Logout() {
+                core::CurrentUser = core::clsUser::Find("", "");
             }
+
             void clsMainMenu::_PerformMainMenuOption(enMainMenuOptions MainMenuOption) {
+
                 switch (MainMenuOption) {
                 case enMainMenuOptions::eListClients:
                     Project01::clsUtil::ClearScreen();
@@ -114,11 +123,7 @@ namespace Project03 {
 
                 case enMainMenuOptions::eExit:
                     Project01::clsUtil::ClearScreen();
-                    _ShowEndScreen();
-                    _GoBackToMainMenu();
-
-                    // login()
-
+                    _Logout();
                     break;
                 }
             }

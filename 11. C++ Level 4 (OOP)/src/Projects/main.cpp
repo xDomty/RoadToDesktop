@@ -3,8 +3,7 @@
 
 int main() {
 
-    Global::clsDate CurrentDate;
-    CurrentDate.PrintDate();
-
-    Project03::ui::login_and_permissions::clsLoginScreen::ShowLoginScreen();
+    while (true) {
+        Project03::ui::login_and_permissions::clsLoginScreen::ShowLoginScreen();
+    }
 }
