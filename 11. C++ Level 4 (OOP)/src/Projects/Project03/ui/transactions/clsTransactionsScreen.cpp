@@ -61,6 +61,9 @@ namespace Project03 {
 
             // public:
             void clsTransactionsScreen::ShowTransactionsMenu() {
+                if (!_CheckAccessRights(core::clsUser::enPermissions::pTransactions))
+                    return;
+
                 Project01::clsUtil::ClearScreen();
                 _DrawScreenHeader("\t  Transactions Screen");
 

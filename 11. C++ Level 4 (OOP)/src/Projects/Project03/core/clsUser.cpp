@@ -129,7 +129,7 @@ namespace Project03 {
             _Permissions = Permissions;
         }
 
-        // pub funcs and some shit i swear 
+        // pub funcs and some shit i swear
         clsUser clsUser::Find(std::string UserName) {
             std::fstream UsersFile;
             UsersFile.open("Users.txt", std::ios::in); // read mode
@@ -222,6 +222,16 @@ namespace Project03 {
 
         std::vector<clsUser> clsUser::GetUsersList() {
             return _LoadUsersDataFromFile();
+        }
+
+        bool clsUser::CheckAccessPermission(enPermissions Permission) {
+            if (this->_Permissions == enPermissions::eAll)
+                return true;
+
+            if ((Permission & this->_Permissions) == Permission)
+                return true;
+            else
+                return false;
         }
     } // namespace core
 } // namespace Project03

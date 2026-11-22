@@ -8,6 +8,9 @@ namespace Project03 {
         namespace clients {
             // public:
             void clsDeleteClientScreen::ShowDeleteClientScreen() {
+                if (!_CheckAccessRights(core::clsUser::enPermissions::pDeleteClient))
+                    return;
+
                 _DrawScreenHeader("\t Delete Client Screen");
                 std::string sAccountNumber;
                 sAccountNumber = Global::clsString::ReadString("Please enter client account number? ");

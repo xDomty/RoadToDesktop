@@ -1,5 +1,6 @@
 #include "Projects/Project03/ui/clients/clsClientsListScreen.hpp"
 #include <iomanip>
+#include <iostream>
 #include <string>
 #include <vector>
 
@@ -19,6 +20,9 @@ namespace Project03 {
 
             // public:
             void clsClientsListScreen::ShowClientsList() {
+                if (!_CheckAccessRights(core::clsUser::enPermissions::pListClients))
+                    return;
+
                 std::vector<core::clsBankClient> vClients = core::clsBankClient::GetClientsList();
                 std::string Title = "\t  Client List Screen";
                 std::string SubTitle = "\t    (" + std::to_string(vClients.size()) + ") Client(s).";

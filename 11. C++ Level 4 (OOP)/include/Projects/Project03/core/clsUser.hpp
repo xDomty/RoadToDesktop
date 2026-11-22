@@ -70,6 +70,8 @@ namespace Project03 {
             static clsUser GetAddNewUserObj(std::string UserName);
 
             static std::vector<clsUser> GetUsersList();
+
+            bool CheckAccessPermission(enPermissions Permission);
         };
     } // namespace core
 } // namespace Project03

@@ -16,6 +16,7 @@ namespace Project03 {
                 objBankClient.SetPinCode(Global::clsString::ReadString("Pin Code? "));
                 objBankClient.SetAccountBalance(std::stoi(Global::clsString::ReadString("Account Balance? ")));
             }
+
             void clsUpdateClientScreen::_PrintSaveResults(core::clsBankClient::enSaveResults SaveResult) {
                 switch (SaveResult) {
                 case core::clsBankClient::enSaveResults::svFailedEmptyObj: /*Lesson02: Update Client*/
@@ -32,6 +33,9 @@ namespace Project03 {
 
             // public:
             void clsUpdateClientScreen::ShowUpdateClientScreen() {
+                if (!_CheckAccessRights(core::clsUser::enPermissions::pUpdateClients))
+                    return;
+
                 _DrawScreenHeader("\t Update Client Screen");
                 std::string AccountNumber = "";
                 AccountNumber = Global::clsString::ReadString("Please enter client account number? ");

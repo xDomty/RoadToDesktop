@@ -32,6 +32,9 @@ namespace Project03 {
 
             // public:
             void clsAddNewClientScreen::ShowAddNewClientScreen() {
+                if (!_CheckAccessRights(core::clsUser::enPermissions::pAddNewClient))
+                    return;
+
                 _DrawScreenHeader("\t Add New Client Screen");
                 std::string sAccountNumber;
                 sAccountNumber = Global::clsString::ReadString("Please enter client account number? ");

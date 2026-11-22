@@ -90,6 +90,9 @@ namespace Project03 {
             }
             // public:
             void clsManageUsersScreen::ShowManageUsersMenu() {
+                if (!_CheckAccessRights(core::clsUser::enPermissions::pManageUsers))
+                    return;
+
                 Project01::clsUtil::ClearScreen();
                 _DrawScreenHeader("\t Manage Users Screen");
 

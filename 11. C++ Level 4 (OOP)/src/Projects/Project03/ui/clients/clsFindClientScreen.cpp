@@ -8,6 +8,8 @@ namespace Project03 {
         namespace clients {
             // public:
             void clsFindClientScreen::ShowFindClientScreen() {
+                if (!_CheckAccessRights(core::clsUser::enPermissions::pFindClient))
+                    return;
                 _DrawScreenHeader("\t Find Client Screen");
                 std::string AccountNumber;
                 AccountNumber = Global::clsString::ReadString("\nPlease Enter Account Number: ");
