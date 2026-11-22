@@ -9,10 +9,10 @@ namespace Project03 {
             class clsLoginScreen : protected base::clsScreen {
 
             private:
-                static void _Login();
+                static bool _Login();
 
             public:
-                static void ShowLoginScreen();
+                static bool ShowLoginScreen();
             };
 
         } // namespace login_and_permissions

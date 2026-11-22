@@ -12,14 +12,23 @@ namespace Project03 {
         namespace login_and_permissions {
 
             // private:
-            void clsLoginScreen::_Login() {
-                bool LoginFaild = false;
-
+            bool clsLoginScreen::_Login() {
+                bool LoginFailed = false;
+                short FailedLoginCount = 0;
                 std::string Username, Password;
                 do {
 
-                    if (LoginFaild) {
-                        std::cout << "\nInvlaid Username/Password!\n\n";
+                    if (LoginFailed) {
+                        FailedLoginCount++;
+
+                        std::cout << "\nInvlaid Username/Password!";
+                        std::cout << "\nYou have " << (3 - FailedLoginCount)
+                                  << " Trial(s) to login.\n\n";
+                    }
+
+                    if (FailedLoginCount == 3) {
+                        std::cout << "\nYour are Locked after 3 faild trails \n\n";
+                        return false;
                     }
 
                     std::cout << "Enter Username? ";
@@ -30,17 +39,18 @@ namespace Project03 {
 
                     core::CurrentUser = core::clsUser::Find(Username, Password);
 
-                    LoginFaild = core::CurrentUser.IsEmpty();
+                    LoginFailed = core::CurrentUser.IsEmpty();
 
-                } while (LoginFaild);
+                } while (LoginFailed);
                 mainmenu::clsMainMenu::ShowMainMenu();
+                return true;
             }
             // public:
 
-            void clsLoginScreen::ShowLoginScreen() {
+            bool clsLoginScreen::ShowLoginScreen() {
                 Project01::clsUtil::ClearScreen();
                 _DrawScreenHeader("\t  Login Screen");
-                _Login();
+                return _Login();
             }
 
         } // namespace login_and_permissions

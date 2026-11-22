@@ -4,6 +4,8 @@
 int main() {
 
     while (true) {
-        Project03::ui::login_and_permissions::clsLoginScreen::ShowLoginScreen();
+        if (!Project03::ui::login_and_permissions::clsLoginScreen::ShowLoginScreen()) {
+            break;
+        }
     }
 }
